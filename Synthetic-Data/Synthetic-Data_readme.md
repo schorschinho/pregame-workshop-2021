@@ -20,7 +20,7 @@ This folder contains:
       
 **B. an original dataset which is generated similarly as above without noise or drift (steps a to f)**
 
-*Files names are **SyntheticData.mat, SyntheticData^X^^^_DWS_b9_nsa32_raw_act.SPAR/.SDAT, SyntheticData^X^^^_DWS_b9_nsa32_raw_act.nii**
+*Files names are* *SyntheticData.mat, SyntheticData^X^^^_DWS_b9_nsa32_raw_act.SPAR/.SDAT, SyntheticData^X^^^_DWS_b9_nsa32_raw_act.nii*
 The data are saved in .mat (matrix with dimmension [npoints(1024),b-values(9),averages(32)] as well as in philips format (.SPAR/SDAT) and in .nii format. 
 For the philips/nii format the array is saved as follow: [(av1,b1),(av1,b2),...,(av1,b9),(av2,b1),(av2,b2),...,(av2,b9),...(av32,b1),(av32,b2),...,(av32,b9)].
       
