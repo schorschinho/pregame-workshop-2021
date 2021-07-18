@@ -18,7 +18,7 @@ We provide:
 -- A file with data for metabolites after coil-combination, e.g. a total of 24x3x3=216 spectra, each with 1024 points
       --> The data are given in a .mat format (dimensions are (npoints,#bvaluex#direction,average). 
           In the second dimension, the data are organized as follow: [b1-dir,b1-dir2,b1-dir3,b2-dir1,b2-dir2,b2-dir3,b3-dir,b3-dir2,b3-dir3]
-      --> The data are given in a .SPAR/.SDAT format
+      --> The data are given in a .SPAR/.SDAT format: 
 -- A file with data for water after coil-combination, e.g. a total of 4x3x3=36 spectra, each with 1024 points
 -- A file with all b-values (which account for the cross terms with imaging gradients)
 -- A file with sequence chronograms (for each gradient amplitude and direction)
