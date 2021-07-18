@@ -1,0 +1,25 @@
+Dataset 1: acquired in the human brain (parietal WM, VOI 30x15x20) with a DW-STEAM sequence (TE=45ms, TM=60ms) at 7Tesla (Philips scanner)
+
+The DW-STEAM sequence is set as follows: the diffusion gradients had a duration of 15ms and duration between the begin of the first and second diffusion gradients (diffusion time) was 78ms. 
+See provided schematic for sequence details.
+
+Metabolites dataset was acquired with:
+-- 3 diffusion gradient amplitudes (G=15, 25 and 35mT) and along 3 orthogonal directions ([1,1,-0.5],[-0.5,1,1],[1,-0.5,1])
+-- a total of 24 averages per condition (for each b-value and direction)
+-- outer-volume suppression
+-- VAPOR scheme (with squeezed delays) for water suppression
+-- PPU for cardiac triggering
+-- other acquisition parameters npoints = 1024, spectral width=3000 Hz
+
+Water dataset was acquired with:
+-- exactly same parameters but without water suppresion and with a lower number of averages
+-- a total of 4 averages per condition
+
+We provide:
+-- A file with data for metabolites after coil-combination, e.g. a total of 24x3x3=216 spectra, each with 1024 points
+-- A file with data for water after coil-combination, e.g. a total of 4x3x3=36 spectra, each with 1024 points
+-- A file with all b-values (which account for the cross terms with imaging gradients)
+-- A file with sequence chronograms (for each gradient amplitude and direction)
+-- A basis-set for analysis of the spectra with LCModel or other preferred software
+-- A control file for analysis with LCModel (this gives help to get started, but feel free to adapt to your preferred parameters)
+
