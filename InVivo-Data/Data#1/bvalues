@@ -6,14 +6,16 @@ In the folder "chronogram", you can find 9 .csv files. In each one of those file
 
 Below are all b-values:
 
--- G=15mT, direction [1,1,-0.5]: 907
--- G=25mT, direction [1,1,-0.5]: 2155
--- G=35mT, direction [1,1,-0.5]: 3956
+(--G=0: b=0s/mm2) UNSURE, TO CHECK TMRW!
 
--- G=15mT, direction [1,-0.5,1]: 903
--- G=25mT, direction [1,-0.5,1]: 2148
--- G=35mT, direction [1,-0.5,1]: 3945
+-- G=15mT, direction [1,1,-0.5]: b=907s/mm2
+-- G=25mT, direction [1,1,-0.5]: b=2155s/mm2
+-- G=35mT, direction [1,1,-0.5]: b=3956s/mm2
 
--- G=15mT, direction [-0.5,1,1]: 901
--- G=25mT, direction [-0.5,1,1]: 2144
--- G=35mT, direction [-0.5,1,1]: 3940
+-- G=15mT, direction [1,-0.5,1]: b=903s/mm2
+-- G=25mT, direction [1,-0.5,1]: b=2148s/mm2
+-- G=35mT, direction [1,-0.5,1]: b=3945s/mm2
+
+-- G=15mT, direction [-0.5,1,1]: b=901s/mm2
+-- G=25mT, direction [-0.5,1,1]: b=2144s/mm2
+-- G=35mT, direction [-0.5,1,1]: b=3940s/mm2
