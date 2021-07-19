@@ -1,7 +1,7 @@
 Dataset 1: acquired in the human brain (parietal WM, VOI 30x15x20) with a DW-STEAM sequence (TE=45ms, TM=60ms) at 7Tesla (Philips scanner)
 
-The DW-STEAM sequence is set as follows: the diffusion gradients had a duration of 15ms and duration between the begin of the first and second diffusion gradients (diffusion time) was 78ms. 
-See provided schematic for sequence details.
+The DW-STEAM sequence is set as follows: the diffusion gradients had a duration of 15ms and duration between the begin of the first and second diffusion gradients 
+(diffusion time) was 79ms. See provided schematic for sequence details.
 
 Metabolites dataset was acquired with:
 -- 4 diffusion gradient amplitudes (G=0, 15, 25 and 35mT) and along 3 orthogonal directions ([1,1,-0.5],[-0.5,1,1],[1,-0.5,1])
