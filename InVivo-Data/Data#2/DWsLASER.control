@@ -1,0 +1,39 @@
+ $LCMODL
+ sddegz= 180
+ sddegp= 0
+ ppmst= 4.2
+ ppmend= 0.6
+ nunfil= 1024
+ nsimul= 0
+ nomit= 1
+ neach= 50
+ ndslic= 1
+ ndrows= 1
+ ndcols= 9
+ ncombi= 20
+ ltable= 7
+ lps= 8
+ lcsv= 11
+ lcoord= 9
+ key= 210387309
+ islice= 1
+ irowst= 1
+ irowen= 1
+ icolst= 1
+ icolen= 9
+ hzpppm= 2.9806e+02
+ filtab= '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/table'
+ filraw= '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/met/RAW'
+ filps= '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/ps'
+ filcsv= '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/spreadsheet.csv'
+ filcoo= '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/coord'
+ filbas= '/home/fsluser/.lcmodel/basis-sets/sLASER_7T_TE125ms_Workshop/sLASER_DW_TE125ms_180121.BASIS'
+ echot= 125.00
+ dkntmn= 0.25
+ deltat= 3.333e-04
+ degzer= 0
+ degppm= 0
+ chomit(1)= 'Glc'
+ chcomb(20)= 'GPC+PCho+Cho'
+lcsi_sav_1 = 12,  filcsi_sav_1 = '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/filcsi_sav_1', lcsi_sav_2 = 13,  filcsi_sav_2 = '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/filcsi_sav_2'
+ $END
