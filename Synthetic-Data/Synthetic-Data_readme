@@ -28,7 +28,8 @@ This folder contains:
 
 -->   basis_STEAM_TE45_TM60.BASIS
       
-(4) a control file for LCModel fit, which provides a starting point (feel free to adapt to your preferred settings)**
+(4) a control file for LCModel fit, which provides a starting point (feel free to adapt to your preferred settings,  
+    e.g. you can omit the MM baseline included in the basis-set (chomit(X)='Mac') and use LCModel own MMs (nsimul=1/remove any omit on MM09/20/... peaks)
 
 -->   synthetic.control
 
