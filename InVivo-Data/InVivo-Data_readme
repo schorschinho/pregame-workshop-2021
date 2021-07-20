@@ -28,7 +28,7 @@ We provide:
 Dataset 2: acquired in the human brain (posterior cingulate cortex, VOI 20x20x20) with a DW-sLASER sequence (TE=125ms) at 7Tesla (Philips scanner) 
 
 The DW-sLASER sequence is set as follows: the diffusion gradients had a duration of 8ms and duration between the start of the first and second diffusion blocks (diffusion time) 
-was 65ms. See provided schematic for sequence details.
+was 60ms. See provided schematic for sequence details.
 
 Metabolites dataset was acquired with:
 -- 3 diffusion gradient amplitudes (G=10, 18 and 26mT) and along 3 orthogonal directions ([1,1,-0.5],[-0.5,1,1],[1,-0.5,1])
