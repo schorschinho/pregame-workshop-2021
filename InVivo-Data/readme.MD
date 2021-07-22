@@ -6,7 +6,7 @@ Acquired in the human brain (parietal WM, VOI 30x15x20) with a DW-STEAM sequence
 The DW-STEAM sequence is set up as follows:
 - The diffusion gradients had a duration of 15 ms
 - The duration between the start of the first and second diffusion gradients (diffusion time) was 79 ms.
-- See [provided schematic](./Data#1/DW-STEAM.PNG) for sequence details.
+- See [provided schematic](./Data%231/DW-STEAM.PNG) for sequence details.
 
 The metabolite dataset was acquired with:
 - 4 diffusion gradient amplitudes (G=0, 15, 25 and 35mT) and along 3 orthogonal directions ([1,1,-0.5],[-0.5,1,1],[1,-0.5,1])
@@ -38,7 +38,7 @@ Acquired in the human brain (posterior cingulate cortex, VOI 20x20x20) with a DW
 The DW-sLASER sequence is set as follows:
 - the diffusion gradients had a duration of 8 ms,
 - the duration between the start of the first and second diffusion blocks (diffusion time) was 60 ms.
-- See [provided schematic](./Data#2/DW-sLASER.PNG) for sequence details.
+- See [provided schematic](./Data%232/DW-sLASER.PNG) for sequence details.
 
 The metabolite dataset was acquired with:
 - 3 diffusion gradient amplitudes (G=10, 18 and 26mT) and along 3 orthogonal directions ([1,1,-0.5],[-0.5,1,1],[1,-0.5,1])
