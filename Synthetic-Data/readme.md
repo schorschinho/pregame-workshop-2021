@@ -28,7 +28,7 @@ The data are saved in:
 - NIfTI-MRS format. The data uses two higher dimensions (after the first three spatial and the 4th time dimension). The 5th dimension is used to store averages and the 6th to store the incrementing b-values.
   
 ### 2. A synthetic dataset without noise or drift.
-Generated as above without steps 1 to 6.
+Generated as above with only steps 1 to 6.
 Files:
 - OriginalData.mat
 - OriginalData^X^^^DWS_b9_nsa32_raw_act.SPAR/.SDAT,
