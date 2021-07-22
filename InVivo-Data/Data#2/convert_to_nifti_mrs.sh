@@ -7,5 +7,9 @@ spec2nii philips -t DIM_USER_0 -f raw_water -o nifti InVivoData2\^X\^\^\^_DWS_in
 # Requires FSL-MRS installation
 python insert_bvecs.py
 
+# Clean up
+rm nifti/raw_metab.nii.gz
+rm nifti/raw_water.nii.gz
+
 # Display results
 mrs_tools info nifti/metab.nii.gz

@@ -7,5 +7,9 @@ spec2nii philips -t DIM_USER_0 -f raw_original -o nifti OriginalData\^X\^\^\^_DW
 # Requires FSL-MRS installation
 python insert_bvecs.py
 
+# Clean up
+rm nifti/raw_synthetic.nii.gz
+rm nifti/raw_original.nii.gz
+
 # Display results
 mrs_tools info nifti/synthetic.nii.gz
