@@ -1,0 +1,19 @@
+# b-values
+
+The data were acquired with 3 diffusion gradient amplitudes and along 3 orthogonal directions. 
+
+In the folder "chronogram", you can find 9 .csv files. In each one of those files you find the chronogram for Gx, Gy, Gz (all gradients) and RF. The sampling interval is 6.4 us. 
+
+Below are all b-values:
+
+-- G=10mT, direction [1,1,-0.5]: b=614s/mm2
+-- G=18mT, direction [1,1,-0.5]: b=2113s/mm2
+-- G=26mT, direction [1,1,-0.5]: b=4524s/mm2
+
+-- G=10mT, direction [1,-0.5,1]: b=889s/mm2
+-- G=18mT, direction [1,-0.5,1]: b=2609s/mm2
+-- G=26mT, direction [1,-0.5,1]: b=5240s/mm2
+
+-- G=10mT, direction [-0.5,1,1]: b=660s/mm2
+-- G=18mT, direction [-0.5,1,1]: b=2197s/mm2
+-- G=26mT, direction [-0.5,1,1]: b=4644s/mm2
