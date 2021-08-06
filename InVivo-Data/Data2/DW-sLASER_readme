@@ -27,4 +27,4 @@ We provide:
 -- A file with sequence chronograms (for each gradient amplitude and direction)
 -- A basis-set for analysis of the spectra with LCModel or other preferred software
 -- A control file for analysis with LCModel (this gives help to get started, but feel free to adapt to your preferred parameters)
-
+-- A 3dT1 image (after fsl_deface).
