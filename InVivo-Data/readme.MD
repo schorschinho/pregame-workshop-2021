@@ -30,6 +30,7 @@ The water dataset was acquired with:
 - A basis-set for analysis of the spectra with LCModel or other preferred software
 - A control file for analysis with LCModel (this gives help to get started, but feel free to adapt to your preferred parameters)
 - Data converted to the proposed NIfTI-MRS standard. Data is stored as a 1x1x1x1024x24x10 NIfTI file. The b-values and vecotrs are encoded within a single diemension due to the unequal number of directions.
+- A 3dT1 image (after fsl_deface). NB: because of the VOI location, we used a dielectric pad.
 
 
 ## Dataset 2
@@ -61,3 +62,4 @@ The water dataset was acquired with:
 - A basis-set for analysis of the spectra with LCModel or other preferred software
 - A control file for analysis with LCModel (this gives help to get started, but feel free to adapt to your preferred parameters)
 - Data converted to the proposed NIfTI-MRS standard. Data is stored as a 1x1x1x1024x24x3x3 NIfTI file. The final three diemensions encode the averages, b-values and gradient directions respectively.
+- A 3dT1 image (after fsl_deface).
