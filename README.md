@@ -10,7 +10,7 @@ A fitted experimental macromolecule baseline is included in the LCModel basis se
 The parameters of acquisition, the b-values and the files organisation are provided in the readme files of each folder. 
 
 
-Deliverables:
+*Deliverables*:
 
  
 For the Synthetic-Data:
