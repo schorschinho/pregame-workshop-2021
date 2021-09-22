@@ -1,0 +1,39 @@
+ $LCMODL
+ key = 210387309
+ OWNER = 'Osprey processed spectra'
+ Title = 'sub-01_PRESS_35_act'
+ HZPPPM =1.277509e+02, DELTAT=5.000000e-04, NUNFIL=2048
+ FILBAS = '/storage/myBasisSet_30ms_PRESS.BASIS'
+ DKNTMN =  0.15
+ DOWS = T
+ FILH2O = '/storage/LCMoutput/ref/mrs_sub-01_ses-01_press-ref_sub-01_PRESS_35_ref_LCM_REF.RAW'
+ ATTH2O =  0.70
+ ATTMET = 1.00000
+ WCONC = 55556.0
+ NEACH = 99
+ WDLINE(6) =   0.0
+ PPMST =  4.00
+ PPMEND =  0.50
+ NSIMUL = 12
+ NCOMBI = 5
+ CHCOMB(1) = 'PCh+GPC'
+ CHCOMB(2) = 'Cr+PCr'
+ CHCOMB(3) = 'NAA+NAAG'
+ CHCOMB(4) = 'Glu+Gln'
+ CHCOMB(5) = 'Glc+Tau'
+ NOMIT= 2
+ CHOMIT(1) = 'Gly'
+ CHOMIT(2) = 'Ser'
+ NAMREL = 'Cr+PCr'
+ DOECC = F
+ LTABLE = 7
+ LCSV = 11
+ LCOORD = 9
+ LPRINT = 6
+ FILTAB = '/storage/LCMoutput/LCMoutput/mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A.table'
+ FILCSV = '/storage/LCMoutput/LCMoutput/mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A.csv'
+ FILCOO = '/storage/LCMoutput/LCMoutput/mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A.coord'
+ FILPRI = '/storage/LCMoutput/LCMoutput/mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A.print'
+ FILRAW = '/storage/LCMoutput/metabs/mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A.RAW'
+ FILPS = '/storage/LCMoutput/LCMoutput/mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A.PS'
+ $END

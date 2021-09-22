@@ -1,0 +1,2324 @@
+
+
+
+          LCModel (Version 6.3-1N) Copyright: S.W. Provencher.          Ref.: Magn. Reson. Med. 30:672-679 (1993).                
+
+ mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A
+
+ Osprey processed spectra
+
+ Fri Aug 20 16:31:23 2021
+
+
+
+
+&LCMODEL
+ CHBCAL="      ",
+ CHCALI= 100*"      ",
+ CHCOL="-        ",
+ CHEXT2= 100*"      ",
+ CHGAM="gamma           ",
+ CHKEEP= 500*"      ",
+ CHLESS="L09   ","L20   ", 98*"      ",
+ CHLSHA= 100*"      ",
+ CHMORE="L13   ",
+ CHNOLS="Lac   ","Ala   ", 498*"      ",
+ CHOMIT="Gly   ","Ser   ", 98*"      ",
+ CHPMET="Acn   ","Act   ","Ala   ","Asp   ","Bet   ",
+ "bHb   ","Car   ","Cho   ","Cit   ","Cr    ","Cys   ",
+ "Eth   ","Fuc   ","GABA  ","Gcn   ","Gcr   ","Glc   ",
+ "Gln   ","Glu   ","Glyc  ","GPC   ","Gua   ","ILc   ",
+ "Ins   ","Lac   ","Leu   ","NAA   ","NAAG  ","PAl   ",
+ "PCh   ","Pgc   ","Pyr   ","Scyllo","Suc   ","Tau   ",
+ "Thr   ","TMPO  ","Val   ","PCr   ","Cre   ","Gly   ",
+ "mI    ","-CrCH2","Lip20 ","MM12  ","MM14  ","MM17  ",
+ "MM20  ","Lip13a","Lip13b","Lip13c","Lip13d","Lip13e",
+ "MM09  ","Lip09 ", 45*"      ",
+ CHROW="_        ",
+ CHSDSH="NAA   ","NAAG  ","Cho   ", 97*"      ",
+ CHSDT2= 100*"      ",
+ CHSLIC="sl       ",
+ FILBAS="/Users/Georg/Documents/MATLAB/osprey/fit/basissets/3T/philips/unedited/press/35/3T_PRESS_Philips_35ms_noMM.BASIS                                                                                                                                               ",
+ FILCOO="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCMoutput/LCModelFiles_metabs_mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A.coord                                                                                               ",
+ FILCOR="                                                                                                                                                                                                                                                               ",
+ FILCSI_SAV_1="                                                                                                                                                                                                                                                               ",
+ FILCSI_SAV_2="                                                                                                                                                                                                                                                               ",
+ FILCSV="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCMoutput/LCModelFiles_metabs_mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A.csv                                                                                                 ",
+ FILH2O="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCModelFiles/ref/mrs_sub-02_ses-01_press-ref_sub-02_PRESS_35_ref_LCM_REF.RAW                                                                                                        ",
+ FILPRI="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCMoutput/LCModelFiles_metabs_mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A.print                                                                                               ",
+ FILPS="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCMoutput/LCModelFiles_metabs_mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A.ps                                                                                                  ",
+ FILRAW="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCModelFiles/metabs/mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A.RAW                                                                                                           ",
+ FILTAB="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/derivatives/LCMoutput/LCModelFiles_metabs_mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A.table                                                                                               ",
+ NAMEAC= 100*"      ",
+ NAMREL="Cr+PCr                                                                                                                                                                                                                                                                                                                                                        ",
+ NORATO= 100*"      ",
+ OWNER="Osprey processed spectra                                                                                                ",
+ PGNORM="  ",
+ SAVDIR="                                                                                                                                                                                                                                                               ",
+ SPTYPE="                ",
+ SRCH2O="                                                                                                                                                                                                                                                               ",
+ SRCRAW="/Users/Georg/Documents/MATLAB/osprey/exampledata/sdat/UnEdited/sub-02/ses-01/mrs/sub-02_ses-01_press/sub-02_PRESS_35_act.sdat                                                                                                                                  ",
+ SYNUS1="GPC   ","PCh   ","GPC   ","Cho   ","PCh   ",
+ "Cho   ","Ins   ","mI    ","Glyc  ","Gly   ","Cr    ",
+ "Cre   ", 188*"      ",
+ TITLE="mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A                                                                                                                                                                                                   ",
+ WSMET="Cr    ",
+ POWER=  2.0000000000000000     ,  1.0000000000000000     ,  1.5000000000000000     ,
+ IAREAW=2          ,
+ IAUTO=1          ,
+ IAVERG=0          ,
+ ICOLEN=1          ,
+ ICOLSK= 64*0          ,
+ ICOLST=1          ,
+ IDGPPM=-1         ,
+ IDUMP= 3*1          ,
+ IETCOU=3          ,
+ IMETHD=0          ,
+ INCSMX=15         ,
+ IPAGE2=1          ,
+ IPDUMP=0          ,
+ IPOWPH=6          ,
+ IPOWRG=0          ,
+ IROWEN=1          ,
+ IROWSK= 64*0          ,
+ IROWST=1          ,
+ ISDBOL=15         ,
+ ISLICE=1          ,
+ ITER_DUMP=-1         ,
+ KEY=210387309  , 63*0          ,
+ LBASIS=3          ,
+ LCOORD=9          ,
+ LCORAW=0          ,
+ LCSI_SAV_1=0          ,
+ LCSI_SAV_2=0          ,
+ LCSV=11         ,
+ LH2O=2          ,
+ LPRINT=6          ,
+ LPS=8          ,
+ LRAW=1          ,
+ LTABLE=7          ,
+ MDALPB=12         ,
+ MDEGP3=41         ,
+ MERMES=9000       ,
+ MFNDAL=25         ,
+ MINTER= 3*1          ,
+ MITER=20         ,40         ,30         ,
+ MNSAMP=9          ,
+ MPOWER=1          ,
+ MREPHA=3          ,0          ,
+ N1HMET=3          ,
+ NBACK=75         ,50         ,
+ NBAS_CCF=10         ,
+ NBCKMN=6          ,
+ NCALIB=0          ,
+ NCHGAM=5          ,
+ NCHLES=0          ,
+ NCHLIN=35         ,49         ,
+ NCOMBI=5          ,
+ NDCOLS=1          ,
+ NDEGZ=36         ,4          ,
+ NDGPPM=21         ,3          ,
+ NDROWS=1          ,
+ NDSLIC=1          ,
+ NEACH=99         ,
+ NEXT2=0          ,
+ NGRSH=0          ,
+ NKEEP=0          ,
+ NLSHAP=0          ,
+ NNOLSH=0          ,
+ NNORAT=0          ,
+ NOMIT=2          ,
+ NNOT1=33         ,
+ NNOT2=3          ,
+ NREFPK=1          ,3          ,
+ NRF2MN=2          ,
+ NSDSH=3          ,
+ NSDT2=0          ,
+ NSHIFT=8          ,
+ NSIDMN=5          ,
+ NSIDMX=11         ,
+ NSUBTK=2          ,
+ NTITLE=2          ,
+ NUNFIL=2048       ,
+ NUSE1=5          ,
+ NVOXSK=0          ,
+ NWSEND=50         ,
+ NWSST=10         ,
+ ABSVAL=F,
+ ACCEPT_ALPBMN=F,
+ ACCEPT_STEP2=F,
+ AREABA_ORIG_BASISF=T,
+ ASYMLP=F,
+ BADREF=F,
+ BASCAL=F,
+ BASOUT=F,
+ CCNTRL=F,
+ CHKSIM=T,
+ CONC3F=T,
+ DOECC=F,
+ DOFULL=T,
+ DOREFS=F,T,
+ DOWATR=T,
+ DOWS=T,
+ DOZERO= 2*F,T,
+ ECCDON=F,
+ ENDPHA=F,
+ FIXSHF=F,
+ FORECC=F,
+ GAUSS_RT2=T,
+ GSHGUA=T,
+ LANDSC=T,
+ LDUMP= 10*F,
+ NOBASE=F,
+ NOBASI=F,
+ ONLYCO=F,
+ PLPRFT=F,
+ QUICK=F,
+ REFLAC=F,
+ ROOMT=F,
+ SCASIM=T,
+ SIDUMP= 100*F,
+ SITAYL= 100*F,
+ SKIP_STEP3=F,
+ SMTAIL=T,
+ SUBBAS=F,
+ UNSUPR=F,
+ USEANY=F,
+ USEGLC=F,
+ USEMXB=T,
+ USINFL=T,
+ YEAR4D=T,
+ ALEXT2= 100*0.00000000      ,
+ ALPBMN=  1.3599999999999999E-002,
+ ALPBMX=  6.7199999999999998     ,
+ ALPBPN=  1.67999994E-02,
+ ALPBST=  1.99999996E-02,
+ ALPHAB_DUMP= -1.00000000    ,
+ ALPHAS_DUMP= -1.00000000    ,
+ ALPSMN= 0.10000000000000001     ,
+ ALPSMX=  2000.0000000000000     ,
+ ALPSST=  10.0001001    ,
+ ALSDSH= 2*2.00000009E-03  ,  8.00000038E-03, 97*0.00000000      ,
+ ALSDT2= 100*0.00000000      ,
+ ATTH2O=  1.00000000    ,
+ ATTMET=  1.00000000    ,
+ BWTOLR=  1.00000005E-03,
+ CONREL=  1.00000000    ,
+ COSMIN= 3*9.99999978E-03  ,
+ DDEGP3=  5.00000000    ,
+ DDGPMQ= 2*1.00000000      ,
+ DDGZMQ= 2*3.00000000      ,
+ DEEXT2=  2.00000000    ,
+ DEGMAX=  12.5000000    ,  13.0000000    ,
+ DEGPPM=  0.00000000    ,
+ DEGZER=  0.00000000    ,
+ DELTAT=  5.00000024E-04,
+ DESDSH=  4.00000019E-03,
+ DESDT2= 0.400000006    ,
+ DFLDMQ= 0.100000001    ,
+ DGPPMN= -30.0000000    ,
+ DGPPMX=  30.0000000    ,
+ DKNGAM= 0.349999994    ,
+ DSHPAT=  5.00000007E-02, 0.100000001    , 2*0.00000000      ,
+ ECHOT= -1.00000000    ,
+ EXRT2= 100*2.00000000      ,
+ FCALIB=  1.00000000    ,
+ FCSUM=  1.00000005E-03,
+ FH2OMX= 0.250000000    ,
+ FMAIN_POWER= 0.600000024    ,
+ FOTHER_POWER= 0.100000001    ,
+ FREPHA= 0.500000000    ,
+ FSTPMQ=  5.00000000    ,
+ FWHH2O= 0.400000006    ,
+ FWHMBA=  1.30000003E-02,
+ FWHMMN= 0.100000001    ,
+ FWHMMX= 0.150000006    ,
+ FWHMSM= -1.00000000    ,
+ FWHMST=  3.99999991E-02,
+ HIFMM=  190.000000    ,
+ HWDWAT=  1.00000000    ,  2.00000000    ,
+ HZPGAM=  90.0000000    ,  210.000000    ,
+ HZPPPM=  127.750702    ,
+ HZREF= 20*0.00000000      ,
+ PAGEHT=  27.8999996    ,
+ PAGEWD=  21.0000000    ,
+ PMQST= 3*1.00000000      ,
+ PMQSTL= 3*0.600000024     ,
+ PNALPB=  9.00000000    ,
+ PPMBAS= 0.100000001    , 0.200000003    ,
+ PPMEND= 0.500000000    ,
+ PPMEND_PHALIP= -1.00000000    ,
+ PPMCEN=  4.65000010    ,
+ PPMGAP= 20*9.99999993E+36  ,
+ PPMH2O=  4.65000010    ,
+ PPMMET=  2.26999998    ,  2.17000008    ,  2.26999998    ,  2.17000008    ,  1.97000003    ,
+   1.87000000    ,  1.97000003    ,  1.87000000    ,  1.57000005    ,  1.28999996    ,  1.57000005    ,
+   1.28999996    ,  2.91000009    ,  2.58999991    ,  2.91000009    ,  2.58999991    ,  3.30999994    ,
+   3.21000004    ,  3.30999994    ,  3.21000004    ,  1.25999999    ,  1.09000003    ,  1.25999999    ,
+   1.09000003    ,  3.71000004    ,  2.34999990    ,  3.71000004    ,  2.34999990    ,  3.25000000    ,
+  2*3.22000003      ,  3.19000006    ,  2.71000004    ,  2.49000001    ,  2.71000004    ,  2.49000001    ,
+   3.92000008    ,  3.89000010    ,  3.02999997    ,  3.00000000    ,  3.71000004    ,  3.04999995    ,
+   3.71000004    ,  3.04999995    ,  1.28999996    ,  1.00999999    ,  1.28999996    ,  1.00999999    ,
+   1.30999994    ,  1.09000003    ,  1.30999994    ,  1.09000003    ,  3.17000008    ,  2.09999990    ,
+   3.17000008    ,  2.09999990    ,  3.80999994    ,  3.58999991    ,  3.80999994    ,  3.58999991    ,
+   3.99000001    ,  3.08999991    ,  3.99000001    ,  3.08999991    ,  3.83999991    ,  2.99000001    ,
+   3.83999991    ,  2.99000001    ,  3.91000009    ,  3.58999991    ,  2.65000010    ,  2.00999999    ,
+   3.83999991    ,  3.58999991    ,  2.50999999    ,  2.25999999    ,  3.83999991    ,  3.49000001    ,
+   3.83999991    ,  3.49000001    ,  3.25000000    , 2*3.22000003      ,  3.19000006    ,  3.82999992    ,
+   3.73000002    ,  3.82999992    ,  3.73000002    ,  1.09000003    , 0.790000021    ,  1.09000003    ,
+  0.790000021    ,  3.58999991    , 2*3.55999994      ,  3.50999999    ,  1.40999997    ,  1.21000004    ,
+   1.40999997    ,  1.21000004    ,  1.80999994    , 0.790000021    ,  1.00999999    , 0.790000021    ,
+   2.63000011    ,  2.54999995    , 2*2.00999999      ,  2.80999994    ,  2.45000005    ,  2.30999994    ,
+   2.00999999    ,  3.99000001    ,  2.99000001    ,  3.99000001    ,  2.99000001    ,  3.25000000    ,
+  2*3.22000003      ,  3.19000006    ,  1.30999994    ,  1.00999999    ,  1.30999994    ,  1.00999999    ,
+   2.43000007    ,  2.32999992    ,  2.43000007    ,  2.32999992    ,  3.40000010    ,  3.29999995    ,
+   3.40000010    ,  3.29999995    ,  2.45000005    ,  2.34999990    ,  2.45000005    ,  2.34999990    ,
+   3.60999990    ,  3.05999994    ,  3.60999990    ,  3.05999994    ,  1.40999997    ,  1.19000006    ,
+   1.40999997    ,  1.19000006    ,  3.95000005    ,  3.84999990    ,  3.77999997    ,  3.68000007    ,
+   1.21000004    , 0.790000021    ,  1.21000004    , 0.790000021    ,  3.92000008    ,  3.89000010    ,
+   3.02999997    ,  3.00000000    ,  3.92000008    ,  3.89000010    ,  3.02999997    ,  3.00000000    ,
+   3.83999991    ,  3.49000001    ,  3.83999991    ,  3.49000001    ,  3.58999991    , 2*3.55999994      ,
+   3.50999999    ,  3.02999997    ,  3.00000000    ,  3.02999997    ,  3.00000000    ,  2.30999994    ,
+   1.11000001    ,  2.30999994    ,  1.11000001    ,  1.25000000    , 0.610000014    ,  1.25000000    ,
+  0.610000014    ,  1.50000000    , 0.610000014    ,  1.50000000    , 0.610000014    ,  1.75000000    ,
+  0.610000014    ,  1.75000000    , 0.610000014    ,  2.30999994    , 0.610000014    ,  2.30999994    ,
+  0.610000014    ,  1.50000000    ,  1.11000001    ,  1.50000000    ,  1.11000001    ,  1.50000000    ,
+   1.11000001    ,  1.50000000    ,  1.11000001    ,  1.50000000    ,  1.11000001    ,  1.50000000    ,
+   1.11000001    ,  1.50000000    ,  1.11000001    ,  1.50000000    ,  1.11000001    ,  1.50000000    ,
+   1.11000001    ,  1.50000000    ,  1.11000001    ,  1.20000005    , 0.610000014    ,  1.20000005    ,
+  0.610000014    ,  1.20000005    , 0.610000014    ,  1.20000005    , 0.610000014    , 180*0.00000000      ,
+ 
+ PPMPOS= -1000000.00    ,  1000000.00    ,
+ PPMSEP= 10*9.99999993E+36  ,
+ PPMSHF=  9.99999993E+36,
+ PPMSIG=  1.00000000E+09, -1.00000000E+09,
+ PPMST=  4.00000000    ,
+ PPMST_PHALIP=  7.00000000    ,
+ PPM_TRUNCATE_MAX= -999.000000    ,
+ PPM_TRUNCATE_MIN=  999.000000    ,
+ PPM_WATER_RANGE=  1.00000000    ,
+ PPM_WATER_TOL=  7.99999982E-02,
+ PRMNMX=  1.99999996E-02,  7.99999982E-02, 0.200000003    , 0.500000000    ,  1.99999996E-02,
+   7.99999982E-02,
+ PTLABL=  7.80000019    ,
+ PTOUTP=  7.80000019    ,
+ PTTITL=  11.0000000    ,
+ RALIMN=  1.01999998    ,
+ RALINC=  2.00000000    ,
+ R_AREABA=  20.0000000    ,
+ RATIPM=  4.00000000    ,
+ RBASMX= 2*0.250000000     ,
+ RCONVR= 3*1.00000005E-03  ,
+ RDALPB=  2.00000000    ,
+ RFWBAS=  10.0000000    ,
+ RFWHCC= 0.500000000    ,
+ RFWHM=  1.79999995    ,
+ RFWHMST_CCF=  1.50000000    ,
+ RFWHST= 0.500000000    ,
+ RGBBOL= 2*0.00000000      , 0.999000013    ,
+ RGBERR= 0.999000013    , 2*0.00000000      ,
+ RGBLIN= 0.999000013    , 17*0.00000000      ,
+ RGBRAT= 0.999000013    , 2*0.00000000      ,
+ RHLABL=  1.20000005    ,
+ RHOUTP=  1.29999995    ,
+ RHTITL=  1.50000000    ,
+ RHVERS=  2.00000000    ,
+ RINCRS= 3*9.99999975E-06  ,
+ RINCSH= 0.500000000    ,
+ RLESMO= 0.349999994    ,
+ RLRNTZ=  1.00000000    ,
+ RMQDEC= 3*0.500000000     ,
+ RMQINC= 6*4.00000000      ,
+ RPENMX=  1.00001001    ,
+ RPMQMN= 3*1.00000000      ,
+ RPOWMQ= 0.100000001    ,
+ RRT2MQ= 0.100000001    ,
+ RSDGP3=  1.29999995    ,
+ RSDSAM=  2.50000000    ,  1.50000000    ,  3.00000000    ,
+ RSDSMQ= 0.125000000    ,
+ RSHFMQ=  2.50000004E-02,
+ RSTPMN= 3*0.00000000      ,
+ RSTPMX= 3*1.00000000      ,
+ RWFONT= 0.620000005    ,
+ SDDEGP=  20.0000000    ,
+ SDDEGZ=  999.000000    ,
+ SDGRSH= 40*0.00000000      ,
+ SDMSHF=  1.99999996E-02,
+ SDSHMN=  2.00000009E-03,
+ SDSHMX=  4.00000019E-03,
+ SDSMOO=  9.99999978E-03,  1.99999996E-02,  2.99999993E-02,  9.99999978E-03,
+ SHIFMN=-0.300000012    ,-0.100000001    ,
+ SHIFMX= 2*0.300000012     ,
+ THRLIN= 0.100000001    ,
+ WCONC=  55556.0000    ,
+ WDLINE=  5.99999987E-02,  9.99999978E-03,  4.99999989E-03,  9.99999978E-03,  3.99999991E-02,
+   4.99999989E-03,
+ WSPPM=  3.02699995    ,
+ XLEFT=  1.29999995    ,
+ XRIGHT=  1.29999995    ,
+ XSTEP= 0.200000003    ,
+ XTRPMX=  2.00000000    ,
+ YBOTT=  1.29999995    ,
+ YTOP=  1.50000000    ,
+ /
+
+
+
+          Input changes to Control Variables
+  filh2o = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/derivatives/LCModelFi                         
+    les/ref/mrs_sub-02_ses-01_press-ref_sub-02_PRE                         
+    SS_35_ref_LCM_REF.RAW'                                                 
+  filpri = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+    /LCModelFiles_metabs_mrs_sub-02_ses-01_press_s                         
+    ub-02_PRESS_35_act_LCM_A.print'                                        
+  filcoo = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+    /LCModelFiles_metabs_mrs_sub-02_ses-01_press_s                         
+    ub-02_PRESS_35_act_LCM_A.coord'                                        
+  filcsv = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+    /LCModelFiles_metabs_mrs_sub-02_ses-01_press_s                         
+    ub-02_PRESS_35_act_LCM_A.csv'                                          
+  filtab = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+    /LCModelFiles_metabs_mrs_sub-02_ses-01_press_s                         
+    ub-02_PRESS_35_act_LCM_A.table'                                        
+  filps = '/Users/Georg/Documents/MATLAB/osprey/ex                         
+    ampledata/sdat/UnEdited/derivatives/LCMoutput/                         
+    LCModelFiles_metabs_mrs_sub-02_ses-01_press_su                         
+    b-02_PRESS_35_act_LCM_A.ps'                                            
+  filraw = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/derivatives/LCModelFi                         
+    les/metabs/mrs_sub-02_ses-01_press_sub-02_PRES                         
+    S_35_act_LCM_A.RAW'                                                    
+  nomit = 2                                                                
+  ncombi = 5                                                               
+  nunfil = 2048                                                            
+  deltat = 5.000000e-04                                                    
+  hzpppm = 1.277507e+02                                                    
+  ppmend = 0.50                                                            
+  ppmst = 4.00                                                             
+  doecc = F                                                                
+  namrel = 'Cr+PCr'                                                        
+  chomit(2) = 'Ser'                                                        
+  chomit(1) = 'Gly'                                                        
+  chcomb(5) = 'Glc+Tau'                                                    
+  chcomb(4) = 'Glu+Gln'                                                    
+  chcomb(3) = 'NAA+NAAG'                                                   
+  chcomb(2) = 'Cr+PCr'                                                     
+  chcomb(1) = 'PCh+GPC'                                                    
+  nsimul = 12                                                              
+  neach = 99                                                               
+  wconc = 55556                                                            
+  attmet = 1.0                                                             
+  atth2o = 1.0                                                             
+  dows = T                                                                 
+  dkntmn = 0.15                                                            
+  filbas = '/Users/Georg/Documents/MATLAB/osprey/f                         
+    it/basissets/3T/philips/unedited/press/35/3T_P                         
+    RESS_Philips_35ms_noMM.BASIS'                                          
+  lcsv = 11                                                                
+  ltable = 7                                                               
+  lcoord = 9                                                               
+  lprint = 6                                                               
+  srcraw = '/Users/Georg/Documents/MATLAB/osprey/e                         
+    xampledata/sdat/UnEdited/sub-02/ses-01/mrs/sub                         
+    -02_ses-01_press/sub-02_PRESS_35_act.sdat'                             
+
+
+
+           Other quantities
+ PPMINC = 3.822E-03
+ NY =  917
+ PRECIS = 1.00E-14
+ mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A                                                                         
+
+ Data set ID = ANONYMOUS           
+
+
+
+
+
+   2 points in tail smoothed
+
+   4 points in tail smoothed
+
+   2 points in tail smoothed
+
+   2 points in tail smoothed
+
+
+
+
+
+                    Basis Spectra used for the Preliminary Analysis
+
+ Basis set ID = Philips press 35 ms Osprey                                                      
+
+ No.   Metabolite   Expec[delta(1/T2)](1/s)   SD[delta(1/T2)]   Shift(Pts)   SD[Shift](ppm)   ID
+   1       Cr                                                            0                    Cr                  
+
+Corrected WSPPM =  2.9986
+Uncorrected AREA_MET =  1.16372E+00
+Normalized area of reference Basis singlet =    1.45446E-03
+
+   2       GPC                                                           0                    GPC                 
+   3       Glu                                                           0                    Glu                 
+   4       Ins                                                           0                    Ins                 
+   5       NAA                                                           0                    NAA                 
+ No.   Metabolite         EXRT2      SIFWEX  input   SIFWMN              SDRT2      SIFWSD   input   SD[Shift](ppm)
+ Peak in CCF at  10     Range =   -6    6
+
+
+ Preliminary search for starting phases and referencing shift with starting shifts between    4 and   16 and mesh of    5 points
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.174228E-06   0.000E+00    0.000E+00    24    0.00E+00    0.000000   -2.000000          0    -70.00    -30.00
+    1  1.478725E-06   3.199E-01    2.416E-01    26    1.00E+00    0.850019   -2.000000          0    -58.27    -33.34
+    2  9.533111E-07   3.553E-01    4.497E-01    27    5.00E-01    0.628615   -2.000000          0    -49.21    -34.71
+    3  7.432202E-07   2.204E-01    3.560E-01    27    2.50E-01    0.415460   -2.000000          0    -43.40    -33.55
+    4  6.189724E-07   1.672E-01    2.724E-01    27    1.25E-01    0.390160   -2.000000          0    -41.05    -31.71
+    5  4.941975E-07   2.016E-01    1.865E-01    27    6.25E-02    0.676480   -2.000000          0    -42.60    -31.95
+    6  4.262407E-07   1.375E-01    8.962E-02    27    3.12E-02    1.000000   -2.000000          0    -46.77    -32.80
+    7  4.060320E-07   4.741E-02    2.942E-02    27    1.56E-02    1.000000   -2.000000          0    -52.26    -33.81
+    8  3.397256E-07   1.633E-01    7.488E-02    27    7.81E-03    1.000000   -2.000000          0    -53.09    -31.37
+    9  2.535128E-07   2.538E-01    5.797E-01    27    3.91E-03    0.241927   -2.000000          0    -49.03    -26.37
+   10  1.893967E-07   2.529E-01    4.780E-01    27    1.95E-03    0.306029   -2.000000          0    -44.38    -21.37
+   11  1.473405E-07   2.221E-01    3.235E-01    27    9.77E-04    0.426146   -2.000000          0    -39.15    -16.37
+   12  1.266079E-07   1.407E-01    1.488E-01    27    4.88E-04    0.699549   -2.000000          0    -33.15    -11.37
+   13  1.236786E-07   2.314E-02    2.106E-02    27    2.44E-04    1.000000   -2.000000          0    -29.24     -8.81
+   13  1.236219E-07   4.584E-04    3.882E-04    27    1.22E-04    1.000000   -2.000000          0    -28.69     -8.61
+ Conc =   3.197E-03   6.148E-04   6.226E-03   3.070E-03   5.267E-03
+ Backgr =   4.311E-01   1.216E-01   2.105E-01   2.393E-02   1.387E-01   1.520E-01   2.417E-02   1.097E-01   5.445E-02   2.092E-01
+            5.554E-02   4.099E-02   1.101E-01  -1.121E-02   7.121E-02   2.501E-02  -2.026E-02   2.743E-01
+ 1000*Shift =      40.65
+ Gaussian FWHM (ppm) =  0.0461
+
+ ******** Best data shift for this starting shift so far =    -1 points = -3.82E-03 ppm
+
+ ************************ Best data shift for all starting shifts so far =    -1 points = -3.82E-03 ppm
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.512268E-06   0.000E+00    0.000E+00    22    0.00E+00    0.000000   -2.000000          0    -70.00      0.00
+    1  2.511903E-06   1.452E-04    1.361E-04    22    1.00E+00    1.000000   -2.000000          0    -70.00     -1.06
+    1  2.511092E-06   3.229E-04    2.206E-04    23    5.00E-01    1.000000   -2.000000          0    -71.02     -2.90
+ Conc =   0.000E+00   0.000E+00   3.069E-04   0.000E+00   0.000E+00
+ Backgr =  -3.562E+00   1.352E+00   4.315E-01   5.887E-01   8.936E-02   1.049E+00  -1.120E-01   4.548E-01   2.032E-01   8.959E-01
+            5.524E-01  -1.373E-01   3.714E-01  -9.752E-02   1.894E-01   6.575E-03   8.881E-03   2.919E-01
+ 1000*Shift =       0.00
+ Gaussian FWHM (ppm) =  0.0400
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.555407E-06   0.000E+00    0.000E+00    22    0.00E+00    0.000000   -2.000000          0    -70.00     30.00
+    1  2.431672E-06   4.842E-02    4.921E-02    22    1.00E+00    1.000000   -2.000000          0    -71.35     28.59
+    2  2.428634E-06   1.250E-03    1.260E-03    22    5.00E-01    1.000000   -2.000000          0    -73.24     25.80
+    3  2.426812E-06   7.500E-04    8.267E-04    22    2.50E-01    0.959969   -2.000000          0    -76.49     20.80
+    4  2.425318E-06   6.158E-04    1.177E-03    22    1.25E-01    0.570652   -2.000000          0    -79.74     15.80
+    5  2.424201E-06   4.607E-04    1.416E-03    22    6.25E-02    0.369927   -2.000000          0    -82.98     10.80
+    6  2.423491E-06   2.925E-04    1.319E-03    22    3.12E-02    0.273367   -2.000000          0    -86.23      5.80
+    7  2.423207E-06   1.174E-04    7.177E-04    22    1.56E-02    0.266084   -2.000000          0    -89.48      0.80
+    8  2.423207E-06  -5.088E-05    2.355E-05    22    7.81E-03    0.171995    0.025050          2    -89.48      0.80
+    9  2.423206E-06   4.298E-07    4.512E-07    22    6.00E-01    1.000000   -2.000000          0    -89.53      0.72
+    9  2.423204E-06   6.599E-07    7.288E-07    22    3.00E-01    1.000000   -2.000000          0    -89.62      0.58
+ Conc =   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+ Backgr =  -6.149E+03  -1.211E+02  -9.961E+01  -2.522E+01  -1.315E+01  -4.105E+01   4.869E+00  -1.457E+01  -4.146E+00  -2.265E+01
+           -1.022E+01   1.910E+00  -6.489E+00   1.619E+00  -3.142E+00   3.017E-02  -3.387E-01  -3.403E+00
+ 1000*Shift =       0.00
+ Gaussian FWHM (ppm) =  0.0400
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.680046E-06   0.000E+00    0.000E+00    26    0.00E+00    0.000000   -2.000000          0     20.00    -30.00
+    1  1.491402E-06  -5.599E-01    5.828E-01    25    1.00E+00    0.136639    0.011232          1     21.67    -28.71
+    2  1.491402E-06  -1.255E+00    2.266E-01    25    4.00E+00    0.103717    0.017232          2     21.67    -28.71
+    3  1.481828E-06  -1.220E+00    1.404E-01    25    6.40E+01    0.071680    0.032372          1     21.41    -28.62
+    4  1.476837E-06  -2.415E-02    2.160E-02    25    2.56E+02    0.264283    0.034029          1     21.62    -28.65
+    5  1.474178E-06  -9.119E-03    1.103E-02    25    1.02E+03    0.284513    0.051253          1     21.50    -28.62
+    6  1.472844E-06   9.047E-04    1.074E-03    25    4.10E+03    1.000000   -2.000000          0     21.55    -28.62
+    7  1.470524E-06   1.576E-03    1.669E-03    25    2.05E+03    1.000000   -2.000000          0     21.53    -28.61
+    8  1.466589E-06   2.676E-03    3.256E-03    25    1.02E+03    1.000000   -2.000000          0     21.63    -28.62
+    9  1.464386E-06  -9.093E-03    9.518E-03    25    5.12E+02    0.269228    0.039137          1     21.54    -28.58
+   10  1.462960E-06   9.733E-04    2.812E-03    25    2.05E+03    1.000000   -2.000000          0     21.68    -28.61
+   11  1.460947E-06  -6.285E-03    8.208E-03    25    1.02E+03    0.294097    0.049816          1     21.58    -28.57
+   12  1.459907E-06   7.120E-04    8.643E-04    25    4.10E+03    1.000000   -2.000000          0     21.63    -28.58
+   13  1.458125E-06   1.221E-03    1.304E-03    25    2.05E+03    1.000000   -2.000000          0     21.61    -28.57
+   14  1.455149E-06   2.041E-03    2.558E-03    25    1.02E+03    1.000000   -2.000000          0     21.71    -28.57
+   15  1.453433E-06  -8.442E-03    7.839E-03    25    5.12E+02    0.255292    0.038764          1     21.62    -28.54
+   16  1.452292E-06   7.851E-04    2.064E-03    25    2.05E+03    1.000000   -2.000000          0     21.75    -28.56
+   17  1.450794E-06  -3.963E-03    5.891E-03    25    1.02E+03    0.309648    0.047725          1     21.66    -28.53
+   18  1.449971E-06   5.669E-04    7.122E-04    25    4.10E+03    1.000000   -2.000000          0     21.71    -28.54
+   19  1.448597E-06   9.474E-04    1.025E-03    25    2.05E+03    1.000000   -2.000000          0     21.69    -28.53
+   20  1.446363E-06   1.542E-03    2.030E-03    25    1.02E+03    1.000000   -2.000000          0     21.79    -28.53
+   21  1.445002E-06  -8.547E-03    6.711E-03    25    5.12E+02    0.235671    0.038891          1     21.71    -28.50
+ Conc =   2.131E-03   6.294E-04   0.000E+00   0.000E+00   4.135E-03
+ Backgr =  -8.149E-01   2.968E-01   2.918E-01   3.631E-01  -2.487E-02   6.770E-01   6.738E-01  -4.520E-01   4.885E+00  -6.418E+00
+           -1.001E+00  -1.594E-01  -4.181E-01   3.591E-02  -1.859E-01  -1.212E-02  -3.364E-02  -1.430E-01
+ 1000*Shift =       1.06
+ Gaussian FWHM (ppm) =  0.0481
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.849034E-06   0.000E+00    0.000E+00    27    0.00E+00    0.000000   -2.000000          0     20.00      0.00
+    1  1.058008E-06   4.278E-01    6.138E-01    27    1.00E+00    0.368488   -2.000000          0     35.00     -2.12
+    2  7.652029E-07   2.768E-01    7.653E-01    27    5.00E-01    0.222892   -2.000000          0     32.41     -2.09
+    3  6.273418E-07   1.802E-01    7.157E-01    27    2.50E-01    0.151866   -2.000000          0     25.52     -2.71
+    4  5.272542E-07   1.595E-01    6.664E-01    27    1.25E-01    0.137932   -2.000000          0     17.06     -3.67
+    5  4.416701E-07   1.623E-01    6.219E-01    27    6.25E-02    0.143719   -2.000000          0      7.91     -4.78
+    6  3.625802E-07   1.791E-01    5.752E-01    27    3.12E-02    0.166840   -2.000000          0     -1.51     -5.94
+    7  2.863175E-07   2.103E-01    5.213E-01    27    1.56E-02    0.215354   -2.000000          0    -11.05     -7.10
+    8  2.114036E-07   2.616E-01    4.486E-01    27    7.81E-03    0.320873   -2.000000          0    -20.61     -8.26
+    9  1.422832E-07   3.270E-01    3.286E-01    27    3.91E-03    0.640507   -2.000000          0    -29.92     -9.35
+   10  1.241392E-07   1.275E-01    1.037E-01    27    1.95E-03    1.000000   -2.000000          0    -29.77     -9.04
+   11  1.236401E-07   4.021E-03    3.352E-03    27    9.77E-04    1.000000   -2.000000          0    -28.76     -8.65
+   11  1.236206E-07   1.577E-04    1.309E-04    27    4.88E-04    1.000000   -2.000000          0    -28.67     -8.60
+ Conc =   3.195E-03   6.146E-04   6.225E-03   3.068E-03   5.266E-03
+ Backgr =   4.300E-01   1.218E-01   2.105E-01   2.404E-02   1.387E-01   1.521E-01   2.413E-02   1.097E-01   5.443E-02   2.093E-01
+            5.549E-02   4.096E-02   1.101E-01  -1.124E-02   7.119E-02   2.499E-02  -2.027E-02   2.743E-01
+ 1000*Shift =      40.65
+ Gaussian FWHM (ppm) =  0.0461
+
+ ******** Best data shift for this starting shift so far =    -1 points = -3.82E-03 ppm
+
+ ************************ Best data shift for all starting shifts so far =    -1 points = -3.82E-03 ppm
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.518780E-06   0.000E+00    0.000E+00    24    0.00E+00    0.000000   -2.000000          0     20.00     30.00
+    1  2.406650E-06   4.452E-02    2.785E-02    25    1.00E+00    1.000000   -2.000000          0     28.25     33.30
+    2  2.253164E-06   6.378E-02    1.814E-01    26    5.00E-01    0.156989   -2.000000          0     35.71     35.40
+    3  2.056510E-06   8.728E-02    3.053E-01    26    2.50E-01    0.144336   -2.000000          0     41.19     36.80
+    4  1.932292E-06   6.040E-02    2.535E-01    26    1.25E-01    0.128062   -2.000000          0     38.34     35.86
+    5  1.838407E-06   4.859E-02    2.175E-01    27    6.25E-02    0.117224   -2.000000          0     32.12     34.02
+    6  1.741666E-06   5.262E-02    2.571E-01    27    3.12E-02    0.090571   -2.000000          0     23.27     31.48
+    7  1.632711E-06   6.256E-02    4.110E-01    27    1.56E-02    0.070174   -2.000000          0     13.11     28.60
+    8  1.503535E-06   7.912E-02    4.969E-01    27    7.81E-03    0.074954   -2.000000          0      2.96     25.74
+    9  1.352896E-06   1.002E-01    5.270E-01    27    3.91E-03    0.091650   -2.000000          0     -6.80     23.00
+   10  1.181347E-06   1.268E-01    5.101E-01    27    1.95E-03    0.123738   -2.000000          0    -15.83     20.46
+   11  9.910043E-07   1.611E-01    4.418E-01    27    9.77E-04    0.192742   -2.000000          0    -23.31     18.35
+   12  7.903291E-07   2.025E-01    3.047E-01    27    4.88E-04    0.436778   -2.000000          0    -24.88     17.83
+   13  7.344841E-07   7.066E-02    9.582E-02    27    2.44E-04    0.457383   -2.000000          0     -9.88     21.87
+   14  7.037728E-07   4.181E-02    4.884E-02    27    1.22E-04    0.528396   -2.000000          0      5.12     25.88
+   15  6.848320E-07   2.691E-02    2.393E-02    27    6.10E-05    0.744778   -2.000000          0     20.12     29.84
+   16  6.764157E-07   1.229E-02    8.480E-03    27    3.05E-05    1.000000   -2.000000          0     30.67     32.53
+   17  6.707038E-07   8.444E-03    3.972E-03    27    1.53E-05    1.000000   -2.000000          0     33.98     33.17
+   18  6.126905E-07   8.650E-02    2.327E-02    27    7.63E-06    1.000000   -2.000000          0     31.92     31.31
+   19  6.098687E-07   4.606E-03    3.654E-03    27    3.81E-06    1.000000   -2.000000          0     37.73     32.76
+   19  6.096344E-07   3.841E-04    2.804E-04    27    1.91E-06    1.000000   -2.000000          0     39.07     33.07
+ Conc =   2.570E-03   6.232E-04   8.958E-03   2.489E-03   5.032E-03
+ Backgr =  -1.841E+00   4.115E-01   4.082E-03   1.570E-01   3.074E-02   2.437E-01  -3.342E-02   2.368E-01  -5.884E-02   5.106E-01
+           -2.062E-01  -1.356E-03   3.933E-02   1.634E-02  -4.303E-01   1.686E+00  -1.213E+00   4.017E+00
+ 1000*Shift =      50.31
+ Gaussian FWHM (ppm) =  0.0484
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.453828E-06   0.000E+00    0.000E+00    25    0.00E+00    0.000000   -2.000000          0    110.00    -30.00
+    1  2.337074E-06   4.758E-02    7.364E-02    25    1.00E+00    0.306571   -2.000000          0     95.00    -27.28
+    2  2.166653E-06   7.292E-02    1.440E-01    26    5.00E-01    0.211749   -2.000000          0     80.00    -23.80
+    3  1.997959E-06   7.786E-02    6.102E-01    26    2.50E-01    0.061894   -2.000000          0     79.73    -18.80
+    4  1.800318E-06   9.892E-02    6.887E-01    26    1.25E-01    0.066410   -2.000000          0     81.35    -13.80
+    5  1.611162E-06   1.051E-01    6.550E-01    26    6.25E-02    0.077678   -2.000000          0     84.44     -8.80
+    6  1.413381E-06   1.228E-01    6.255E-01    26    3.12E-02    0.096267   -2.000000          0     87.58     -3.80
+    7  1.219583E-06   1.371E-01    5.842E-01    26    1.56E-02    0.119084   -2.000000          0     90.76      1.20
+    8  1.035292E-06   1.511E-01    5.290E-01    26    7.81E-03    0.148676   -2.000000          0     93.92      6.20
+    9  8.723657E-07   1.574E-01    4.517E-01    27    3.91E-03    0.187672   -2.000000          0     97.11     11.20
+   10  7.385122E-07   1.534E-01    3.534E-01    27    1.95E-03    0.244038   -2.000000          0    100.34     16.20
+   11  6.388838E-07   1.349E-01    2.396E-01    27    9.77E-04    0.336880   -2.000000          0    103.60     21.20
+   12  5.753679E-07   9.942E-02    1.252E-01    27    4.88E-04    0.534955   -2.000000          0    106.91     26.20
+   13  5.501220E-07   4.388E-02    3.688E-02    27    2.44E-04    1.000000   -2.000000          0    109.41     29.89
+   14  5.447438E-07   9.776E-03    5.850E-03    27    1.22E-04    1.000000   -2.000000          0    108.66     28.73
+   15  5.420228E-07   4.995E-03    2.954E-03    27    6.10E-05    1.000000   -2.000000          0    108.12     27.93
+   16  5.406354E-07   2.560E-03    1.515E-03    27    3.05E-05    1.000000   -2.000000          0    107.70     27.32
+   17  5.399488E-07   1.270E-03    7.515E-04    27    1.53E-05    1.000000   -2.000000          0    107.42     26.91
+   17  5.396109E-07   6.258E-04    3.701E-04    27    7.63E-06    1.000000   -2.000000          0    107.21     26.62
+ Conc =   2.472E-03   9.595E-04   2.321E-03   4.083E-03   6.198E-03
+ Backgr =   7.635E+00   9.180E+00  -3.261E-01   1.356E+00  -2.375E-01   9.848E-01   6.325E-02   1.360E-01   2.704E-01   1.711E-01
+            3.078E-01   3.876E-02   1.681E-01  -1.633E-02   8.633E-02   1.482E-02  -1.315E-02   2.118E-01
+ 1000*Shift =      16.30
+ Gaussian FWHM (ppm) =  0.0589
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.501739E-06   0.000E+00    0.000E+00    26    0.00E+00    0.000000   -2.000000          0    110.00      0.00
+    1  1.128053E-06   2.488E-01    6.644E-01    26    1.00E+00    0.226766   -2.000000          0     96.30      2.07
+    2  1.128053E-06  -7.207E-02    3.281E-01    26    5.00E-01    0.330174    0.001978          0     96.30      2.07
+    3  1.128053E-06  -3.105E-03    2.857E-01    26    2.00E+00    0.774394    0.002019          0     96.30      2.07
+    4  9.998984E-07   1.136E-01    2.553E-01    26    8.00E+00    1.000000   -2.000000          0     89.78      0.18
+    5  6.990855E-07   3.008E-01    4.688E-01    27    4.00E+00    0.476085   -2.000000          0     84.19      5.18
+    6  5.378853E-07   2.306E-01    3.984E-01    27    2.00E+00    0.429461   -2.000000          0     75.21      7.54
+    7  4.336473E-07   1.938E-01    3.902E-01    27    1.00E+00    0.350842   -2.000000          0     63.32      7.80
+    8  3.462488E-07   2.015E-01    4.369E-01    27    5.00E-01    0.305518   -2.000000          0     48.32      6.34
+    9  2.773426E-07   1.990E-01    4.866E-01    27    2.50E-01    0.252843   -2.000000          0     33.32      3.97
+   10  2.197167E-07   2.078E-01    4.778E-01    27    1.25E-01    0.256274   -2.000000          0     18.32      1.19
+   11  1.730941E-07   2.122E-01    4.031E-01    27    6.25E-02    0.309227   -2.000000          0      3.32     -1.79
+   12  1.399127E-07   1.917E-01    2.718E-01    27    3.12E-02    0.443555   -2.000000          0    -11.68     -4.86
+   13  1.243061E-07   1.115E-01    1.113E-01    27    1.56E-02    0.842081   -2.000000          0    -26.68     -8.06
+   14  1.236360E-07   5.391E-03    4.785E-03    27    7.81E-03    1.000000   -2.000000          0    -28.69     -8.60
+   14  1.236204E-07   1.263E-04    1.058E-04    27    3.91E-03    1.000000   -2.000000          0    -28.66     -8.59
+ Conc =   3.195E-03   6.146E-04   6.225E-03   3.068E-03   5.265E-03
+ Backgr =   4.294E-01   1.219E-01   2.104E-01   2.408E-02   1.386E-01   1.521E-01   2.414E-02   1.097E-01   5.443E-02   2.093E-01
+            5.551E-02   4.095E-02   1.101E-01  -1.125E-02   7.119E-02   2.498E-02  -2.027E-02   2.743E-01
+ 1000*Shift =      40.65
+ Gaussian FWHM (ppm) =  0.0461
+
+ ******** Best data shift for this starting shift so far =    -1 points = -3.82E-03 ppm
+
+ ************************ Best data shift for all starting shifts so far =    -1 points = -3.82E-03 ppm
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.401797E-06   0.000E+00    0.000E+00    27    0.00E+00    0.000000   -2.000000          0    110.00     30.00
+    1  8.174376E-07   4.169E-01    5.998E-01    27    1.00E+00    0.440310   -2.000000          0    106.62     25.00
+    2  5.838978E-07   2.857E-01    4.432E-01    27    5.00E-01    0.635649   -2.000000          0    105.38     23.09
+    3  5.567488E-07   4.650E-02    3.210E-02    27    2.50E-01    1.000000   -2.000000          0    104.62     22.33
+    4  5.467452E-07   1.797E-02    1.124E-02    27    1.25E-01    1.000000   -2.000000          0    105.06     23.26
+    5  5.424955E-07   7.773E-03    4.978E-03    27    6.25E-02    1.000000   -2.000000          0    105.63     24.26
+    6  5.405689E-07   3.551E-03    2.257E-03    27    3.12E-02    1.000000   -2.000000          0    105.79     24.67
+    7  5.395185E-07   1.943E-03    1.107E-03    27    1.56E-02    1.000000   -2.000000          0    105.87     25.04
+    8  5.341717E-07   9.910E-03    2.622E-03    27    7.81E-03    1.000000   -2.000000          0    104.83     24.80
+    9  4.912335E-07   8.038E-02    5.136E-02    27    3.91E-03    1.000000   -2.000000          0     97.17     24.76
+   10  4.274071E-07   1.299E-01    1.601E-01    27    1.95E-03    0.408292   -2.000000          0     82.17     21.65
+   11  3.687747E-07   1.372E-01    3.606E-01    27    9.77E-04    0.192927   -2.000000          0     67.17     17.84
+   12  3.130426E-07   1.511E-01    4.499E-01    27    4.88E-04    0.171612   -2.000000          0     52.17     13.88
+   13  2.607736E-07   1.670E-01    4.788E-01    27    2.44E-04    0.180631   -2.000000          0     37.17      9.83
+   14  2.133813E-07   1.817E-01    4.563E-01    27    1.22E-04    0.211198   -2.000000          0     22.17      5.74
+   15  1.730173E-07   1.892E-01    3.853E-01    27    6.10E-05    0.271210   -2.000000          0      7.17      1.61
+   16  1.425840E-07   1.759E-01    2.692E-01    27    3.05E-05    0.390498   -2.000000          0     -7.83     -2.56
+   17  1.257062E-07   1.184E-01    1.266E-01    27    1.53E-05    0.689508   -2.000000          0    -22.83     -6.79
+   18  1.236457E-07   1.639E-02    1.537E-02    27    7.63E-06    1.000000   -2.000000          0    -28.73     -8.57
+   18  1.236206E-07   2.034E-04    1.768E-04    27    3.81E-06    1.000000   -2.000000          0    -28.65     -8.59
+ Conc =   3.195E-03   6.146E-04   6.225E-03   3.068E-03   5.266E-03
+ Backgr =   4.292E-01   1.218E-01   2.104E-01   2.407E-02   1.386E-01   1.521E-01   2.416E-02   1.097E-01   5.444E-02   2.093E-01
+            5.554E-02   4.096E-02   1.101E-01  -1.124E-02   7.119E-02   2.499E-02  -2.027E-02   2.743E-01
+ 1000*Shift =      40.65
+ Gaussian FWHM (ppm) =  0.0461
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.571492E-06   0.000E+00    0.000E+00    23    0.00E+00    0.000000   -2.000000          0    200.00    -30.00
+    1  2.571492E-06  -5.637E-02    2.482E-01    24    1.00E+00    0.449109    0.490580          2    200.00    -30.00
+    2  2.571492E-06  -1.719E-01    2.478E-01    24    1.60E+01    0.368303    0.613224          2    200.00    -30.00
+    3  2.510446E-06  -8.769E-01    2.153E-01    23    2.56E+02    0.132421    0.612058          1    199.36    -29.83
+    4  2.509064E-06  -3.410E-03    3.429E-03    23    1.02E+03    0.263193    0.598545          1    199.26    -29.81
+    5  2.509054E-06   3.905E-06    7.771E-06    23    4.10E+03    1.000000   -2.000000          0    199.25    -29.80
+    6  2.509053E-06   4.938E-07    5.494E-07    23    2.05E+03    1.000000   -2.000000          0    199.25    -29.80
+    7  2.509051E-06   9.101E-07    1.077E-06    23    1.02E+03    1.000000   -2.000000          0    199.25    -29.80
+    8  2.509050E-06   7.524E-08    2.824E-06    23    5.12E+02    1.000000   -2.000000          0    199.26    -29.80
+    9  2.509044E-06  -9.984E-05    2.755E-05    23    2.56E+02    0.134217    0.069548          1    199.26    -29.80
+   10  2.509042E-06   8.823E-07    1.118E-06    23    1.02E+03    1.000000   -2.000000          0    199.26    -29.80
+   11  2.509044E-06  -6.944E-07    3.153E-06    23    5.12E+02    1.000000   -2.000000          0    199.25    -29.80
+   12  2.509035E-06  -1.317E-04    3.684E-05    23    2.56E+02    0.136731    0.082847          1    199.26    -29.80
+   13  2.509033E-06   8.191E-07    1.198E-06    23    1.02E+03    1.000000   -2.000000          0    199.26    -29.80
+   14  2.509039E-06  -2.305E-06    3.903E-06    23    5.12E+02    1.000000   -2.000000          0    199.28    -29.80
+   15  2.509027E-06  -2.351E-04    5.760E-05    23    2.56E+02    0.124669    0.101072          1    199.27    -29.80
+   16  2.509024E-06   9.797E-07    1.019E-06    23    1.02E+03    1.000000   -2.000000          0    199.27    -29.80
+   17  2.509020E-06   1.557E-06    2.188E-06    23    5.12E+02    1.000000   -2.000000          0    199.27    -29.80
+   18  2.509017E-06  -1.898E-05    9.477E-06    23    2.56E+02    0.189224    0.052799          1    199.28    -29.80
+   19  2.509017E-06   2.744E-07    1.846E-06    23    1.02E+03    1.000000   -2.000000          0    199.27    -29.79
+   20  2.509014E-06  -1.567E-05    9.900E-06    23    5.12E+02    0.214688    0.075164          1    199.28    -29.79
+   21  2.509012E-06   5.020E-07    6.476E-07    23    2.05E+03    1.000000   -2.000000          0    199.28    -29.79
+ Conc =   0.000E+00   0.000E+00   1.268E-03   0.000E+00   0.000E+00
+ Backgr =   1.871E+00  -6.538E-01  -2.381E-01  -3.719E-01  -7.365E-02  -9.076E-01  -3.165E-01   1.651E-01  -4.908E+00   7.281E+00
+           -5.008E-01   3.547E-01   1.834E-01  -1.350E-02   1.151E-01   1.735E-02  -1.432E-02   2.683E-01
+ 1000*Shift =       0.05
+ Gaussian FWHM (ppm) =  0.0400
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.512163E-06   0.000E+00    0.000E+00    23    0.00E+00    0.000000   -2.000000          0    200.00      0.00
+    1  2.511411E-06   2.996E-04    1.655E-04    23    1.00E+00    1.000000   -2.000000          0    197.54      0.46
+    2  2.502759E-06   3.445E-03    1.986E-03    23    5.00E-01    1.000000   -2.000000          0    184.85      2.23
+    3  2.464995E-06   1.509E-02    5.690E-03    26    2.50E-01    0.438527   -2.000000          0    169.85      3.92
+    4  2.237126E-06   9.244E-02    4.331E-01    26    1.25E-01    0.065184   -2.000000          0    157.63      8.92
+    5  1.925920E-06   1.391E-01    6.361E-01    26    6.25E-02    0.090593   -2.000000          0    142.63     10.41
+    6  1.666767E-06   1.346E-01    6.397E-01    26    3.12E-02    0.098391   -2.000000          0    127.63      9.14
+    7  1.521122E-06   8.738E-02    5.364E-01    26    1.56E-02    0.080441   -2.000000          0    112.63      5.48
+    8  1.372664E-06   9.760E-02    5.437E-01    26    7.81E-03    0.088382   -2.000000          0     97.63      1.84
+    9  1.232559E-06   1.021E-01    5.446E-01    26    3.91E-03    0.096153   -2.000000          0     82.63     -1.78
+   10  1.096897E-06   1.101E-01    5.436E-01    27    1.95E-03    0.103805   -2.000000          0     67.63     -5.41
+   11  9.680898E-07   1.174E-01    5.385E-01    27    9.77E-04    0.112442   -2.000000          0     52.63     -9.03
+   12  8.480065E-07   1.240E-01    5.220E-01    27    4.88E-04    0.123524   -2.000000          0     37.63    -12.65
+   13  7.382658E-07   1.294E-01    4.891E-01    27    2.44E-04    0.139089   -2.000000          0     22.63    -16.27
+   14  6.405816E-07   1.323E-01    4.354E-01    27    1.22E-04    0.162364   -2.000000          0      7.63    -19.88
+   15  5.569516E-07   1.306E-01    3.594E-01    27    6.10E-05    0.198964   -2.000000          0     -7.37    -23.48
+   16  4.896138E-07   1.209E-01    2.648E-01    27    3.05E-05    0.260400   -2.000000          0    -22.37    -27.06
+   17  4.406834E-07   9.994E-02    1.628E-01    27    1.53E-05    0.376616   -2.000000          0    -37.37    -30.62
+   18  4.110548E-07   6.723E-02    7.327E-02    27    7.63E-06    0.663728   -2.000000          0    -52.37    -34.08
+   19  3.919328E-07   4.652E-02    2.737E-02    27    3.81E-06    1.000000   -2.000000          0    -58.12    -34.81
+   20  2.983561E-07   2.388E-01    3.111E-01    27    1.91E-06    0.387009   -2.000000          0    -53.72    -29.81
+   21  2.238099E-07   2.499E-01    5.525E-01    27    9.54E-07    0.254107   -2.000000          0    -48.80    -24.81
+ Conc =   3.246E-03   6.255E-04   4.540E-03   2.732E-03   5.483E-03
+ Backgr =   1.040E+00   8.108E-02   2.608E-01   2.798E-02   1.428E-01   1.359E-01   4.908E-02   6.571E-02   1.199E-01   1.492E-01
+            2.140E-01   4.668E-02   1.846E-01   1.238E-02   1.266E-01   7.698E-02  -9.337E-03   5.399E-01
+ 1000*Shift =      34.90
+ Gaussian FWHM (ppm) =  0.0486
+
+
+
+
+ Starting shift =   10 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.994347E-06   0.000E+00    0.000E+00    25    0.00E+00    0.000000   -2.000000          0    200.00     30.00
+    1  1.764055E-06   1.155E-01    3.069E-01    26    1.00E+00    0.206145   -2.000000          0    185.00     26.36
+    2  1.609817E-06   8.743E-02    4.152E-01    26    5.00E-01    0.130147   -2.000000          0    170.00     22.33
+    3  1.467160E-06   8.862E-02    4.713E-01    26    2.50E-01    0.109817   -2.000000          0    155.00     18.25
+    4  1.332217E-06   9.198E-02    4.721E-01    26    1.25E-01    0.108299   -2.000000          0    140.00     14.16
+    5  1.255337E-06   5.771E-02    4.979E-01    26    6.25E-02    0.121506   -2.000000          0    125.00     10.39
+    6  1.147253E-06   8.610E-02    3.610E-01    26    3.12E-02    0.119123   -2.000000          0    110.00      5.89
+    7  1.026954E-06   1.049E-01    3.400E-01    26    1.56E-02    0.126420   -2.000000          0     95.00      1.44
+    8  9.502926E-07   7.465E-02    3.294E-01    26    7.81E-03    0.131984   -2.000000          0     80.00     -2.89
+    9  8.752490E-07   7.897E-02    3.081E-01    26    3.91E-03    0.142208   -2.000000          0     65.00     -7.21
+   10  8.044147E-07   8.093E-02    2.857E-01    26    1.95E-03    0.155362   -2.000000          0     50.00    -11.48
+   11  7.385622E-07   8.186E-02    2.606E-01    26    9.77E-04    0.174742   -2.000000          0     35.00    -15.68
+   12  6.836678E-07   7.433E-02    2.438E-01    26    4.88E-04    0.204143   -2.000000          0     20.00    -19.63
+   13  6.391608E-07   6.510E-02    1.569E-01    26    2.44E-04    0.248124   -2.000000          0      5.00    -23.98
+   14  6.132433E-07   4.055E-02    9.026E-02    26    1.22E-04    0.353795   -2.000000          0    -10.00    -27.85
+   15  5.871672E-07   4.252E-02    7.291E-02    26    6.10E-05    0.527480   -2.000000          0    -25.00    -32.37
+   16  5.858611E-07  -1.272E-01    1.812E-02    26    3.05E-05    0.110842    0.015131          1    -26.18    -32.57
+   17  5.847851E-07   1.837E-03    8.762E-03    26    1.22E-04    1.000000   -2.000000          0    -36.31    -35.70
+   18  4.538613E-07   2.239E-01    2.274E-01    27    6.10E-05    0.492203   -2.000000          0    -36.44    -30.70
+   19  3.951447E-07   1.294E-01    1.260E-01    27    3.05E-05    0.917448   -2.000000          0    -51.44    -33.23
+   20  2.903284E-07   2.653E-01    2.951E-01    27    1.53E-05    0.452329   -2.000000          0    -49.30    -28.23
+   21  2.148176E-07   2.601E-01    5.328E-01    27    7.63E-06    0.276687   -2.000000          0    -45.29    -23.23
+ Conc =   3.382E-03   6.425E-04   4.579E-03   2.893E-03   5.635E-03
+ Backgr =   1.035E+00   5.760E-02   2.585E-01   1.759E-02   1.447E-01   1.244E-01   5.301E-02   6.219E-02   1.212E-01   1.461E-01
+            2.042E-01   4.986E-02   1.786E-01   1.203E-02   1.219E-01   7.146E-02  -8.126E-03   4.966E-01
+ 1000*Shift =      34.61
+ Gaussian FWHM (ppm) =  0.0509
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.269186E-06   0.000E+00    0.000E+00    23    0.00E+00    0.000000   -2.000000          0    290.00    -30.00
+    1  2.065088E-06   8.994E-02    1.068E-01    24    1.00E+00    0.447182   -2.000000          0    305.00    -33.97
+    2  2.030720E-06   1.664E-02    1.029E-01    24    5.00E-01    0.513318   -2.000000          0    320.00    -34.55
+    3  1.758010E-06   1.343E-01    1.914E-01    25    2.50E-01    0.305778   -2.000000          0    323.93    -31.76
+    4  1.655198E-06   5.848E-02    2.636E-01    26    1.25E-01    0.119742   -2.000000          0    316.47    -33.68
+    5  1.576770E-06   4.738E-02    3.945E-01    26    6.25E-02    0.068591   -2.000000          0    307.51    -35.85
+    6  1.508837E-06   4.308E-02    4.020E-01    26    3.12E-02    0.060179   -2.000000          0    296.98    -38.58
+    7  1.449839E-06   3.910E-02    3.678E-01    26    1.56E-02    0.057392   -2.000000          0    287.01    -41.00
+    8  1.391408E-06   4.030E-02    3.274E-01    27    7.81E-03    0.063712   -2.000000          0    277.20    -43.42
+    9  1.326472E-06   4.667E-02    3.053E-01    27    3.91E-03    0.075838   -2.000000          0    268.47    -45.56
+   10  1.244253E-06   6.198E-02    3.113E-01    27    1.95E-03    0.096192   -2.000000          0    261.99    -47.11
+   11  1.139095E-06   8.452E-02    3.330E-01    27    9.77E-04    0.122958   -2.000000          0    256.91    -48.36
+   12  1.021272E-06   1.034E-01    3.494E-01    27    4.88E-04    0.143916   -2.000000          0    251.55    -49.67
+   13  8.924002E-07   1.262E-01    3.509E-01    27    2.44E-04    0.167606   -2.000000          0    244.54    -51.43
+   14  7.258073E-07   1.867E-01    3.216E-01    26    1.22E-04    0.291500   -2.000000          0    240.38    -52.48
+   15  5.741663E-07   2.089E-01    2.294E-01    26    6.10E-05    0.526398   -2.000000          0    239.40    -52.56
+   16  4.744354E-07   1.737E-01    1.164E-01    27    3.05E-05    1.000000   -2.000000          0    239.38    -52.62
+   17  4.561595E-07   3.852E-02    2.588E-02    27    1.53E-05    1.000000   -2.000000          0    240.61    -51.81
+   18  3.970543E-07   1.296E-01    2.414E-02    27    7.63E-06    1.000000   -2.000000          0    243.26    -49.12
+   19  3.289974E-07   1.714E-01    1.322E-01    27    3.81E-06    0.658128   -2.000000          0    248.70    -44.12
+   20  2.730652E-07   1.700E-01    3.804E-01    27    1.91E-06    0.236893   -2.000000          0    256.69    -39.12
+   21  2.237948E-07   1.804E-01    5.272E-01    27    9.54E-07    0.180120   -2.000000          0    268.81    -34.12
+ Conc =   3.361E-03   5.272E-04   4.970E-03   3.005E-03   5.389E-03
+ Backgr =   6.410E+00  -2.963E-02   7.151E-01  -7.627E-02   3.454E-01   1.463E-01   1.136E-02   1.251E-01   9.238E-02   1.998E-01
+            8.730E-02   5.437E-02   1.441E-01  -8.328E-03   1.316E-01   2.654E-02   5.749E-02   1.876E-01
+ 1000*Shift =      66.13
+ Gaussian FWHM (ppm) =  0.0487
+
+ ******** Best data shift for this starting shift so far =    -1 points = -3.82E-03 ppm
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.460870E-06   0.000E+00    0.000E+00    22    0.00E+00    0.000000   -2.000000          0    290.00      0.00
+    1  2.451561E-06   3.783E-03    1.090E-02    22    1.00E+00    0.536218   -2.000000          0    290.00     -5.00
+    2  2.439720E-06   4.830E-03    5.366E-03    22    5.00E-01    0.702179   -2.000000          0    275.00     -9.33
+    3  2.439539E-06  -2.234E-01    1.584E-02    22    2.50E-01    0.003399    0.997826          1    274.81     -9.33
+    4  2.439368E-06  -2.458E-01    8.253E-03    22    1.00E+00    0.007405    0.999436          1    274.63     -9.33
+    5  2.428371E-06   4.508E-03    2.807E-03    22    4.00E+00    1.000000   -2.000000          0    267.33     -9.33
+    6  2.425164E-06  -1.439E-01    2.669E-02    22    2.00E+00    0.030907    0.943039          1    266.48     -9.29
+    7  2.417016E-06  -1.856E-01    2.553E-02    22    8.00E+00    0.068057    0.931414          1    265.50     -9.24
+    8  2.372046E-06  -1.150E-01    3.357E-02    22    3.20E+01    0.138228    0.915536          1    264.47     -9.18
+    9  2.367742E-06  -2.209E-01    1.514E-02    22    1.28E+02    0.059052    0.894390          1    264.43     -9.17
+   10  2.359586E-06  -6.842E-02    1.317E-02    22    5.12E+02    0.132396    0.888986          1    264.37     -9.17
+   11  2.353488E-06   2.585E-03    9.416E-03    23    2.05E+03    1.000000   -2.000000          0    264.07     -9.15
+   12  2.337848E-06   6.645E-03    6.857E-03    22    1.02E+03    1.000000   -2.000000          0    264.15     -9.15
+   13  2.337429E-06   1.795E-04    1.812E-04    22    5.12E+02    1.000000   -2.000000          0    264.16     -9.15
+   14  2.337427E-06   8.155E-07    8.179E-07    22    2.56E+02    1.000000   -2.000000          0    264.17     -9.15
+   15  2.337424E-06   1.104E-06    1.104E-06    22    1.28E+02    1.000000   -2.000000          0    264.17     -9.14
+   16  2.337419E-06   2.203E-06    2.205E-06    22    6.40E+01    1.000000   -2.000000          0    264.18     -9.12
+   17  2.337409E-06   4.385E-06    4.393E-06    22    3.20E+01    1.000000   -2.000000          0    264.20     -9.09
+   18  2.337388E-06   8.689E-06    8.720E-06    22    1.60E+01    1.000000   -2.000000          0    264.25     -9.02
+   19  2.337349E-06   1.705E-05    1.718E-05    22    8.00E+00    1.000000   -2.000000          0    264.33     -8.89
+   20  2.337272E-06   3.285E-05    3.333E-05    22    4.00E+00    1.000000   -2.000000          0    264.49     -8.63
+   21  2.337129E-06   6.092E-05    6.272E-05    22    2.00E+00    1.000000   -2.000000          0    264.82     -8.13
+ Conc =   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+ Backgr =   4.187E+02   3.523E+00   7.885E+00   1.088E+00   1.393E+00   2.730E+00  -4.624E-01   1.219E+00   1.594E-01   1.892E+00
+            4.234E-01   5.417E-03   4.112E-01  -1.217E-01   2.627E-01  -5.914E-02   1.194E-01  -1.658E-01
+ 1000*Shift =      -0.00
+ Gaussian FWHM (ppm) =  0.0400
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.636144E-06   0.000E+00    0.000E+00    23    0.00E+00    0.000000   -2.000000          0    290.00     30.00
+    1  2.353141E-06   1.074E-01    1.103E-01    23    1.00E+00    1.000000   -2.000000          0    287.08     26.52
+    2  2.344042E-06   3.867E-03    4.670E-03    23    5.00E-01    0.788558   -2.000000          0    283.74     21.52
+    3  2.340668E-06   1.439E-03    3.227E-03    23    2.50E-01    0.496255   -2.000000          0    280.54     16.52
+    4  2.338262E-06   1.028E-03    3.593E-03    23    1.25E-01    0.331981   -2.000000          0    277.35     11.52
+    5  2.336732E-06   6.543E-04    3.328E-03    23    6.25E-02    0.244974   -2.000000          0    274.16      6.52
+    6  2.336053E-06   2.904E-04    2.012E-03    23    3.12E-02    0.224488   -2.000000          0    270.97      1.52
+    7  2.336053E-06  -5.497E-05    2.060E-04    23    1.56E-02    0.511927    0.003952          0    270.97      1.52
+    8  2.336039E-06   5.999E-06    6.560E-06    23    6.00E-01    1.000000   -2.000000          0    270.78      1.23
+    8  2.336021E-06   7.718E-06    8.998E-06    23    3.00E-01    1.000000   -2.000000          0    270.48      0.75
+ Conc =   0.000E+00   0.000E+00   0.000E+00   1.473E-05   0.000E+00
+ Backgr =  -4.515E+03  -3.769E+01  -8.516E+01  -1.164E+01  -1.500E+01  -2.932E+01   4.972E+00  -1.306E+01  -1.687E+00  -2.018E+01
+           -4.456E+00  -7.677E-02  -4.325E+00   1.279E+00  -2.750E+00   6.262E-01  -1.254E+00   1.795E+00
+ 1000*Shift =      -0.15
+ Gaussian FWHM (ppm) =  0.0255
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.070328E-06   0.000E+00    0.000E+00    26    0.00E+00    0.000000   -2.000000          0     20.00    -30.00
+    1  1.959540E-06  -3.455E-01    4.515E-01    25    1.00E+00    0.064317    0.014731          1     19.92    -29.57
+    2  1.785611E-06   8.876E-02    3.067E-01    25    4.00E+00    0.454451   -2.000000          0     20.07    -28.53
+    3  1.368618E-06   2.335E-01    4.529E-01    25    2.00E+00    0.696230   -2.000000          0     31.75    -24.61
+    4  1.368618E-06  -1.181E+00    5.040E-01    25    1.00E+00    0.447680    0.009072          0     31.75    -24.61
+    5  1.318938E-06  -1.642E+00    4.787E-01    25    4.00E+00    0.081627    0.011866          1     31.64    -24.30
+    6  1.315281E-06  -3.415E-02    1.802E-02    25    1.60E+01    0.212872    0.016481          1     32.16    -24.17
+    7  1.313593E-06  -4.987E-01    3.230E-02    25    6.40E+01    0.043876    0.032156          1     32.10    -24.15
+    8  1.312762E-06   6.321E-04    1.595E-03    25    2.56E+02    1.000000   -2.000000          0     32.14    -24.08
+    9  1.311351E-06  -8.250E-02    1.342E-02    25    1.28E+02    0.103474    0.056804          1     32.25    -24.09
+   10  1.311103E-06  -5.088E-04    1.028E-03    25    5.12E+02    0.341820    0.038867          1     32.23    -24.07
+   11  1.310904E-06  -1.100E-04    6.510E-04    25    2.05E+03    0.432300    0.085847          1     32.27    -24.08
+   12  1.310831E-06   5.577E-05    6.385E-05    25    8.19E+03    1.000000   -2.000000          0     32.27    -24.08
+   13  1.310712E-06   9.123E-05    9.146E-05    25    4.10E+03    1.000000   -2.000000          0     32.27    -24.07
+   14  1.310474E-06   1.817E-04    1.818E-04    25    2.05E+03    1.000000   -2.000000          0     32.29    -24.07
+   15  1.310005E-06   3.573E-04    3.631E-04    25    1.02E+03    1.000000   -2.000000          0     32.31    -24.05
+   16  1.309331E-06   5.149E-04    7.532E-04    25    5.12E+02    1.000000   -2.000000          0     32.41    -24.04
+   17  1.308893E-06  -2.727E-02    5.125E-03    25    2.56E+02    0.096589    0.043743          1     32.38    -24.02
+   18  1.308657E-06   1.798E-04    4.393E-04    25    1.02E+03    1.000000   -2.000000          0     32.45    -24.02
+   19  1.308297E-06  -1.101E-02    3.333E-03    25    5.12E+02    0.133128    0.056487          1     32.41    -24.01
+   20  1.308096E-06   1.538E-04    2.121E-04    25    2.05E+03    1.000000   -2.000000          0     32.45    -24.01
+   21  1.307928E-06  -2.312E-04    6.390E-04    25    1.02E+03    0.373358    0.042921          1     32.43    -24.00
+ Conc =   3.336E-03   8.778E-04   0.000E+00   0.000E+00   6.931E-03
+ Backgr =   2.698E-01   9.474E-02   4.252E-01   3.412E-01  -4.719E-02   7.133E-01   8.218E-01  -5.105E-01   5.854E+00  -7.081E+00
+           -1.696E+00  -2.237E-01  -5.742E-01   5.490E-02  -2.862E-01   3.174E-02  -1.449E-01   2.396E-01
+ 1000*Shift =      12.22
+ Gaussian FWHM (ppm) =  0.0817
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.193325E-06   0.000E+00    0.000E+00    23    0.00E+00    0.000000   -2.000000          0     20.00      0.00
+    1  1.920303E-06   1.245E-01    9.402E-02    27    1.00E+00    0.720903   -2.000000          0     27.16     -4.86
+    2  1.670494E-06   1.301E-01    1.070E-01    27    5.00E-01    0.603166   -2.000000          0     32.94     -7.10
+    3  1.482413E-06   1.126E-01    4.410E-01    27    2.50E-01    0.134148   -2.000000          0     32.27     -6.68
+    4  1.358722E-06   8.344E-02    6.279E-01    27    1.25E-01    0.074438   -2.000000          0     28.40     -6.87
+    5  1.265345E-06   6.872E-02    6.670E-01    27    6.25E-02    0.057143   -2.000000          0     22.56     -7.55
+    6  1.184869E-06   6.360E-02    6.690E-01    27    3.12E-02    0.051077   -2.000000          0     15.85     -8.44
+    7  1.110060E-06   6.314E-02    6.530E-01    27    1.56E-02    0.050428   -2.000000          0      8.84     -9.37
+    8  1.037544E-06   6.533E-02    6.309E-01    27    7.81E-03    0.052942   -2.000000          0      1.77    -10.27
+    9  9.652582E-07   6.967E-02    6.090E-01    27    3.91E-03    0.057811   -2.000000          0     -5.27    -11.13
+   10  8.914545E-07   7.646E-02    5.900E-01    27    1.95E-03    0.065032   -2.000000          0    -12.28    -11.95
+   11  8.142542E-07   8.660E-02    5.749E-01    27    9.77E-04    0.075238   -2.000000          0    -19.25    -12.73
+   12  7.313192E-07   1.019E-01    5.642E-01    27    4.88E-04    0.089921   -2.000000          0    -26.21    -13.49
+   13  6.393684E-07   1.257E-01    5.572E-01    27    2.44E-04    0.112305   -2.000000          0    -33.15    -14.23
+   14  5.330767E-07   1.662E-01    5.521E-01    27    1.22E-04    0.150299   -2.000000          0    -40.04    -14.94
+   15  4.016920E-07   2.465E-01    5.439E-01    27    6.10E-05    0.229258   -2.000000          0    -46.63    -15.56
+   16  2.149039E-07   4.650E-01    5.170E-01    27    3.05E-05    0.495059   -2.000000          0    -51.39    -15.69
+   17  1.129384E-07   4.745E-01    3.692E-01    27    1.53E-05    1.000000   -2.000000          0    -39.58    -12.53
+   18  1.111496E-07   1.584E-02    1.363E-02    27    7.63E-06    1.000000   -2.000000          0    -34.23    -10.58
+   18  1.110933E-07   5.063E-04    4.246E-04    27    3.81E-06    1.000000   -2.000000          0    -33.69    -10.32
+ Conc =   3.136E-03   5.896E-04   6.084E-03   2.959E-03   5.149E-03
+ Backgr =   7.853E-01   1.042E-01   2.249E-01   1.605E-02   1.643E-01   1.452E-01   1.989E-02   1.180E-01   5.946E-02   2.205E-01
+            3.962E-02   4.792E-02   1.120E-01  -2.550E-02   9.437E-02  -6.355E-03   3.337E-02   4.196E-02
+ 1000*Shift =      63.98
+ Gaussian FWHM (ppm) =  0.0453
+
+ ******** Best data shift for this starting shift so far =    -1 points = -3.82E-03 ppm
+
+ ************************ Best data shift for all starting shifts so far =    -1 points = -3.82E-03 ppm
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.541512E-06   0.000E+00    0.000E+00    22    0.00E+00    0.000000   -2.000000          0     20.00     30.00
+    1  2.474795E-06   2.625E-02    2.553E-02    22    1.00E+00    1.000000   -2.000000          0     19.03     31.17
+    2  2.355286E-06   4.829E-02    4.701E-03    22    5.00E-01    1.000000   -2.000000          0     12.63     34.58
+    3  2.284291E-06   3.014E-02    2.143E-02    22    2.50E-01    1.000000   -2.000000          0      5.70     33.33
+    4  2.282453E-06   8.046E-04    1.544E-03    22    1.25E-01    1.000000   -2.000000          0     -3.40     30.34
+    5  2.280803E-06   7.229E-04    8.314E-04    22    6.25E-02    0.955345   -2.000000          0    -17.47     25.34
+    6  2.280145E-06   2.885E-04    5.233E-04    22    3.12E-02    0.582398   -2.000000          0    -31.80     20.34
+    7  2.279670E-06   2.082E-04    5.872E-04    22    1.56E-02    0.383967   -2.000000          0    -46.11     15.34
+    8  2.279331E-06   1.488E-04    5.892E-04    22    7.81E-03    0.276567   -2.000000          0    -60.41     10.34
+    9  2.279125E-06   9.053E-05    4.416E-04    22    3.91E-03    0.234125   -2.000000          0    -74.71      5.34
+   10  2.279050E-06   3.269E-05    1.750E-04    22    1.95E-03    0.280103   -2.000000          0    -89.02      0.34
+   10  2.279055E-06  -1.898E-06    1.018E-06    22    9.77E-04    1.000000   -2.000000          0    -93.76     -1.31
+ Conc =   0.000E+00   0.000E+00   0.000E+00   0.000E+00   0.000E+00
+ Backgr =   2.957E+00  -7.243E+00  -4.246E+00  -4.914E+00  -1.632E+00  -1.353E+01   8.712E-01  -7.109E+00  -1.351E+01  -2.324E+01
+           -1.269E+02   4.427E+01   5.044E+00  -5.303E-01   4.996E+00  -1.041E+00   2.051E+00  -3.087E+00
+ 1000*Shift =       0.00
+ Gaussian FWHM (ppm) =  0.0400
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.249062E-06   0.000E+00    0.000E+00    25    0.00E+00    0.000000   -2.000000          0    110.00    -30.00
+    1  2.043150E-06   9.155E-02    1.330E-01    26    1.00E+00    0.321280   -2.000000          0     95.00    -25.62
+    2  1.824780E-06   1.069E-01    4.805E-01    26    5.00E-01    0.116744   -2.000000          0     88.17    -20.62
+    3  1.585958E-06   1.309E-01    6.900E-01    26    2.50E-01    0.096111   -2.000000          0     80.27    -17.06
+    4  1.520127E-06  -4.758E-02    6.215E-01    26    1.25E-01    0.034475    0.024675          1     80.75    -15.30
+    5  1.345026E-06   1.152E-01    5.690E-01    26    5.00E-01    0.116758   -2.000000          0     83.60    -10.30
+    6  1.172250E-06   1.285E-01    5.659E-01    26    2.50E-01    0.123394   -2.000000          0     86.66     -5.30
+    7  1.112204E-06  -5.707E-02    5.287E-01    26    1.25E-01    0.050884    0.036054          1     87.78     -3.50
+    8  9.470302E-07   1.485E-01    4.960E-01    26    5.00E-01    0.175072   -2.000000          0     90.94      1.50
+    9  8.040711E-07   1.510E-01    4.317E-01    27    2.50E-01    0.200468   -2.000000          0     94.08      6.50
+   10  6.899744E-07   1.419E-01    3.343E-01    27    1.25E-01    0.245986   -2.000000          0     97.27     11.50
+   11  6.082005E-07   1.185E-01    2.241E-01    27    6.25E-02    0.320006   -2.000000          0    100.54     16.50
+   12  5.581600E-07   8.228E-02    1.194E-01    27    3.12E-02    0.452478   -2.000000          0    103.85     21.50
+   13  5.359442E-07   3.980E-02    4.168E-02    27    1.56E-02    0.760882   -2.000000          0    107.19     26.50
+   14  5.330193E-07   5.457E-03    4.483E-03    27    7.81E-03    1.000000   -2.000000          0    108.65     28.66
+   15  5.324406E-07   1.086E-03    6.354E-04    27    3.91E-03    1.000000   -2.000000          0    108.98     29.15
+   15  5.321365E-07   5.710E-04    3.315E-04    27    1.95E-03    1.000000   -2.000000          0    109.16     29.42
+ Conc =   2.485E-03   8.604E-04   3.740E-03   3.840E-03   6.057E-03
+ Backgr =   7.351E+01   4.885E+00   3.831E-01   1.006E+00  -1.022E-01   8.610E-01  -2.825E-03   1.472E-01   1.949E-01   1.848E-01
+            2.389E-01   3.748E-02   1.544E-01  -3.574E-02   1.005E-01  -2.089E-02   3.207E-02  -1.340E-02
+ 1000*Shift =      40.89
+ Gaussian FWHM (ppm) =  0.0582
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.582587E-06   0.000E+00    0.000E+00    27    0.00E+00    0.000000   -2.000000          0    110.00      0.00
+    1  1.196745E-06   2.438E-01    4.278E-01    27    1.00E+00    0.298535   -2.000000          0    104.67      2.69
+    2  1.167853E-06  -1.108E+00    5.655E-01    27    5.00E-01    0.022892    0.059654          1    103.79      2.64
+    3  1.110358E-06  -8.079E-01    5.165E-01    27    2.00E+00    0.055349    0.060478          1    102.89      2.70
+    4  1.042832E-06  -8.750E-01    4.109E-01    27    8.00E+00    0.100124    0.050682          1    102.47      2.85
+    5  9.495491E-07  -7.709E-03    2.404E-01    26    3.20E+01    0.487681    0.036457          1    101.82      3.30
+    6  9.190467E-07   3.212E-02    1.251E-01    26    1.28E+02    1.000000   -2.000000          0    101.61      3.40
+    7  9.121652E-07   7.488E-03    1.024E-01    26    6.40E+01    1.000000   -2.000000          0    101.79      3.26
+    8  8.604114E-07   5.674E-02    1.484E-01    26    3.20E+01    1.000000   -2.000000          0    100.93      3.17
+    9  8.604114E-07  -1.433E-01    7.268E-02    26    1.60E+01    1.000000    0.003367          0    100.93      3.17
+   10  8.604114E-07  -8.899E-02    6.771E-02    26    6.40E+01    1.000000    0.008799          0    100.93      3.17
+   11  8.354773E-07  -7.257E-02    6.566E-02    26    2.56E+02    0.320342    0.030188          1    100.97      3.13
+   12  8.345132E-07  -1.942E-01    1.794E-02    26    1.02E+03    0.069637    0.140470          1    100.98      3.13
+   13  8.345093E-07  -5.888E-04    9.938E-05    26    4.10E+03    0.081500    0.050824          1    100.98      3.13
+   14  8.345080E-07   1.591E-06    9.903E-06    26    1.64E+04    1.000000   -2.000000          0    100.98      3.13
+   15  8.345019E-07  -4.233E-04    1.136E-04    26    8.19E+03    0.114632    0.080900          1    100.98      3.12
+   16  8.344992E-07   3.272E-06    3.999E-06    26    3.28E+04    1.000000   -2.000000          0    100.98      3.12
+   17  8.344987E-07   6.038E-07    1.042E-05    26    1.64E+04    1.000000   -2.000000          0    100.98      3.12
+   18  8.344919E-07  -5.442E-04    1.378E-04    26    8.19E+03    0.108615    0.118070          1    100.98      3.12
+   19  8.344891E-07   3.299E-06    3.923E-06    26    3.28E+04    1.000000   -2.000000          0    100.98      3.12
+   20  8.344879E-07   1.449E-06    9.926E-06    26    1.64E+04    1.000000   -2.000000          0    100.97      3.12
+   21  8.344818E-07  -4.331E-04    1.156E-04    26    8.19E+03    0.114215    0.081978          1    100.98      3.12
+ Conc =   3.110E-03   1.422E-03   0.000E+00   6.817E-04   7.606E-03
+ Backgr =   1.325E+01  -3.366E+00  -9.564E-01  -2.129E+00   1.170E+00  -4.848E+00  -7.708E-01  -1.167E+00  -4.279E+00  -7.712E-01
+           -1.422E+01   6.235E-01  -1.186E+01  -1.183E+01   1.934E+01  -5.558E+00   9.474E+00  -2.920E+01
+ 1000*Shift =       9.85
+ Gaussian FWHM (ppm) =  0.0820
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.049769E-06   0.000E+00    0.000E+00    27    0.00E+00    0.000000   -2.000000          0    110.00     30.00
+    1  1.580670E-06   2.289E-01    2.125E-01    27    1.00E+00    0.668626   -2.000000          0    108.05     27.48
+    2  1.275031E-06   1.934E-01    2.401E-01    27    5.00E-01    0.451497   -2.000000          0    108.24     27.75
+    3  1.064342E-06   1.652E-01    3.865E-01    27    2.50E-01    0.255547   -2.000000          0    108.37     27.65
+    4  9.005499E-07   1.539E-01    2.953E-01    27    1.25E-01    0.306369   -2.000000          0    107.66     26.17
+    5  7.386728E-07   1.798E-01    1.980E-01    27    6.25E-02    0.520468   -2.000000          0    105.18     22.71
+    6  6.112719E-07   1.725E-01    1.097E-01    27    3.12E-02    0.990332   -2.000000          0    103.20     20.48
+    7  5.708977E-07   6.605E-02    3.792E-02    27    1.56E-02    1.000000   -2.000000          0    104.58     22.61
+    8  5.522815E-07   3.261E-02    1.860E-02    27    7.81E-03    1.000000   -2.000000          0    105.97     24.63
+    9  5.425346E-07   1.765E-02    1.009E-02    27    3.91E-03    1.000000   -2.000000          0    106.90     26.02
+   10  5.375037E-07   9.273E-03    5.328E-03    27    1.95E-03    1.000000   -2.000000          0    107.69     27.19
+   11  5.348063E-07   5.018E-03    2.896E-03    27    9.77E-04    1.000000   -2.000000          0    108.18     27.95
+   12  5.333927E-07   2.643E-03    1.527E-03    27    4.88E-04    1.000000   -2.000000          0    108.60     28.58
+   13  5.326391E-07   1.413E-03    8.177E-04    27    2.44E-04    1.000000   -2.000000          0    108.87     28.99
+   13  5.322423E-07   7.449E-04    4.310E-04    27    1.22E-04    1.000000   -2.000000          0    109.10     29.32
+ Conc =   2.500E-03   8.652E-04   3.716E-03   3.864E-03   6.077E-03
+ Backgr =   7.311E+01   4.948E+00   3.700E-01   1.014E+00  -1.048E-01   8.647E-01  -1.869E-03   1.475E-01   1.968E-01   1.841E-01
+            2.406E-01   3.768E-02   1.550E-01  -3.562E-02   1.008E-01  -2.081E-02   3.233E-02  -1.391E-02
+ 1000*Shift =      40.76
+ Gaussian FWHM (ppm) =  0.0585
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.522178E-06   0.000E+00    0.000E+00    23    0.00E+00    0.000000   -2.000000          0    200.00    -30.00
+    1  2.522178E-06  -2.444E-01    1.835E-01    24    1.00E+00    0.299506    0.044202          2    200.00    -30.00
+    2  2.522178E-06  -2.483E-01    1.826E-01    24    1.60E+01    0.292674    0.410649          2    200.00    -30.00
+    3  2.492001E-06  -9.822E-01    1.521E-01    23    2.56E+02    0.090028    0.609781          1    199.60    -29.90
+    4  2.490976E-06  -7.451E-03    3.873E-03    23    1.02E+03    0.181445    0.609747          1    199.52    -29.88
+    5  2.490973E-06   1.146E-06    4.461E-06    23    4.10E+03    1.000000   -2.000000          0    199.51    -29.87
+    6  2.490975E-06  -9.019E-07    2.194E-06    23    2.05E+03    1.000000   -2.000000          0    199.52    -29.88
+    7  2.490972E-06  -2.198E-05    1.272E-05    23    1.02E+03    0.195453    0.371759          1    199.51    -29.88
+    8  2.490972E-06   3.114E-08    3.124E-08    23    4.10E+03    1.000000   -2.000000          0    199.51    -29.88
+    9  2.490971E-06   6.219E-08    6.228E-08    23    2.05E+03    1.000000   -2.000000          0    199.51    -29.88
+   10  2.490971E-06   1.238E-07    1.248E-07    23    1.02E+03    1.000000   -2.000000          0    199.51    -29.88
+   11  2.490971E-06   2.112E-07    2.583E-07    23    5.12E+02    1.000000   -2.000000          0    199.51    -29.88
+   12  2.490983E-06  -4.797E-06    1.232E-06    23    2.56E+02    1.000000   -2.000000          0    199.51    -29.88
+   13  2.490969E-06  -1.462E-03    1.246E-04    23    1.28E+02    0.056353    0.322979          1    199.50    -29.88
+   14  2.490969E-06   9.067E-08    2.883E-07    23    5.12E+02    1.000000   -2.000000          0    199.50    -29.88
+   15  2.490968E-06  -2.164E-05    3.577E-06    23    2.56E+02    0.087776    0.085746          1    199.50    -29.88
+   16  2.490968E-06   8.383E-08    1.472E-07    23    1.02E+03    1.000000   -2.000000          0    199.50    -29.88
+   17  2.490974E-06  -2.146E-06    8.574E-07    23    5.12E+02    1.000000   -2.000000          0    199.50    -29.89
+   18  2.490967E-06  -3.486E-04    4.780E-05    23    2.56E+02    0.076966    0.327413          1    199.49    -29.89
+   19  2.490967E-06   1.226E-07    1.247E-07    23    1.02E+03    1.000000   -2.000000          0    199.49    -29.89
+   20  2.490967E-06   1.678E-07    2.682E-07    23    5.12E+02    1.000000   -2.000000          0    199.49    -29.89
+   21  2.490966E-06  -1.089E-05    2.066E-06    23    2.56E+02    0.096020    0.105012          1    199.49    -29.89
+ Conc =   0.000E+00   0.000E+00   0.000E+00   4.864E-04   0.000E+00
+ Backgr =   1.202E-01  -4.579E-01  -2.846E-01  -3.482E-01  -9.380E-02  -9.429E-01  -1.204E-01  -1.028E-01  -4.469E+00   7.195E+00
+           -7.535E-01   4.782E-01   1.429E-01  -1.336E-02   1.378E-01  -1.800E-02   4.653E-02   3.311E-03
+ 1000*Shift =      -0.01
+ Gaussian FWHM (ppm) =  0.0400
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.456339E-06   0.000E+00    0.000E+00    24    0.00E+00    0.000000   -2.000000          0    200.00      0.00
+    1  2.355346E-06   4.112E-02    1.872E-02    26    1.00E+00    0.476668   -2.000000          0    185.00      3.06
+    2  2.094007E-06   1.110E-01    3.946E-01    26    5.00E-01    0.123321   -2.000000          0    170.00      7.34
+    3  1.816928E-06   1.323E-01    6.054E-01    26    2.50E-01    0.103177   -2.000000          0    157.30      9.74
+    4  1.518213E-06   1.644E-01    6.571E-01    26    1.25E-01    0.117865   -2.000000          0    144.27     10.78
+    5  1.226094E-06   1.924E-01    6.429E-01    26    6.25E-02    0.145079   -2.000000          0    129.27     10.02
+    6  1.100827E-06   1.022E-01    4.387E-01    26    3.12E-02    0.123973   -2.000000          0    114.27      6.18
+    7  9.920269E-07   9.883E-02    4.034E-01    26    1.56E-02    0.129759   -2.000000          0     99.27      2.35
+    8  9.007241E-07   9.204E-02    3.700E-01    26    7.81E-03    0.134288   -2.000000          0     84.27     -1.46
+    9  8.214410E-07   8.802E-02    3.410E-01    27    3.91E-03    0.138864   -2.000000          0     69.27     -5.26
+   10  7.515118E-07   8.513E-02    3.190E-01    27    1.95E-03    0.142478   -2.000000          0     54.27     -9.06
+   11  6.886623E-07   8.363E-02    3.035E-01    27    9.77E-04    0.146621   -2.000000          0     39.27    -12.82
+   12  6.315861E-07   8.288E-02    2.973E-01    27    4.88E-04    0.153019   -2.000000          0     24.27    -16.47
+   13  5.809267E-07   8.021E-02    2.638E-01    27    2.44E-04    0.160585   -2.000000          0      9.27    -20.26
+   14  5.349267E-07   7.918E-02    2.316E-01    27    1.22E-04    0.181214   -2.000000          0     -5.73    -23.95
+   15  4.949200E-07   7.479E-02    1.908E-01    27    6.10E-05    0.211825   -2.000000          0    -20.73    -27.73
+   16  4.615810E-07   6.736E-02    1.381E-01    27    3.05E-05    0.272325   -2.000000          0    -35.73    -31.43
+   17  4.370761E-07   5.309E-02    8.348E-02    27    1.53E-05    0.380397   -2.000000          0    -50.73    -35.15
+   18  4.225070E-07   3.333E-02    3.646E-02    27    7.63E-06    0.638466   -2.000000          0    -65.73    -38.81
+   19  4.186465E-07   9.137E-03    7.176E-03    27    3.81E-06    1.000000   -2.000000          0    -74.14    -40.80
+   20  4.162529E-07   5.717E-03    1.626E-03    27    1.91E-06    1.000000   -2.000000          0    -74.36    -40.63
+   21  3.106496E-07   2.537E-01    6.559E-02    27    9.54E-07    1.000000   -2.000000          0    -69.49    -35.84
+ Conc =   3.289E-03   5.623E-04   3.425E-03   2.551E-03   5.626E-03
+ Backgr =   2.882E+00  -6.982E-02   3.836E-01  -1.099E-02   2.002E-01   1.162E-01   4.648E-02   6.647E-02   1.521E-01   1.500E-01
+            2.779E-01   4.421E-02   2.571E-01   1.507E-03   2.423E-01   1.201E-01   1.077E-01   1.211E+00
+ 1000*Shift =      56.13
+ Gaussian FWHM (ppm) =  0.0499
+
+
+
+
+ Starting shift =   16 points
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.833444E-06   0.000E+00    0.000E+00    26    0.00E+00    0.000000   -2.000000          0    200.00     30.00
+    1  1.501472E-06   1.811E-01    4.361E-01    26    1.00E+00    0.218315   -2.000000          0    185.00     26.58
+    2  1.290462E-06   1.405E-01    4.928E-01    26    5.00E-01    0.173301   -2.000000          0    170.00     22.68
+    3  1.193985E-06   7.476E-02    5.534E-01    26    2.50E-01    0.173361   -2.000000          0    155.00     19.48
+    4  1.068821E-06   1.048E-01    3.595E-01    26    1.25E-01    0.167332   -2.000000          0    140.00     14.85
+    5  9.748769E-07   8.789E-02    2.795E-01    26    6.25E-02    0.173762   -2.000000          0    125.00     10.28
+    6  8.949677E-07   8.197E-02    2.174E-01    26    3.12E-02    0.188131   -2.000000          0    110.00      5.78
+    7  8.728901E-07   2.467E-02    1.776E-01    26    1.56E-02    0.204074   -2.000000          0     95.00      1.39
+    8  8.486344E-07   2.779E-02    2.251E-01    26    7.81E-03    0.203938   -2.000000          0     80.00     -2.78
+    9  7.982841E-07   5.933E-02    2.184E-01    26    3.91E-03    0.206189   -2.000000          0     65.00     -6.96
+   10  7.508569E-07   5.941E-02    1.897E-01    26    1.95E-03    0.209717   -2.000000          0     50.00    -11.20
+   11  7.115765E-07   5.231E-02    1.585E-01    26    9.77E-04    0.214720   -2.000000          0     35.00    -15.51
+   12  6.864747E-07   3.528E-02    1.171E-01    26    4.88E-04    0.230754   -2.000000          0     20.00    -19.97
+   13  6.864747E-07  -3.049E-02    1.673E-01    26    2.44E-04    0.250726    0.007885          0     20.00    -19.97
+   14  6.864747E-07  -6.173E-02    1.468E-01    26    6.00E-01    0.194377    0.011268          2     20.00    -19.97
+   15  6.062378E-07   1.169E-01    1.032E-01    27    9.60E+00    1.000000   -2.000000          0     14.91    -18.90
+   16  5.101502E-07   1.585E-01    9.168E-02    27    4.80E+00    0.981790   -2.000000          0      6.35    -18.45
+   17  4.050813E-07   2.060E-01    4.456E-01    27    2.40E+00    0.365832   -2.000000          0      1.20    -15.99
+   18  3.159925E-07   2.199E-01    5.013E-01    27    1.20E+00    0.309854   -2.000000          0     -4.38    -14.07
+   19  2.388313E-07   2.442E-01    4.955E-01    27    6.00E-01    0.314873   -2.000000          0    -11.29    -12.73
+   20  1.741556E-07   2.708E-01    4.353E-01    27    3.00E-01    0.381280   -2.000000          0    -19.64    -11.92
+   21  1.266752E-07   2.726E-01    3.066E-01    27    1.50E-01    0.586738   -2.000000          0    -29.08    -11.38
+ Conc =   3.377E-03   6.285E-04   5.956E-03   3.085E-03   5.515E-03
+ Backgr =   6.894E-01   8.217E-02   2.081E-01   1.219E-02   1.537E-01   1.215E-01   3.577E-02   9.216E-02   7.578E-02   1.859E-01
+            7.544E-02   5.122E-02   1.250E-01  -2.065E-02   1.033E-01  -1.232E-03   3.969E-02   4.814E-02
+ 1000*Shift =      61.03
+ Gaussian FWHM (ppm) =  0.0504
+
+Rephasing to  -33.7 deg;     -10.32 deg/ppm
+
+
+
+
+
+ Analysis with optimal data shift to get optimal starting values
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.423321E-07   0.000E+00    0.000E+00    27    0.00E+00    0.000000   -2.000000          0      0.00      0.00
+    1  1.354624E-07   4.827E-02    4.845E-02    27    1.00E+00    1.000000   -2.000000          0      6.16      1.52
+    2  1.347705E-07   5.107E-03    5.060E-03    27    5.00E-01    1.000000   -2.000000          0      9.26      2.48
+    2  1.347118E-07   4.354E-04    4.166E-04    27    2.50E-01    1.000000   -2.000000          0     10.21      2.83
+ Conc =   3.158E-03   6.251E-04   6.131E-03   2.914E-03   5.350E-03
+ Backgr =  -7.906E-02   1.913E-01   1.648E-01   3.731E-02   1.107E-01   1.427E-01   2.490E-02   8.966E-02   5.685E-02   1.819E-01
+            8.266E-02   3.517E-02   9.804E-02   3.403E-02   2.100E-02   1.043E-01  -1.151E-01   6.925E-01
+ 1000*Shift =      -2.40
+ Gaussian FWHM (ppm) =  0.0464
+
+Rephasing to  -23.5 deg;      -7.48 deg/ppm
+
+
+
+
+
+ Starting values for final analysis
+ Shift =    0 points = 0.0000 ppm
+ Phi(0) =   -23.5 deg
+ Phi(1) =   -7.48 deg/ppm
+ FWHM = 0.046 ppm
+ NSIDES = 11
+ INCSID = 1
+
+
+
+
+
+
+
+
+                    Basis Spectra used for the Final Analysis
+
+ Basis set ID = Philips press 35 ms Osprey                                                      
+
+ No.   Metabolite   Expec[delta(1/T2)](1/s)   SD[delta(1/T2)]   Shift(Pts)   SD[Shift](ppm)   ID
+   1       Asc                   2.4496E+00        4.8992E-01            0         4.00E-03   Asc                 
+   2       Asp                   2.4496E+00        4.8992E-01            0         4.00E-03   Asp                 
+   3       Cr                    2.4496E+00        4.8992E-01            0         4.00E-03   Cr                  
+
+Corrected WSPPM =  2.9986
+Uncorrected AREA_MET =  1.16372E+00
+Normalized area of reference Basis singlet =    1.45446E-03
+
+
+Corrected PPMH2O =  4.6500
+
+Zero-order phase correction for unsuppressed water = 360.0
+
+
+
+Area of unsuppressed water peak =  6.33415E-02
+FCALIB =    2.55138E+03
+
+   4       GABA                  2.4496E+00        4.8992E-01            0         4.00E-03   GABA                
+   5       GPC                   2.4496E+00        4.8992E-01            0         4.00E-03   GPC                 
+   6       GSH                   2.4496E+00        4.8992E-01            0         4.00E-03   GSH                 
+   7       Gln                   2.4496E+00        4.8992E-01            0         4.00E-03   Gln                 
+   8       Glu                   2.4496E+00        4.8992E-01            0         4.00E-03   Glu                 
+   9       Ins                   2.4496E+00        4.8992E-01            0         4.00E-03   Ins                 
+  10       Lac                   2.4496E+00        4.8992E-01            0         4.00E-03   Lac                 
+  11       NAA                   2.4496E+00        4.8992E-01            0         2.00E-03   NAA                 
+  12       NAAG                  2.4496E+00        4.8992E-01            0         2.00E-03   NAAG                
+  13       PCh                   2.4496E+00        4.8992E-01            0         4.00E-03   PCh                 
+  14       PCr                   2.4496E+00        4.8992E-01            0         4.00E-03   PCr                 
+  15       PE                    2.4496E+00        4.8992E-01            0         4.00E-03   PE                  
+  16       Scyllo                2.4496E+00        4.8992E-01            0         4.00E-03   Scyllo              
+  17       Tau                   2.4496E+00        4.8992E-01            0         4.00E-03   Tau                 
+ No.   Metabolite         EXRT2      SIFWEX  input   SIFWMN              SDRT2      SIFWSD   input   SD[Shift](ppm)
+  18       Lip13a        53.092       0.282  0.200    0.150             19.510      0.0486  0.0350            0.010
+  19       Lip13b         5.370       0.102  0.090    0.089             29.857      0.0744  0.0350            0.010
+  20       Lip09         51.553       0.268  0.190    0.140             19.139      0.0477  0.0350            0.020
+  21       MM09          38.704       0.236  0.170    0.140              9.832      0.0245  0.0150            0.020
+  22       Lip20         53.092       0.282  0.200    0.150             14.214      0.0354  0.0250            0.005
+  23       MM20          39.933       0.249  0.180    0.150              6.871      0.0171  0.0100            0.005
+  24       MM12          53.092       0.282  0.200    0.150             11.497      0.0286  0.0200            0.010
+  25       MM14          42.284       0.275  0.200    0.170             13.760      0.0343  0.0200            0.020
+  26       MM17          32.107       0.230  0.170    0.150             14.697      0.0366  0.0200            0.030
+  27       -CrCH2         2.450      -8.994  0.000   -9.000              0.490      0.0012  0.0000            0.004
+
+
+
+
+                    Preliminary full analysis with alphaB = 2.00E-02 and alphaS = 1.00E+01
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  4.823893E-01   0.000E+00    0.000E+00   124    0.00E+00    0.000000   -2.000000          0      0.00      0.00
+    1  2.619110E-01   4.571E-01    4.552E-01   126    1.00E+00    1.000000   -2.000000          0     -1.26      0.23
+    2  2.134454E-01   1.850E-01    1.853E-01   125    5.00E-01    0.977542   -2.000000          0     -0.66     -0.03
+    3  1.912491E-01   1.040E-01    9.936E-02   126    2.50E-01    1.000000   -2.000000          0     -0.39     -0.36
+    4  1.801304E-01   5.814E-02    5.637E-02   126    1.25E-01    0.892946   -2.000000          0     -0.58     -0.53
+    5  1.725190E-01   4.226E-02    3.698E-02   128    6.25E-02    1.000000   -2.000000          0     -0.18     -0.15
+    6  1.710693E-01   8.403E-03    2.403E-02   128    3.12E-02    0.095417   -2.000000          0     -0.10     -0.08
+    7  1.686805E-01   1.396E-02    1.919E-02   128    1.56E-02    0.440948   -2.000000          0      0.19      0.13
+    8  1.658155E-01   1.699E-02    2.090E-02   128    7.81E-03    0.466032   -2.000000          0      0.44      0.29
+    9  1.628963E-01   1.760E-02    1.614E-02   127    3.91E-03    0.769998   -2.000000          0      0.75      0.48
+   10  1.615146E-01   8.482E-03    7.285E-03   126    1.95E-03    0.896938   -2.000000          0      0.96      0.55
+   11  1.611343E-01   2.354E-03    2.119E-03   126    9.77E-04    1.000000   -2.000000          0      0.97      0.50
+   11  1.610581E-01   4.732E-04    4.241E-04   126    4.88E-04    1.000000   -2.000000          0      0.96      0.47
+ Conc =   0.000E+00   3.557E+00   4.916E+00   8.961E-01   1.129E+00   1.471E+00   2.346E+00   1.201E+01   7.527E+00   5.798E-01
+          1.409E+01   4.609E-01   5.883E-01   4.705E+00   3.912E+00   3.824E-01   1.410E+00   0.000E+00   0.000E+00   9.090E+00
+          0.000E+00   6.450E+00   9.054E+00   1.106E+01   1.138E+01   7.880E+00   0.000E+00
+ Backgr =   3.300E-02   6.598E-02   8.779E-02   7.526E-02   4.841E-02   2.894E-02   4.881E-02   5.308E-02   3.598E-02  -8.021E-03
+            3.730E-02   4.192E-02   5.333E-02   4.521E-02   3.927E-02   3.093E-02   1.948E-02  -1.598E-03  -1.985E-02  -2.828E-02
+           -2.510E-02  -2.070E-02  -1.145E-02   5.335E-03   1.502E-02   2.714E-02
+ Lineshape =      0.0447     -0.0067     -0.0015      0.0262      0.0226      0.0153      0.0271      0.0457      0.0586      0.0585
+                  0.0714      0.1047      0.0950      0.0766      0.0858      0.0732      0.0331      0.0255      0.0273     -0.0042
+                 -0.0082      0.0314
+ 1000*Shift =      -0.00      -2.23     -10.41      -4.90      -8.19      -1.04       4.40      -0.95       1.33      -0.34
+                   -2.84       1.06       3.58      -0.36       8.14      -2.13      -1.12       0.00       0.00     -15.45
+                    0.00      -8.16      -4.10     -14.63     -61.24     -77.34       0.00
+ delta(1/T2) =       2.45       2.66       3.97       2.51       2.30       2.39       2.27       2.65       2.12       2.40
+                     3.14       2.47       2.35       3.23       2.60       2.54       2.35      53.09       5.37      28.67
+                    38.70      -0.00      39.74      51.21      17.63      29.78       2.45
+
+
+
+
+
+
+                    Reference Solution for rephased data
+
+Rephasing to  -22.5 deg;      -7.01 deg/ppm
+
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.523212E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.00      0.00
+    1  1.512600E-01   6.967E-03    7.021E-03   127    1.00E+00    1.000000   -2.000000          0      0.29      0.14
+    2  1.508818E-01   2.500E-03    2.509E-03   127    5.00E-01    1.000000   -2.000000          0      0.46      0.20
+    3  1.506814E-01   1.328E-03    1.286E-03   127    2.50E-01    1.000000   -2.000000          0      0.45      0.17
+    3  1.505451E-01   9.045E-04    8.266E-04   127    1.25E-01    1.000000   -2.000000          0      0.37      0.12
+ Conc =   1.650E-01   3.367E+00   4.858E+00   7.927E-01   1.122E+00   1.410E+00   2.355E+00   1.164E+01   7.664E+00   6.087E-01
+          1.409E+01   4.211E-01   5.735E-01   4.669E+00   3.587E+00   4.081E-01   1.840E+00   0.000E+00   0.000E+00   9.757E+00
+          0.000E+00   7.506E+00   8.721E+00   1.207E+01   1.297E+01   8.249E+00   0.000E+00
+ Backgr =   1.375E-02   6.718E-02   9.078E-02   7.481E-02   4.895E-02   2.355E-02   4.861E-02   5.308E-02   4.029E-02  -1.474E-02
+            4.048E-02   4.078E-02   5.553E-02   4.345E-02   3.747E-02   3.072E-02   1.971E-02  -5.719E-03  -2.793E-02  -3.667E-02
+           -2.813E-02  -2.365E-02  -1.547E-02   5.483E-03   1.400E-02   2.868E-02
+ Lineshape =      0.0579     -0.0411      0.0389     -0.0088      0.0516     -0.0101      0.0461      0.0365      0.0476      0.1007
+                 -0.0086     -0.0246      0.2259     -0.0322      0.1578      0.0384      0.0503      0.0108      0.0410     -0.0089
+                 -0.0132      0.0341
+ 1000*Shift =      -0.12      -2.06     -10.52      -5.10      -8.32      -0.92       4.54      -0.98       1.20      -0.26
+                   -2.93       0.96       3.60      -0.44       8.33      -2.21      -1.24       0.00       0.00     -15.79
+                    0.00      -8.73      -3.79     -14.61     -60.82     -80.23       0.00
+ delta(1/T2) =       2.43       2.65       3.86       2.49       2.19       2.31       2.27       2.57       2.28       2.40
+                     3.23       2.47       2.26       3.18       2.55       2.60       2.34      53.09       5.37      31.09
+                    38.70      -0.00      39.89      51.68      20.45      29.80       2.45
+
+
+ SSQREF =  1.417016E-01   SSQMIN =  1.587024E-01   SSQMAX =  1.603636E-01   PREJMN = 0.0200   PREJMX = 0.0800
+
+
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.590907E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.37      0.12
+    1  1.588527E-01   1.496E-03    1.503E-03   127    1.00E+00    1.000000   -2.000000          0      0.13     -0.09
+    1  1.587498E-01   6.479E-04    6.379E-04   127    5.00E-01    1.000000   -2.000000          0     -0.16     -0.22
+ Conc =   2.465E-02   3.541E+00   4.896E+00   8.850E-01   1.144E+00   1.469E+00   2.394E+00   1.200E+01   7.596E+00   5.840E-01
+          1.420E+01   4.129E-01   5.728E-01   4.731E+00   3.925E+00   3.885E-01   1.464E+00   0.000E+00   0.000E+00   9.255E+00
+          0.000E+00   6.404E+00   8.676E+00   1.142E+01   1.186E+01   8.036E+00   0.000E+00
+ Backgr =   3.070E-02   6.541E-02   8.776E-02   7.519E-02   4.812E-02   2.845E-02   4.820E-02   5.316E-02   3.680E-02  -8.022E-03
+            3.733E-02   4.129E-02   5.326E-02   4.582E-02   3.989E-02   3.167E-02   1.955E-02  -3.603E-03  -2.253E-02  -3.027E-02
+           -2.575E-02  -2.114E-02  -1.119E-02   6.155E-03   1.562E-02   2.779E-02
+ Lineshape =      0.0612     -0.0472      0.0464     -0.0156      0.0570     -0.0132      0.0482      0.0353      0.0454      0.1074
+                 -0.0200     -0.0381      0.2377     -0.0420      0.1632      0.0352      0.0517      0.0113      0.0389     -0.0044
+                 -0.0185      0.0381
+ 1000*Shift =      -0.12      -2.12     -10.61      -5.12      -8.36      -0.99       4.55      -1.15       1.23      -0.24
+                   -3.01       0.96       3.75      -0.46       8.39      -2.21      -1.25       0.00       0.00     -15.89
+                    0.00      -8.67      -3.80     -14.71     -61.10     -78.88       0.00
+ delta(1/T2) =       2.44       2.66       3.94       2.50       2.24       2.33       2.26       2.63       2.20       2.40
+                     3.25       2.48       2.27       3.20       2.57       2.61       2.33      53.09       5.37      29.50
+                    38.70      -0.00      39.85      51.74      18.88      29.64       2.45
+
+ ITER = 1     ALPHAB = 2.000E-02   ALPHAS = 1.000E-01      Ninfle =17      (SSQ -1.000000E-37 <  1.459336E-01 <  1.000000E+37)
+              penB/penS = 7.14E+01 / 1.58E-02 = 4.53E+03   Nextre =11
+              Penalty =  7.1451E+01                        Penalty*SDREF**2 (w/o prior) =  1.28E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.828201E-01   0.000E+00    0.000E+00   126    0.00E+00    0.000000   -2.000000          0     -0.16     -0.22
+    1  1.810395E-01   9.739E-03    9.875E-03   126    1.00E+00    1.000000   -2.000000          0     -0.49     -0.66
+    2  1.802660E-01   4.273E-03    4.300E-03   126    5.00E-01    1.000000   -2.000000          0     -1.06     -0.93
+    3  1.798684E-01   2.206E-03    2.168E-03   126    2.50E-01    1.000000   -2.000000          0     -1.34     -1.11
+    4  1.796488E-01   1.221E-03    1.124E-03   126    1.25E-01    1.000000   -2.000000          0     -1.39     -1.19
+    5  1.794501E-01   1.106E-03    9.187E-04   126    6.25E-02    1.000000   -2.000000          0     -1.30     -1.20
+    6  1.792304E-01   1.225E-03    9.101E-04   126    3.12E-02    1.000000   -2.000000          0     -1.11     -1.15
+    7  1.790098E-01   1.231E-03    8.106E-04   126    1.56E-02    1.000000   -2.000000          0     -0.90     -1.10
+    8  1.788209E-01   1.055E-03    6.259E-04   126    7.81E-03    1.000000   -2.000000          0     -0.75     -1.08
+    8  1.786623E-01   8.866E-04    4.781E-04   126    3.91E-03    1.000000   -2.000000          0     -0.70     -1.10
+ Conc =   0.000E+00   3.943E+00   5.097E+00   1.101E+00   1.259E+00   1.626E+00   2.676E+00   1.278E+01   7.134E+00   5.333E-01
+          1.469E+01   4.279E-01   5.481E-01   4.761E+00   4.531E+00   3.099E-01   3.654E-01   0.000E+00   0.000E+00   8.095E+00
+          0.000E+00   3.128E+00   9.315E+00   9.315E+00   9.269E+00   6.836E+00   0.000E+00
+ Backgr =   4.838E-02   6.384E-02   7.937E-02   7.081E-02   5.079E-02   4.063E-02   5.038E-02   5.002E-02   3.120E-02   8.141E-03
+            3.108E-02   3.884E-02   4.911E-02   4.980E-02   4.388E-02   3.529E-02   2.174E-02   5.835E-03  -7.895E-03  -1.573E-02
+           -1.706E-02  -1.265E-02  -2.413E-03   1.005E-02   1.916E-02   2.930E-02
+ Lineshape =      0.0816     -0.1091      0.1495     -0.1316      0.1393     -0.0396      0.0161      0.1083     -0.0911      0.2798
+                 -0.2067     -0.1470      0.2949     -0.0318      0.1101      0.1044      0.0099      0.0568     -0.0029      0.0532
+                 -0.0688      0.0603
+ 1000*Shift =      -0.00      -6.03     -12.22      -5.88     -10.12      -2.03       3.54      -3.19      -0.18      -0.42
+                   -4.73       2.05       3.65      -1.78       8.17      -1.10      -1.17       0.00       0.00     -18.91
+                    0.00      -5.07      -5.44     -14.60     -64.53     -76.16       0.00
+ delta(1/T2) =       2.45       2.63       4.21       2.58       2.59       2.51       2.26       2.84       1.69       2.39
+                     3.51       2.50       2.46       3.24       2.67       2.57       2.40      53.09       5.37      24.54
+                    38.70      -0.00      41.95      46.46      12.63      26.63       2.45
+
+ ITER = 2     ALPHAB = 4.000E-02   ALPHAS = 1.000E-01      Ninfle =16      (SSQ  1.459336E-01 <  1.619155E-01 <  1.000000E+37)
+              penB/penS = 9.33E+01 / 6.50E-02 = 1.43E+03   Nextre =13
+              Penalty =  9.3366E+01                        Penalty*SDREF**2 (w/o prior) =  1.67E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.761220E-01   0.000E+00    0.000E+00   126    0.00E+00    0.000000   -2.000000          0     -0.70     -1.10
+    1  1.760774E-01   2.528E-04    2.401E-04   126    1.00E+00    1.000000   -2.000000          0     -0.69     -1.07
+    1  1.760395E-01   2.157E-04    1.923E-04   126    5.00E-01    1.000000   -2.000000          0     -0.68     -1.06
+ Conc =   0.000E+00   3.910E+00   5.078E+00   1.067E+00   1.255E+00   1.614E+00   2.643E+00   1.269E+01   7.185E+00   5.327E-01
+          1.466E+01   4.382E-01   5.424E-01   4.768E+00   4.474E+00   3.155E-01   4.559E-01   0.000E+00   0.000E+00   8.153E+00
+          0.000E+00   3.451E+00   8.993E+00   9.455E+00   9.383E+00   6.879E+00   0.000E+00
+ Backgr =   4.690E-02   6.378E-02   8.010E-02   7.128E-02   5.035E-02   3.952E-02   5.034E-02   5.061E-02   3.167E-02   6.662E-03
+            3.165E-02   3.908E-02   4.957E-02   5.003E-02   4.398E-02   3.541E-02   2.173E-02   5.474E-03  -8.590E-03  -1.651E-02
+           -1.754E-02  -1.308E-02  -2.795E-03   9.929E-03   1.899E-02   2.922E-02
+ Lineshape =      0.0849     -0.1204      0.1665     -0.1491      0.1527     -0.0480      0.0196      0.1079     -0.0940      0.2851
+                 -0.2138     -0.1531      0.2990     -0.0326      0.1093      0.1059      0.0096      0.0578     -0.0033      0.0533
+                 -0.0680      0.0593
+ 1000*Shift =      -0.00      -6.00     -12.30      -5.90     -10.11      -2.09       3.55      -3.19      -0.24      -0.42
+                   -4.80       2.06       3.60      -1.81       8.21      -1.01      -1.18       0.00       0.00     -18.75
+                    0.00      -5.08      -5.43     -14.61     -64.42     -76.36       0.00
+ delta(1/T2) =       2.45       2.61       4.18       2.57       2.56       2.49       2.26       2.82       1.74       2.39
+                     3.50       2.50       2.46       3.25       2.66       2.57       2.40      53.09       5.37      24.79
+                    38.70      -0.00      41.71      46.78      12.87      26.70       2.45
+
+ ITER = 3     ALPHAB = 3.702E-02   ALPHAS = 1.000E-01      Ninfle =16      (SSQ  1.459336E-01 <  1.597387E-01 <  1.619155E-01)
+              penB/penS = 9.08E+01 / 7.00E-02 = 1.30E+03   Nextre =13
+              Penalty =  9.0878E+01                        Penalty*SDREF**2 (w/o prior) =  1.63E-02
+
+ Probability to reject = 0.0500
+
+
+          CHRATO ratio priors used
+
+Lip09/Lip13* = .267 +- .1 +WT= MM12                                                                                                 
+                                                                                                                                    
+Lip20/Lip13* = .15 +- .07 +WT= MM12                                                                                                 
+                                                                                                                                    
+MM20/MM09* = 1.5 +- .375 +WT= Lip09*                                                                                                
+                                                                                                                                    
+MM12/MM09* = .3 +- .1 +WT= Lip09*                                                                                                   
+                                                                                                                                    
+MM14/MM09* = .75 +- .45 +WT= Lip09*                                                                                                 
+                                                                                                                                    
+MM17/MM09* = .375 +- .3 +WT= Lip09*                                                                                                 
+                                                                                                                                    
+-CrCH2/totCr = .1 +- .25                                                                                                            
+                                                                                                                                    
+Asp/Big3 = .05 +- .05                                                                                                               
+                                                                                                                                    
+GABA/Big3 = .03 +- .03                                                                                                              
+                                                                                                                                    
+Scyllo/Big3 = .01 +- .01                                                                                                            
+                                                                                                                                    
+Tau/Big3 = .05 +- .05                                                                                                               
+                                                                                                                                    
+GSH/Gln+GSH = .286 +- .126                                                                                                          
+                                                                                                                                    
+
+
+
+
+
+
+                    Reference Solution for rephased data
+
+Rephasing to  -23.2 deg;      -8.07 deg/ppm
+
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.681047E-01   0.000E+00    0.000E+00   128    0.00E+00    0.000000   -2.000000          0      0.00      0.00
+    1  1.633914E-01   2.804E-02    2.817E-02   128    1.00E+00    1.000000   -2.000000          0      0.83      0.37
+    2  1.604240E-01   1.816E-02    1.824E-02   128    5.00E-01    1.000000   -2.000000          0      1.31      0.49
+    3  1.586138E-01   1.128E-02    1.155E-02   129    2.50E-01    1.000000   -2.000000          0      1.28      0.48
+    4  1.577433E-01   5.488E-03    5.461E-03   129    1.25E-01    1.000000   -2.000000          0      1.12      0.44
+    5  1.573969E-01   2.196E-03    2.089E-03   129    6.25E-02    1.000000   -2.000000          0      1.02      0.43
+    6  1.572357E-01   1.024E-03    9.473E-04   129    3.12E-02    1.000000   -2.000000          0      0.97      0.41
+    6  1.571540E-01   5.196E-04    4.721E-04   129    1.56E-02    1.000000   -2.000000          0      0.91      0.37
+ Conc =   1.174E-01   3.140E+00   4.769E+00   7.363E-01   1.176E+00   1.410E+00   2.623E+00   1.181E+01   7.703E+00   2.146E-01
+          1.450E+01   4.398E-01   5.361E-01   4.777E+00   3.812E+00   3.882E-01   1.607E+00   2.953E+01   0.000E+00   7.627E+00
+          3.537E+00   5.338E+00   5.882E+00   1.209E+00   6.060E+00   5.314E+00   0.000E+00
+ Backgr =   1.078E-02   6.576E-02   8.929E-02   7.342E-02   4.798E-02   2.514E-02   4.839E-02   5.380E-02   4.493E-02  -7.128E-03
+            4.061E-02   3.707E-02   5.670E-02   5.328E-02   5.159E-02   3.688E-02   2.337E-02  -3.737E-03  -3.097E-02  -4.549E-02
+           -2.636E-02  -4.059E-02  -2.103E-02   6.038E-03   1.386E-02   3.142E-02
+ Lineshape =      0.0834     -0.1286      0.1907     -0.1842      0.1871     -0.0724      0.0276      0.1151     -0.1169      0.3250
+                 -0.2690     -0.2092      0.3426     -0.0550      0.1215      0.0989      0.0170      0.0590     -0.0125      0.0619
+                 -0.0697      0.0539
+ 1000*Shift =      -0.45      -5.29     -12.64      -6.34     -10.10      -2.47       3.77      -3.03      -0.58       0.05
+                   -4.93       1.67       2.65      -2.03       8.71      -0.71      -2.02      -3.07       0.00     -24.51
+                  -12.48      -6.97      -3.59      -7.03     -44.26     -74.55       0.00
+ delta(1/T2) =       2.43       2.47       3.64       2.47       2.13       2.24       2.29       2.53       2.37       2.41
+                     3.55       2.48       2.31       3.23       2.51       2.61       2.34     111.27       5.37      29.66
+                    39.86      -0.00      39.58      52.18      16.17      12.85       2.45
+
+
+ SSQREF =  1.483881E-01   SSQMIN =  1.665555E-01   SSQMAX =  1.683172E-01   PREJMN = 0.0200   PREJMX = 0.0800
+
+
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.864694E-01   0.000E+00    0.000E+00   128    0.00E+00    0.000000   -2.000000          0      0.91      0.37
+    1  1.840289E-01   1.309E-02    1.324E-02   128    1.00E+00    1.000000   -2.000000          0      0.46      0.14
+    2  1.829546E-01   5.837E-03    5.931E-03   128    5.00E-01    1.000000   -2.000000          0      0.15      0.00
+    3  1.824610E-01   2.698E-03    2.738E-03   128    2.50E-01    1.000000   -2.000000          0      0.07     -0.07
+    4  1.822248E-01   1.295E-03    1.248E-03   128    1.25E-01    1.000000   -2.000000          0      0.10     -0.09
+    5  1.820426E-01   1.000E-03    8.861E-04   128    6.25E-02    1.000000   -2.000000          0      0.13     -0.09
+    5  1.818754E-01   9.183E-04    7.756E-04   128    3.12E-02    1.000000   -2.000000          0      0.14     -0.10
+ Conc =   0.000E+00   3.642E+00   5.028E+00   1.020E+00   1.274E+00   1.590E+00   2.732E+00   1.281E+01   7.245E+00   1.517E-01
+          1.471E+01   4.997E-01   5.198E-01   4.816E+00   4.522E+00   3.162E-01   5.113E-01   1.480E+01   0.000E+00   3.893E+00
+          4.267E+00   2.801E+00   8.389E+00   1.962E+00   5.213E+00   4.761E+00   0.000E+00
+ Backgr =   4.591E-02   6.327E-02   8.022E-02   7.089E-02   5.002E-02   3.889E-02   5.005E-02   5.120E-02   3.410E-02   9.364E-03
+            3.242E-02   3.864E-02   5.026E-02   5.299E-02   4.766E-02   3.839E-02   2.578E-02   9.374E-03  -4.211E-03  -1.151E-02
+           -1.321E-02  -1.580E-02  -3.749E-03   9.726E-03   1.855E-02   2.906E-02
+ Lineshape =      0.0988     -0.1690      0.2506     -0.2483      0.2414     -0.1088      0.0434      0.1203     -0.1450      0.3612
+                 -0.3029     -0.2211      0.3429     -0.0473      0.1056      0.1187     -0.0021      0.0797     -0.0295      0.0811
+                 -0.0853      0.0633
+ 1000*Shift =      -0.19      -5.99     -12.86      -6.15     -10.38      -2.42       3.55      -3.61      -0.70       0.09
+                   -5.28       2.23       3.11      -2.15       8.36       0.33      -1.61      -4.83       0.00     -27.42
+                  -26.89      -5.05      -4.61      -7.04     -50.04     -69.93       0.00
+ delta(1/T2) =       2.45       2.45       4.06       2.55       2.53       2.46       2.28       2.86       1.86       2.42
+                     3.53       2.51       2.49       3.33       2.64       2.45       2.38      91.64       5.37      12.76
+                    36.77      -0.00      40.18      49.56      13.54      11.88       2.45
+
+ ITER = 1     ALPHAB = 3.702E-02   ALPHAS = 1.000E-01      Ninfle =18      (SSQ -1.000000E-37 <  1.658455E-01 <  1.000000E+37)
+              penB/penS = 8.92E+01 / 1.27E-01 = 7.05E+02   Nextre =11
+              Penalty =  8.9368E+01                        Penalty*SDREF**2 (w/o prior) =  1.60E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  2.090138E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.14     -0.10
+    1  2.070244E-01   9.518E-03    9.603E-03   127    1.00E+00    1.000000   -2.000000          0      0.36     -0.20
+    2  2.058811E-01   5.523E-03    5.395E-03   127    5.00E-01    1.000000   -2.000000          0      0.37     -0.22
+    3  2.049477E-01   4.533E-03    4.013E-03   127    2.50E-01    1.000000   -2.000000          0      0.44     -0.25
+    4  2.038389E-01   5.410E-03    4.215E-03   127    1.25E-01    1.000000   -2.000000          0      0.45     -0.30
+    5  2.026363E-01   5.900E-03    4.850E-03   127    6.25E-02    1.000000   -2.000000          0      0.33     -0.38
+    6  2.017271E-01   4.487E-03    3.568E-03   126    3.12E-02    1.000000   -2.000000          0      0.25     -0.43
+    7  2.004562E-01   6.300E-03    4.569E-03   125    1.56E-02    1.000000   -2.000000          0      0.33     -0.38
+    8  1.999579E-01   2.486E-03    1.955E-03   125    7.81E-03    1.000000   -2.000000          0      0.33     -0.40
+    9  1.997042E-01   1.269E-03    6.792E-04   125    3.91E-03    1.000000   -2.000000          0      0.37     -0.39
+   10  1.993991E-01   1.528E-03    7.348E-04   125    1.95E-03    1.000000   -2.000000          0      0.41     -0.39
+   11  1.991224E-01   1.388E-03    7.595E-04   125    9.77E-04    1.000000   -2.000000          0      0.47     -0.37
+   11  1.989752E-01   7.392E-04    4.293E-04   125    4.88E-04    1.000000   -2.000000          0      0.52     -0.35
+ Conc =   0.000E+00   3.849E+00   5.334E+00   1.354E+00   1.440E+00   1.704E+00   3.206E+00   1.407E+01   6.810E+00   4.524E-01
+          1.479E+01   5.376E-01   4.507E-01   4.634E+00   5.011E+00   2.895E-01   0.000E+00   1.446E+00   0.000E+00   0.000E+00
+          7.500E+00   0.000E+00   1.272E+01   4.027E+00   7.856E+00   4.789E+00   0.000E+00
+ Backgr =   5.703E-02   6.332E-02   7.095E-02   6.463E-02   5.287E-02   4.594E-02   4.735E-02   4.373E-02   3.102E-02   2.041E-02
+            2.894E-02   3.484E-02   4.263E-02   4.573E-02   4.254E-02   3.694E-02   2.803E-02   1.775E-02   8.033E-03   9.154E-04
+           -3.924E-03  -4.567E-03   1.812E-03   1.169E-02   2.101E-02   3.048E-02
+ Lineshape =      0.1160     -0.2191      0.3336     -0.3560      0.3786     -0.2944      0.2928     -0.2007      0.2457     -0.1164
+                  0.2498      0.3881     -0.2413      0.4783     -0.3383      0.4742     -0.2738      0.2978     -0.1935      0.2022
+                 -0.1502      0.0833
+ 1000*Shift =      -0.00      -6.57     -13.34      -4.14     -10.71      -1.97       2.43      -5.09      -1.51      -0.47
+                   -6.15       1.75       1.59      -2.87       6.98      -1.87      -0.00      -0.19       0.00      -0.00
+                  -42.41      -0.00      -4.74     -20.68     -70.13     -72.25       0.00
+ delta(1/T2) =       2.45       2.52       4.41       2.66       3.18       2.74       2.20       3.28       1.20       2.43
+                     3.35       2.53       2.63       3.20       2.69       2.53       2.45      54.03       5.37      51.55
+                    22.44      53.09      47.99      18.57      13.63      15.57       2.45
+
+ ITER = 2     ALPHAB = 7.404E-02   ALPHAS = 1.000E-01      Ninfle =18      (SSQ  1.658455E-01 <  1.844949E-01 <  1.000000E+37)
+              penB/penS = 8.04E+01 / 2.82E-01 = 2.85E+02   Nextre =19
+              Penalty =  8.0729E+01                        Penalty*SDREF**2 (w/o prior) =  1.45E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.839116E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.52     -0.35
+    1  1.830356E-01   4.763E-03    4.790E-03   127    1.00E+00    1.000000   -2.000000          0      0.46     -0.31
+    2  1.826051E-01   2.352E-03    2.328E-03   127    5.00E-01    1.000000   -2.000000          0      0.47     -0.29
+    3  1.823843E-01   1.209E-03    1.166E-03   127    2.50E-01    1.000000   -2.000000          0      0.46     -0.27
+    3  1.822690E-01   6.324E-04    5.792E-04   127    1.25E-01    1.000000   -2.000000          0      0.46     -0.26
+ Conc =   0.000E+00   3.607E+00   5.003E+00   1.047E+00   1.347E+00   1.582E+00   2.926E+00   1.351E+01   7.202E+00   4.432E-01
+          1.477E+01   6.186E-01   4.707E-01   4.786E+00   4.645E+00   3.234E-01   5.004E-01   1.645E+00   0.000E+00   0.000E+00
+          8.209E+00   1.257E-01   1.148E+01   4.184E+00   8.019E+00   4.974E+00   0.000E+00
+ Backgr =   4.579E-02   6.212E-02   7.866E-02   6.813E-02   4.953E-02   3.935E-02   4.778E-02   4.844E-02   3.495E-02   1.685E-02
+            3.253E-02   3.574E-02   4.797E-02   5.083E-02   4.592E-02   3.805E-02   2.791E-02   1.633E-02   6.184E-03   3.012E-04
+           -5.105E-03  -9.073E-03  -1.456E-03   1.120E-02   2.043E-02   3.056E-02
+ Lineshape =      0.1114     -0.2142      0.3319     -0.3572      0.3803     -0.2978      0.2981     -0.2096      0.2571     -0.1284
+                  0.2613      0.4025     -0.2541      0.4873     -0.3341      0.4592     -0.2531      0.2832     -0.1860      0.1987
+                 -0.1466      0.0797
+ 1000*Shift =      -0.00      -6.13     -13.68      -4.22     -10.60      -2.56       2.43      -4.98      -1.64      -0.49
+                   -6.16       1.78       1.19      -3.16       7.42      -2.43      -0.35      -0.20       0.00      -0.00
+                  -41.15      -0.01      -5.61     -21.00     -68.32     -72.38       0.00
+ delta(1/T2) =       2.45       2.51       4.02       2.57       2.76       2.62       2.10       3.11       1.59       2.44
+                     3.41       2.55       2.50       3.23       2.58       2.55       2.42      55.23       5.37      51.55
+                    25.49      52.70      43.95      22.25      14.87      16.22       2.45
+
+ ITER = 3     ALPHAB = 4.018E-02   ALPHAS = 1.000E-01      Ninfle =18      (SSQ  1.658455E-01 <  1.697807E-01 <  1.844949E-01)
+              penB/penS = 6.93E+01 / 2.84E-01 = 2.44E+02   Nextre =19
+              Penalty =  6.9623E+01                        Penalty*SDREF**2 (w/o prior) =  1.25E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.810954E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.46     -0.26
+    1  1.810708E-01   1.357E-04    1.321E-04   127    1.00E+00    1.000000   -2.000000          0      0.46     -0.26
+    1  1.810408E-01   1.659E-04    1.595E-04   127    5.00E-01    1.000000   -2.000000          0      0.48     -0.25
+ Conc =   0.000E+00   3.577E+00   4.974E+00   1.028E+00   1.342E+00   1.572E+00   2.910E+00   1.346E+01   7.238E+00   4.408E-01
+          1.477E+01   6.229E-01   4.714E-01   4.801E+00   4.605E+00   3.281E-01   5.655E-01   1.697E+00   0.000E+00   0.000E+00
+          8.259E+00   1.717E-01   1.138E+01   4.176E+00   8.023E+00   4.990E+00   0.000E+00
+ Backgr =   4.470E-02   6.204E-02   7.931E-02   6.835E-02   4.923E-02   3.860E-02   4.762E-02   4.871E-02   3.532E-02   1.647E-02
+            3.288E-02   3.571E-02   4.841E-02   5.110E-02   4.610E-02   3.808E-02   2.789E-02   1.618E-02   5.999E-03   3.061E-04
+           -5.121E-03  -9.464E-03  -1.731E-03   1.118E-02   2.035E-02   3.053E-02
+ Lineshape =      0.1113     -0.2147      0.3334     -0.3592      0.3826     -0.3002      0.3004     -0.2118      0.2587     -0.1287
+                  0.2606      0.4012     -0.2527      0.4856     -0.3310      0.4553     -0.2500      0.2825     -0.1873      0.2002
+                 -0.1473      0.0796
+ 1000*Shift =      -0.00      -6.09     -13.72      -4.23     -10.60      -2.66       2.42      -4.98      -1.65      -0.49
+                   -6.17       1.78       1.16      -3.20       7.45      -2.57      -0.44      -0.21       0.00      -0.00
+                  -41.06      -0.02      -5.80     -21.02     -68.06     -72.35       0.00
+ delta(1/T2) =       2.45       2.51       3.98       2.56       2.73       2.61       2.10       3.10       1.63       2.44
+                     3.41       2.55       2.49       3.24       2.57       2.54       2.42      55.47       5.37      51.55
+                    25.64      52.57      43.55      22.67      15.03      16.28       2.45
+
+ ITER = 4     ALPHAB = 3.830E-02   ALPHAS = 1.000E-01      Ninfle =18      (SSQ  1.658455E-01 <  1.687590E-01 <  1.697807E-01)
+              penB/penS = 6.82E+01 / 2.83E-01 = 2.41E+02   Nextre =19
+              Penalty =  6.8472E+01                        Penalty*SDREF**2 (w/o prior) =  1.23E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.806698E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.48     -0.25
+    1  1.806543E-01   8.541E-05    8.341E-05   127    1.00E+00    1.000000   -2.000000          0      0.49     -0.24
+    1  1.806312E-01   1.280E-04    1.235E-04   127    5.00E-01    1.000000   -2.000000          0      0.50     -0.23
+ Conc =   0.000E+00   3.567E+00   4.959E+00   1.021E+00   1.340E+00   1.569E+00   2.900E+00   1.344E+01   7.257E+00   4.395E-01
+          1.477E+01   6.242E-01   4.710E-01   4.809E+00   4.586E+00   3.301E-01   5.946E-01   1.749E+00   0.000E+00   0.000E+00
+          8.282E+00   1.895E-01   1.135E+01   4.176E+00   8.022E+00   5.000E+00   0.000E+00
+ Backgr =   4.427E-02   6.200E-02   7.956E-02   6.844E-02   4.908E-02   3.828E-02   4.753E-02   4.882E-02   3.544E-02   1.635E-02
+            3.300E-02   3.573E-02   4.860E-02   5.122E-02   4.614E-02   3.808E-02   2.787E-02   1.607E-02   5.860E-03   2.497E-04
+           -5.179E-03  -9.653E-03  -1.860E-03   1.115E-02   2.030E-02   3.051E-02
+ Lineshape =      0.1113     -0.2153      0.3347     -0.3611      0.3847     -0.3022      0.3022     -0.2134      0.2596     -0.1289
+                  0.2600      0.3996     -0.2508      0.4834     -0.3280      0.4521     -0.2474      0.2815     -0.1876      0.2010
+                 -0.1476      0.0796
+ 1000*Shift =      -0.00      -6.06     -13.75      -4.24     -10.61      -2.75       2.42      -4.99      -1.66      -0.49
+                   -6.17       1.78       1.13      -3.22       7.46      -2.69      -0.53      -0.21       0.00      -0.00
+                  -41.00      -0.02      -5.98     -21.03     -67.84     -72.32       0.00
+ delta(1/T2) =       2.45       2.51       3.96       2.55       2.71       2.60       2.10       3.09       1.65       2.44
+                     3.41       2.55       2.49       3.25       2.56       2.54       2.42      55.68       5.37      51.55
+                    25.72      52.45      43.28      22.98      15.15      16.31       2.45
+
+ ITER = 5     ALPHAB = 3.772E-02   ALPHAS = 1.000E-01      Ninfle =18      (SSQ -1.000000E-37 <  1.683588E-01 <  1.687590E-01)
+              penB/penS = 6.81E+01 / 2.83E-01 = 2.41E+02   Nextre =19
+              Penalty =  6.8420E+01                        Penalty*SDREF**2 (w/o prior) =  1.23E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.797612E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.50     -0.23
+    1  1.797446E-01   9.265E-05    9.102E-05   127    1.00E+00    1.000000   -2.000000          0      0.53     -0.22
+    1  1.797214E-01   1.287E-04    1.246E-04   127    5.00E-01    1.000000   -2.000000          0      0.55     -0.21
+ Conc =   0.000E+00   3.544E+00   4.941E+00   1.008E+00   1.336E+00   1.561E+00   2.888E+00   1.341E+01   7.285E+00   4.378E-01
+          1.477E+01   6.273E-01   4.714E-01   4.817E+00   4.554E+00   3.338E-01   6.465E-01   1.792E+00   0.000E+00   0.000E+00
+          8.323E+00   2.235E-01   1.129E+01   4.170E+00   8.022E+00   5.012E+00   0.000E+00
+ Backgr =   4.337E-02   6.192E-02   8.003E-02   6.858E-02   4.885E-02   3.769E-02   4.737E-02   4.899E-02   3.573E-02   1.605E-02
+            3.326E-02   3.569E-02   4.893E-02   5.140E-02   4.625E-02   3.809E-02   2.786E-02   1.595E-02   5.708E-03   2.586E-04
+           -5.185E-03  -9.972E-03  -2.079E-03   1.113E-02   2.024E-02   3.048E-02
+ Lineshape =      0.1113     -0.2157      0.3358     -0.3627      0.3864     -0.3039      0.3037     -0.2146      0.2603     -0.1289
+                  0.2594      0.3981     -0.2489      0.4812     -0.3251      0.4490     -0.2448      0.2802     -0.1873      0.2011
+                 -0.1475      0.0793
+ 1000*Shift =      -0.00      -6.03     -13.77      -4.25     -10.61      -2.83       2.41      -4.99      -1.68      -0.49
+                   -6.18       1.79       1.11      -3.24       7.48      -2.82      -0.63      -0.22       0.00      -0.00
+                  -40.92      -0.02      -6.16     -21.03     -67.62     -72.31       0.00
+ delta(1/T2) =       2.45       2.51       3.93       2.55       2.69       2.59       2.10       3.08       1.68       2.44
+                     3.41       2.55       2.48       3.25       2.55       2.54       2.42      55.89       5.37      51.55
+                    25.84      52.30      43.04      23.32      15.25      16.35       2.45
+
+ ITER = 6     ALPHAB = 3.638E-02   ALPHAS = 1.000E-01      Ninfle =18      (SSQ -1.000000E-37 <  1.676175E-01 <  1.683588E-01)
+              penB/penS = 6.72E+01 / 2.82E-01 = 2.38E+02   Nextre =19
+              Penalty =  6.7481E+01                        Penalty*SDREF**2 (w/o prior) =  1.21E-02
+
+ Probability to reject = 0.0486
+
+
+
+
+
+
+          Phase Pair 1     Decrease 1 of alphaB/alphaS
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.671913E-01   0.000E+00    0.000E+00   128    0.00E+00    0.000000   -2.000000          0      0.55     -0.21
+    1  1.655512E-01   9.810E-03    9.904E-03   128    0.00E+00    0.742615   -2.000000          0      1.38      0.01
+    2  1.651327E-01   2.528E-03    2.052E-03   128    0.00E+00    1.000000   -2.000000          0      1.56      0.10
+    2  1.650666E-01   4.005E-04    3.610E-04   128    0.00E+00    1.000000   -2.000000          0      1.63      0.15
+ Conc =   0.000E+00   3.068E+00   4.709E+00   8.061E-01   1.244E+00   1.434E+00   2.843E+00   1.263E+01   7.731E+00   3.942E-01
+          1.472E+01   6.730E-01   4.978E-01   4.825E+00   4.109E+00   4.035E-01   1.652E+00   2.542E+00   0.000E+00   1.493E-01
+          9.296E+00   7.459E-01   1.121E+01   3.936E+00   8.074E+00   5.354E+00   0.000E+00
+ Backgr =   1.930E-02   6.133E-02   8.780E-02   7.042E-02   4.651E-02   2.585E-02   4.351E-02   5.025E-02   4.184E-02   1.017E-02
+            3.893E-02   3.311E-02   5.565E-02   5.187E-02   4.600E-02   3.803E-02   2.819E-02   1.253E-02   1.251E-03   2.026E-03
+           -3.177E-03  -1.864E-02  -7.056E-03   1.111E-02   1.869E-02   3.135E-02
+ Lineshape =      0.1095     -0.2125      0.3277     -0.3442      0.3557     -0.2627      0.2580     -0.1703      0.2189     -0.0869
+                  0.2151      0.3479     -0.1951      0.4246     -0.2611      0.3842     -0.1873      0.2389     -0.1610      0.1816
+                 -0.1320      0.0693
+ 1000*Shift =       0.00      -5.35     -13.98      -4.88     -10.61      -3.74       2.45      -4.94      -1.88      -0.57
+                   -6.23       1.59      -0.16      -3.46       7.57      -3.95      -4.00      -0.23       0.00      -0.11
+                  -39.22      -0.46     -11.58     -16.22     -61.06     -74.04       0.00
+ delta(1/T2) =       2.45       2.47       3.54       2.50       2.35       2.35       2.18       2.85       2.20       2.43
+                     3.45       2.54       2.38       3.19       2.46       2.53       2.30      58.79       5.37      51.55
+                    28.72      47.06      40.01      33.62      16.82      16.82       2.45
+
+ ITER = 1     ALPHAB = 1.819E-02   ALPHAS = 2.000E-01      Ninfle =18      (SSQ  1.483881E-01 <  1.567135E-01 <  1.000000E+37)
+              penB/penS = 4.57E+01 / 8.45E-01 = 5.41E+01   Nextre =15
+              Penalty =  4.6569E+01                        Penalty*SDREF**2 (w/o prior) =  8.35E-03
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.817021E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      1.63      0.15
+    1  1.800754E-01   8.953E-03    9.897E-03   127    0.00E+00    1.000000   -2.000000          0      0.79     -0.04
+    1  1.799768E-01   5.479E-04    8.276E-04   127    0.00E+00    1.000000   -2.000000          0      0.83     -0.04
+ Conc =   0.000E+00   3.537E+00   4.929E+00   1.031E+00   1.334E+00   1.548E+00   2.829E+00   1.330E+01   7.346E+00   4.257E-01
+          1.469E+01   6.486E-01   4.681E-01   4.801E+00   4.478E+00   3.400E-01   7.702E-01   2.265E+00   0.000E+00   0.000E+00
+          8.285E+00   2.457E-01   1.140E+01   4.161E+00   7.807E+00   5.069E+00   0.000E+00
+ Backgr =   4.260E-02   6.176E-02   8.061E-02   6.903E-02   4.838E-02   3.669E-02   4.685E-02   4.917E-02   3.554E-02   1.598E-02
+            3.346E-02   3.631E-02   4.992E-02   5.196E-02   4.541E-02   3.729E-02   2.742E-02   1.519E-02   5.021E-03   9.510E-05
+           -5.349E-03  -1.048E-02  -2.493E-03   1.074E-02   1.985E-02   3.014E-02
+ Lineshape =      0.1050     -0.1952      0.2955     -0.3010      0.3053     -0.2073      0.1954     -0.0986      0.1397     -0.0070
+                  0.1354      0.2641     -0.1106      0.3400     -0.1861      0.3220     -0.1372      0.1985     -0.1288      0.1640
+                 -0.1264      0.0726
+ 1000*Shift =       0.00      -5.68     -13.84      -4.62     -10.66      -3.23       2.51      -5.03      -1.77      -0.58
+                   -6.24       2.10       0.76      -3.35       7.45      -3.80      -2.81      -0.72       0.00      -0.00
+                  -40.64      -0.14     -10.49     -19.41     -65.06     -71.66       0.00
+ delta(1/T2) =       2.45       2.51       3.86       2.56       2.65       2.46       2.20       2.99       1.76       2.43
+                     3.30       2.56       2.48       3.22       2.55       2.49       2.36      56.65       5.37      51.55
+                    25.45      51.86      40.49      26.91      15.41      16.52       2.45
+
+ ITER = 2     ALPHAB = 3.638E-02   ALPHAS = 4.000E-01      Ninfle =17      (SSQ  1.567135E-01 <  1.668382E-01 <  1.000000E+37)
+              penB/penS = 7.12E+01 / 2.09E+00 = 3.40E+01   Nextre =13
+              Penalty =  7.3249E+01                        Penalty*SDREF**2 (w/o prior) =  1.31E-02
+
+ Probability to reject = 0.0257
+
+
+
+
+
+
+          Phase Pair 1     Decrease 2 of alphaB/alphaS
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.678068E-01   0.000E+00    0.000E+00   128    0.00E+00    0.000000   -2.000000          0      0.83     -0.04
+    1  1.661155E-01   1.008E-02    1.094E-02   128    0.00E+00    1.000000   -2.000000          0      1.87      0.31
+    1  1.660266E-01   5.348E-04    9.340E-04   128    0.00E+00    1.000000   -2.000000          0      1.73      0.28
+ Conc =   0.000E+00   3.079E+00   4.733E+00   8.225E-01   1.239E+00   1.425E+00   2.839E+00   1.256E+01   7.734E+00   4.017E-01
+          1.465E+01   7.059E-01   5.056E-01   4.773E+00   4.114E+00   4.033E-01   1.610E+00   2.069E+00   0.000E+00   2.354E-02
+          9.432E+00   6.651E-01   1.153E+01   3.990E+00   8.206E+00   5.288E+00   0.000E+00
+ Backgr =   1.889E-02   6.153E-02   8.790E-02   7.082E-02   4.635E-02   2.629E-02   4.375E-02   5.032E-02   4.168E-02   1.028E-02
+            3.905E-02   3.339E-02   5.609E-02   5.159E-02   4.518E-02   3.733E-02   2.794E-02   1.288E-02   1.837E-03   2.413E-03
+           -3.184E-03  -1.883E-02  -7.579E-03   1.066E-02   1.836E-02   3.105E-02
+ Lineshape =      0.0977     -0.1717      0.2492     -0.2317      0.2204     -0.1176      0.1120     -0.0275      0.0789      0.0529
+                  0.0694      0.1734     -0.0062      0.2267     -0.0654      0.2028     -0.0288      0.1090     -0.0596      0.1129
+                 -0.0946      0.0589
+ 1000*Shift =       0.00      -5.44     -13.90      -5.43     -10.77      -3.63       2.27      -4.93      -1.93      -1.07
+                   -6.26       2.15      -0.06      -3.53       7.36      -4.03      -3.27      -0.24       0.00      -0.14
+                  -38.78      -0.44     -12.24     -15.93     -62.34     -73.45       0.00
+ delta(1/T2) =       2.45       2.49       3.52       2.51       2.34       2.27       2.25       2.74       2.20       2.42
+                     3.33       2.58       2.38       3.11       2.49       2.54       2.32      59.14       5.37      51.54
+                    28.97      47.41      39.35      33.51      17.29      16.67       2.45
+
+ ITER = 1     ALPHAB = 1.819E-02   ALPHAS = 8.000E-01      Ninfle =15      (SSQ  1.483881E-01 <  1.572535E-01 <  1.000000E+37)
+              penB/penS = 4.55E+01 / 3.38E+00 = 1.35E+01   Nextre = 9
+              Penalty =  4.8911E+01                        Penalty*SDREF**2 (w/o prior) =  8.77E-03
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.840001E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      1.73      0.28
+    1  1.816214E-01   1.293E-02    1.448E-02   127    0.00E+00    1.000000   -2.000000          0      0.98      0.14
+    2  1.815010E-01   6.627E-04    1.155E-03   127    0.00E+00    1.000000   -2.000000          0      1.17      0.19
+    2  1.814658E-01   1.942E-04    5.272E-04   127    0.00E+00    1.000000   -2.000000          0      1.09      0.18
+ Conc =   0.000E+00   3.553E+00   4.985E+00   1.048E+00   1.326E+00   1.540E+00   2.810E+00   1.329E+01   7.313E+00   4.417E-01
+          1.461E+01   6.962E-01   4.745E-01   4.711E+00   4.496E+00   3.368E-01   7.059E-01   1.868E+00   0.000E+00   0.000E+00
+          8.347E+00   1.799E-01   1.159E+01   4.174E+00   7.986E+00   5.075E+00   0.000E+00
+ Backgr =   4.259E-02   6.185E-02   8.065E-02   6.923E-02   4.870E-02   3.731E-02   4.740E-02   4.934E-02   3.560E-02   1.603E-02
+            3.358E-02   3.663E-02   5.009E-02   5.170E-02   4.484E-02   3.652E-02   2.694E-02   1.518E-02   5.113E-03  -1.320E-04
+           -5.678E-03  -1.091E-02  -3.252E-03   1.004E-02   1.938E-02   2.979E-02
+ Lineshape =      0.0785     -0.1101      0.1480     -0.1134      0.1061     -0.0223      0.0370      0.0328      0.0258      0.0949
+                  0.0318      0.1165      0.0632      0.1467      0.0171      0.1238      0.0450      0.0466     -0.0090      0.0846
+                 -0.0839      0.0608
+ 1000*Shift =       0.00      -6.25     -13.88      -5.31     -11.06      -3.40       2.25      -5.17      -1.98      -1.12
+                   -6.42       2.70       0.97      -3.58       6.73      -3.63      -2.16      -0.54       0.00      -0.00
+                  -40.13      -0.12     -10.65     -19.65     -66.36     -71.26       0.00
+ delta(1/T2) =       2.45       2.56       3.91       2.57       2.60       2.42       2.24       2.94       1.73       2.41
+                     3.19       2.58       2.50       3.09       2.61       2.51       2.38      57.58       5.37      51.55
+                    25.79      52.10      39.91      25.38      15.56      16.78       2.45
+
+ ITER = 2     ALPHAB = 3.638E-02   ALPHAS = 1.600E+00      Ninfle =12      (SSQ  1.572535E-01 <  1.681849E-01 <  1.000000E+37)
+              penB/penS = 7.05E+01 / 3.54E+00 = 1.99E+01   Nextre = 9
+              Penalty =  7.4042E+01                        Penalty*SDREF**2 (w/o prior) =  1.33E-02
+
+ Probability to reject = 0.0731
+
+
+
+
+
+
+                    Step 2: Increase alphaS with fixed alphaB
+
+
+ SSQREF =  1.483881E-01   SSQMIN =  1.699508E-01   SSQMAX =  1.725754E-01   PREJMN = 0.2000   PREJMX = 0.5000
+
+
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.811013E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.83     -0.04
+    1  1.806344E-01   2.578E-03    3.228E-03   127    0.00E+00    1.000000   -2.000000          0      0.97      0.05
+    1  1.805895E-01   2.487E-04    5.497E-04   127    0.00E+00    1.000000   -2.000000          0      0.93      0.04
+ Conc =   0.000E+00   3.544E+00   4.951E+00   1.040E+00   1.331E+00   1.546E+00   2.825E+00   1.329E+01   7.335E+00   4.440E-01
+          1.465E+01   6.693E-01   4.711E-01   4.765E+00   4.483E+00   3.389E-01   7.358E-01   1.957E+00   0.000E+00   0.000E+00
+          8.345E+00   1.973E-01   1.150E+01   4.179E+00   7.942E+00   5.080E+00   0.000E+00
+ Backgr =   4.265E-02   6.182E-02   8.059E-02   6.909E-02   4.847E-02   3.702E-02   4.710E-02   4.920E-02   3.558E-02   1.603E-02
+            3.351E-02   3.642E-02   4.997E-02   5.183E-02   4.522E-02   3.704E-02   2.726E-02   1.532E-02   5.139E-03  -7.505E-05
+           -5.577E-03  -1.064E-02  -2.848E-03   1.044E-02   1.969E-02   3.005E-02
+ Lineshape =      0.0974     -0.1690      0.2455     -0.2304      0.2223     -0.1211      0.1123     -0.0217      0.0687      0.0601
+                  0.0674      0.1778     -0.0124      0.2327     -0.0758      0.2158     -0.0411      0.1169     -0.0634      0.1189
+                 -0.1020      0.0657
+ 1000*Shift =       0.00      -5.81     -13.79      -4.91     -10.85      -3.20       2.37      -5.03      -1.79      -1.05
+                   -6.27       2.51       1.13      -3.41       7.12      -3.71      -2.42      -0.50       0.00      -0.00
+                  -40.42      -0.11     -10.45     -20.23     -66.19     -71.67       0.00
+ delta(1/T2) =       2.45       2.52       3.88       2.57       2.62       2.42       2.23       2.96       1.75       2.42
+                     3.24       2.58       2.48       3.16       2.58       2.50       2.37      56.68       5.37      51.55
+                    25.83      52.14      40.47      25.11      15.27      16.77       2.45
+
+ ITER = 1     ALPHAB = 3.638E-02   ALPHAS = 8.000E-01      Ninfle =17      (SSQ  1.668382E-01 <  1.673106E-01 <  1.000000E+37)
+              penB/penS = 7.05E+01 / 3.53E+00 = 2.00E+01   Nextre = 9
+              Penalty =  7.4031E+01                        Penalty*SDREF**2 (w/o prior) =  1.33E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.824881E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.93      0.04
+    1  1.815462E-01   5.162E-03    6.465E-03   127    0.00E+00    1.000000   -2.000000          0      1.15      0.18
+    1  1.814907E-01   3.056E-04    9.000E-04   127    0.00E+00    1.000000   -2.000000          0      1.12      0.16
+ Conc =   0.000E+00   3.546E+00   4.971E+00   1.043E+00   1.327E+00   1.542E+00   2.812E+00   1.327E+01   7.312E+00   4.560E-01
+          1.461E+01   6.912E-01   4.746E-01   4.725E+00   4.490E+00   3.361E-01   6.989E-01   1.794E+00   0.000E+00   0.000E+00
+          8.379E+00   1.688E-01   1.161E+01   4.188E+00   8.014E+00   5.105E+00   0.000E+00
+ Backgr =   4.251E-02   6.180E-02   8.065E-02   6.922E-02   4.870E-02   3.738E-02   4.741E-02   4.930E-02   3.566E-02   1.604E-02
+            3.358E-02   3.658E-02   5.011E-02   5.171E-02   4.495E-02   3.666E-02   2.700E-02   1.521E-02   5.060E-03  -2.556E-04
+           -5.776E-03  -1.088E-02  -3.243E-03   1.009E-02   1.945E-02   2.986E-02
+ Lineshape =      0.0866     -0.1315      0.1775     -0.1415      0.1277     -0.0347      0.0426      0.0298      0.0323      0.0883
+                  0.0401      0.1300      0.0500      0.1589      0.0031      0.1374      0.0333      0.0481     -0.0033      0.0729
+                 -0.0749      0.0573
+ 1000*Shift =       0.00      -5.78     -13.70      -5.14     -10.95      -3.16       2.27      -4.98      -1.78      -1.36
+                   -6.22       2.79       1.44      -3.42       6.86      -3.44      -2.07      -0.41       0.00      -0.00
+                  -40.15      -0.10     -10.60     -20.42     -66.55     -71.57       0.00
+ delta(1/T2) =       2.45       2.56       3.90       2.57       2.59       2.42       2.25       2.94       1.73       2.41
+                     3.20       2.58       2.49       3.10       2.61       2.50       2.37      56.69       5.37      51.55
+                    26.01      52.27      40.22      24.45      15.22      17.03       2.45
+
+ ITER = 2     ALPHAB = 3.638E-02   ALPHAS = 1.600E+00      Ninfle =14      (SSQ  1.673106E-01 <  1.680069E-01 <  1.000000E+37)
+              penB/penS = 7.04E+01 / 4.76E+00 = 1.48E+01   Nextre = 9
+              Penalty =  7.5173E+01                        Penalty*SDREF**2 (w/o prior) =  1.35E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.840532E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      1.12      0.16
+    1  1.826086E-01   7.849E-03    9.596E-03   127    0.00E+00    1.000000   -2.000000          0      1.28      0.30
+    2  1.824994E-01   5.975E-04    1.512E-03   127    0.00E+00    1.000000   -2.000000          0      1.18      0.25
+    3  1.824270E-01   3.968E-04    1.062E-03   127    0.00E+00    1.000000   -2.000000          0      1.01      0.20
+    3  1.823983E-01   1.574E-04    7.761E-04   127    0.00E+00    1.000000   -2.000000          0      1.06      0.22
+ Conc =   0.000E+00   3.516E+00   4.974E+00   1.057E+00   1.321E+00   1.535E+00   2.799E+00   1.325E+01   7.278E+00   4.723E-01
+          1.459E+01   6.887E-01   4.757E-01   4.696E+00   4.494E+00   3.349E-01   6.753E-01   1.659E+00   0.000E+00   0.000E+00
+          8.420E+00   1.463E-01   1.178E+01   4.201E+00   8.071E+00   5.156E+00   0.000E+00
+ Backgr =   4.319E-02   6.228E-02   8.090E-02   6.952E-02   4.904E-02   3.777E-02   4.780E-02   4.944E-02   3.569E-02   1.599E-02
+            3.379E-02   3.682E-02   5.037E-02   5.161E-02   4.457E-02   3.603E-02   2.660E-02   1.497E-02   4.875E-03  -5.036E-04
+           -6.028E-03  -1.118E-02  -3.682E-03   9.716E-03   1.921E-02   2.970E-02
+ Lineshape =      0.0713     -0.0780      0.0895     -0.0450      0.0475      0.0195      0.0175      0.0339      0.0438      0.0783
+                  0.0426      0.1021      0.0920      0.1098      0.0462      0.1030      0.0593      0.0132      0.0348      0.0328
+                 -0.0493      0.0489
+ 1000*Shift =      -0.00      -5.31     -13.17      -5.33     -10.69      -2.70       2.61      -4.45      -1.29      -1.38
+                   -5.74       2.94       2.51      -2.98       6.66      -3.01      -1.78      -0.35       0.00      -0.00
+                  -39.87      -0.09     -10.99     -20.62     -66.66     -71.35       0.00
+ delta(1/T2) =       2.45       2.60       3.96       2.57       2.53       2.44       2.24       2.97       1.71       2.40
+                     3.23       2.59       2.50       3.05       2.65       2.50       2.38      56.66       5.37      51.55
+                    26.22      52.38      39.66      24.00      15.14      17.47       2.45
+
+ ITER = 3     ALPHAB = 3.638E-02   ALPHAS = 3.200E+00      Ninfle =13      (SSQ  1.680069E-01 <  1.689729E-01 <  1.000000E+37)
+              penB/penS = 7.05E+01 / 4.36E+00 = 1.62E+01   Nextre = 9
+              Penalty =  7.4848E+01                        Penalty*SDREF**2 (w/o prior) =  1.34E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.847446E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      1.06      0.22
+    1  1.833544E-01   7.525E-03    8.571E-03   127    0.00E+00    1.000000   -2.000000          0      1.09      0.30
+    2  1.831548E-01   1.089E-03    1.499E-03   127    0.00E+00    1.000000   -2.000000          0      1.04      0.30
+    2  1.830299E-01   6.821E-04    8.555E-04   127    0.00E+00    1.000000   -2.000000          0      0.73      0.20
+ Conc =   0.000E+00   3.473E+00   4.955E+00   1.067E+00   1.307E+00   1.525E+00   2.768E+00   1.321E+01   7.249E+00   4.824E-01
+          1.462E+01   6.651E-01   4.841E-01   4.697E+00   4.494E+00   3.356E-01   6.694E-01   1.630E+00   0.000E+00   0.000E+00
+          8.455E+00   1.362E-01   1.196E+01   4.202E+00   8.065E+00   5.223E+00   0.000E+00
+ Backgr =   4.444E-02   6.317E-02   8.144E-02   7.004E-02   4.942E-02   3.807E-02   4.821E-02   4.964E-02   3.558E-02   1.587E-02
+            3.403E-02   3.717E-02   5.078E-02   5.168E-02   4.412E-02   3.523E-02   2.614E-02   1.466E-02   4.622E-03  -7.394E-04
+           -6.252E-03  -1.145E-02  -4.060E-03   9.411E-03   1.902E-02   2.958E-02
+ Lineshape =      0.0512     -0.0230      0.0201      0.0080      0.0224      0.0242      0.0224      0.0274      0.0546      0.0677
+                  0.0530      0.0960      0.1094      0.0843      0.0687      0.0928      0.0540      0.0153      0.0403      0.0142
+                 -0.0329      0.0431
+ 1000*Shift =       0.00      -4.74     -12.75      -5.34     -10.48      -2.39       2.93      -3.98      -0.82      -1.03
+                   -5.31       3.14       3.38      -2.59       6.39      -2.93      -1.46      -0.33       0.00       0.00
+                  -39.64      -0.08     -11.40     -20.56     -66.34     -71.05       0.00
+ delta(1/T2) =       2.45       2.62       4.02       2.57       2.51       2.47       2.25       3.02       1.74       2.40
+                     3.34       2.58       2.49       3.08       2.66       2.50       2.38      56.40       5.37      51.55
+                    26.40      52.45      38.97      23.75      14.92      18.03       2.45
+
+ ITER = 4     ALPHAB = 3.638E-02   ALPHAS = 6.400E+00      Ninfle =12      (SSQ  1.689729E-01 <  1.696329E-01 <  1.000000E+37)
+              penB/penS = 7.12E+01 / 3.52E+00 = 2.02E+01   Nextre = 5
+              Penalty =  7.4689E+01                        Penalty*SDREF**2 (w/o prior) =  1.34E-02
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.849226E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.73      0.20
+    1  1.839687E-01   5.158E-03    4.831E-03   127    0.00E+00    1.000000   -2.000000          0      1.05      0.41
+    1  1.838542E-01   6.227E-04    4.343E-04   127    0.00E+00    1.000000   -2.000000          0      0.91      0.38
+ Conc =   0.000E+00   3.455E+00   4.959E+00   1.069E+00   1.278E+00   1.509E+00   2.725E+00   1.317E+01   7.217E+00   4.840E-01
+          1.455E+01   6.895E-01   5.086E-01   4.678E+00   4.480E+00   3.352E-01   6.724E-01   1.557E+00   0.000E+00   0.000E+00
+          8.497E+00   1.274E-01   1.220E+01   4.208E+00   8.115E+00   5.293E+00   0.000E+00
+ Backgr =   4.454E-02   6.340E-02   8.190E-02   7.058E-02   4.987E-02   3.826E-02   4.844E-02   4.969E-02   3.552E-02   1.583E-02
+            3.423E-02   3.761E-02   5.123E-02   5.151E-02   4.364E-02   3.439E-02   2.556E-02   1.426E-02   4.293E-03  -1.089E-03
+           -6.616E-03  -1.194E-02  -4.740E-03   8.806E-03   1.859E-02   2.926E-02
+ Lineshape =      0.0452     -0.0058      0.0018      0.0173      0.0241      0.0215      0.0219      0.0340      0.0563      0.0638
+                  0.0612      0.1036      0.1030      0.0810      0.0785      0.0820      0.0478      0.0252      0.0303      0.0030
+                 -0.0121      0.0314
+ 1000*Shift =       0.00      -4.10     -12.07      -4.99     -10.10      -1.93       3.58      -3.28      -0.19      -1.03
+                   -4.64       3.38       4.06      -2.02       6.32      -2.82      -1.36      -0.32       0.00      -0.00
+                  -39.19      -0.08     -12.05     -20.49     -66.33     -70.67       0.00
+ delta(1/T2) =       2.45       2.62       4.07       2.57       2.49       2.48       2.26       3.02       1.73       2.40
+                     3.32       2.58       2.47       3.10       2.68       2.50       2.38      56.45       5.37      51.55
+                    26.58      52.45      38.22      23.83      14.93      18.59       2.45
+
+ ITER = 5     ALPHAB = 3.638E-02   ALPHAS = 1.280E+01      Ninfle =11      (SSQ  1.696329E-01 <  1.700251E-01 <  1.000000E+37)
+              penB/penS = 7.20E+01 / 5.10E+00 = 1.41E+01   Nextre = 5
+              Penalty =  7.7099E+01                        Penalty*SDREF**2 (w/o prior) =  1.38E-02
+
+ Probability to reject = 0.2070
+
+
+
+
+
+
+                    Step 3B: Decrease alphaB with fixed alphaS
+
+
+ SSQREF =  1.483881E-01   SSQMIN =  1.665555E-01   SSQMAX =  1.683172E-01   PREJMN = 0.0200   PREJMX = 0.0800
+
+
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.704093E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      0.91      0.38
+    1  1.688775E-01   8.989E-03    8.972E-03   127    0.00E+00    1.000000   -2.000000          0      1.70      0.73
+    1  1.687300E-01   8.737E-04    7.249E-04   127    0.00E+00    1.000000   -2.000000          0      1.43      0.70
+ Conc =   0.000E+00   2.949E+00   4.741E+00   8.989E-01   1.197E+00   1.393E+00   2.710E+00   1.229E+01   7.616E+00   4.484E-01
+          1.454E+01   7.114E-01   5.303E-01   4.679E+00   4.030E+00   3.938E-01   1.552E+00   1.558E+00   0.000E+00   0.000E+00
+          9.811E+00   5.828E-01   1.303E+01   4.103E+00   8.388E+00   5.379E+00   0.000E+00
+ Backgr =   2.200E-02   6.392E-02   8.981E-02   7.295E-02   4.786E-02   2.751E-02   4.623E-02   5.040E-02   4.042E-02   9.849E-03
+            4.013E-02   3.490E-02   5.833E-02   5.032E-02   4.124E-02   3.227E-02   2.647E-02   1.211E-02   7.674E-04   5.152E-04
+           -4.807E-03  -2.090E-02  -1.130E-02   8.223E-03   1.670E-02   2.972E-02
+ Lineshape =      0.0433     -0.0029     -0.0008      0.0186      0.0261      0.0198      0.0214      0.0384      0.0583      0.0623
+                  0.0634      0.1052      0.1019      0.0803      0.0797      0.0799      0.0447      0.0241      0.0277      0.0011
+                 -0.0101      0.0283
+ 1000*Shift =       0.00      -2.22     -11.64      -5.53      -9.42      -2.10       3.81      -2.65       0.14      -0.86
+                   -4.11       3.15       3.09      -1.63       6.99      -2.91      -1.97      -0.13       0.00      -0.00
+                  -37.29      -0.42     -15.02     -16.41     -62.72     -72.72       0.00
+ delta(1/T2) =       2.45       2.55       3.72       2.52       2.27       2.34       2.28       2.75       2.20       2.40
+                     3.43       2.58       2.39       3.08       2.59       2.54       2.35      58.49       5.37      51.55
+                    30.42      47.96      35.97      31.88      16.49      18.16       2.45
+
+ ITER = 1     ALPHAB = 1.819E-02   ALPHAS = 1.280E+01      Ninfle =11      (SSQ -1.000000E-37 <  1.595277E-01 <  1.700251E-01)
+              penB/penS = 4.70E+01 / 4.30E+00 = 1.09E+01   Nextre = 5
+              Penalty =  5.1303E+01                        Penalty*SDREF**2 (w/o prior) =  9.20E-03
+
+
+
+
+ Iter   Obj. funct.   Rel. dec.   Pred. dec.   NDF   Marquardt   Rel. step      Cosine   Interps.   Degrees   Deg/ppm
+    0  1.814511E-01   0.000E+00    0.000E+00   127    0.00E+00    0.000000   -2.000000          0      1.43      0.70
+    1  1.804821E-01   5.341E-03    5.498E-03   127    0.00E+00    1.000000   -2.000000          0      0.61      0.41
+    1  1.804496E-01   1.802E-04    1.798E-04   127    0.00E+00    1.000000   -2.000000          0      0.80      0.47
+ Conc =   0.000E+00   3.332E+00   4.903E+00   1.056E+00   1.243E+00   1.475E+00   2.679E+00   1.294E+01   7.321E+00   4.660E-01
+          1.452E+01   6.817E-01   5.260E-01   4.683E+00   4.406E+00   3.509E-01   8.846E-01   1.800E+00   0.000E+00   0.000E+00
+          8.672E+00   2.601E-01   1.228E+01   4.187E+00   7.991E+00   5.343E+00   0.000E+00
+ Backgr =   4.141E-02   6.356E-02   8.411E-02   7.166E-02   4.926E-02   3.591E-02   4.800E-02   5.015E-02   3.610E-02   1.465E-02
+            3.557E-02   3.783E-02   5.319E-02   5.211E-02   4.295E-02   3.333E-02   2.534E-02   1.359E-02   3.557E-03  -9.292E-04
+           -6.544E-03  -1.362E-02  -6.126E-03   8.366E-03   1.804E-02   2.895E-02
+ Lineshape =      0.0440     -0.0026     -0.0015      0.0191      0.0257      0.0202      0.0222      0.0377      0.0582      0.0622
+                  0.0638      0.1041      0.1010      0.0786      0.0813      0.0793      0.0422      0.0255      0.0294     -0.0006
+                 -0.0096      0.0307
+ 1000*Shift =       0.00      -3.10     -11.49      -4.98      -9.51      -1.62       3.93      -2.68       0.34      -0.77
+                   -4.06       3.32       3.91      -1.51       6.65      -2.68      -1.37      -0.51       0.00       0.00
+                  -38.63      -0.17     -14.09     -18.96     -64.65     -70.43       0.00
+ delta(1/T2) =       2.45       2.60       3.98       2.57       2.46       2.43       2.25       2.95       1.86       2.40
+                     3.32       2.58       2.43       3.12       2.68       2.51       2.37      57.35       5.37      51.55
+                    26.98      51.49      35.31      27.01      15.01      18.89       2.45
+
+ ITER = 2     ALPHAB = 3.189E-02   ALPHAS = 1.280E+01      Ninfle =11      (SSQ  1.595277E-01 <  1.672236E-01 <  1.700251E-01)
+              penB/penS = 6.92E+01 / 4.56E+00 = 1.52E+01   Nextre = 5
+              Penalty =  7.3736E+01                        Penalty*SDREF**2 (w/o prior) =  1.32E-02
+
+ Probability to reject = 0.0357
+base_dist =  2.216E-01   solmax =  1.412E+00   ratio =  1.569E-01   ratio limit =  2.500E-01
+
+base_dist =  2.216E-01   solmax =  1.412E+00   ratio =  1.569E-01   ratio limit =  2.500E-01
+
+
+
+
+
+ Lineshape coefficients          (Approx. FWHM = 0.034 ppm)
+
+    ORDINATE  ABSCISSA
+   1.181E-02  1.10E+01         X                                                                                                   
+   3.697E-03  1.00E+01X                                                                                                            
+   6.284E-03  9.00E+00   X                                                                                                         
+   2.057E-02  8.00E+00                   X                                                                                         
+   3.130E-02  7.00E+00                                X                                                                            
+   4.788E-02  6.00E+00                                                   X                                                         
+   6.918E-02  5.00E+00                                                                           X                                 
+   7.952E-02  4.00E+00                                                                                       X                     
+   8.537E-02  3.00E+00                                                                                              X              
+   9.533E-02  2.00E+00                                                                                                          X  
+   9.764E-02  1.00E+00                                                                                                            X
+   8.625E-02  0.00E+00                                                                                               X             
+   7.061E-02 -1.00E+00                                                                             X                               
+   6.169E-02 -2.00E+00                                                                   X                                         
+   5.326E-02 -3.00E+00                                                         X                                                   
+   3.910E-02 -4.00E+00                                         X                                                                   
+   2.671E-02 -5.00E+00                          X                                                                                  
+   2.252E-02 -6.00E+00                     X                                                                                       
+   2.180E-02 -7.00E+00                     X                                                                                       
+   1.513E-02 -8.00E+00             X                                                                                               
+   5.501E-03 -9.00E+00  X                                                                                                          
+   9.512E-03 -1.00E+01      X                                                                                                      
+   1.954E-02 -1.10E+01                  X                                                                                          
+
+
+
+
+
+
+                    Correlation coefficients
+
+              Asc    Asp    Cr     GABA   GPC    GSH    Gln    Glu    Ins    Lac    NAA    NAAG   PCh    PCr    PE     Scyllo Tau   
+              Lip13a Lip13b Lip09  MM09   Lip20  MM20   MM12   MM14   MM17   -CrCH2 PCh+GP Cr+PCr NAA+NA
+ Asp          0.000
+ Cr           0.000  0.035
+ GABA         0.000 -0.033  0.031
+ GPC          0.000  0.010 -0.031  0.077
+ GSH          0.000  0.024 -0.012  0.064  0.190
+ Gln          0.000  0.071  0.013  0.099  0.160 -0.206
+ Glu          0.000  0.076  0.052 -0.020  0.191 -0.160 -0.010
+ Ins          0.000  0.057  0.002  0.056  0.232  0.007  0.091  0.142
+ Lac          0.000  0.008 -0.007  0.012  0.015  0.003  0.004  0.009  0.002
+ NAA          0.000 -0.051 -0.125 -0.030 -0.043  0.143 -0.035 -0.164 -0.026 -0.006
+ NAAG         0.000  0.072  0.135 -0.054  0.018 -0.147  0.018  0.038 -0.016 -0.004 -0.663
+ PCh          0.000  0.004  0.070 -0.067 -0.952 -0.173 -0.164 -0.189 -0.256 -0.014  0.067 -0.043
+ PCr          0.000 -0.040 -0.886 -0.087 -0.060  0.041 -0.003 -0.039  0.013  0.006  0.168 -0.159  0.043
+ PE           0.000 -0.123 -0.053  0.112 -0.273  0.015  0.033 -0.025 -0.185  0.010  0.054 -0.068  0.185  0.027
+ Scyllo       0.000 -0.027 -0.063  0.093 -0.019 -0.011  0.033  0.019  0.322  0.006  0.018 -0.039  0.008  0.057  0.127
+ Tau          0.000  0.009 -0.022  0.054  0.081 -0.052  0.009  0.014  0.421 -0.001 -0.024  0.040 -0.156  0.029 -0.229  0.572
+ Lip13a       0.000  0.008  0.002  0.001 -0.017  0.023 -0.004 -0.033 -0.008 -0.166 -0.002 -0.034  0.018  0.020 -0.014 -0.015 -0.013
+
+ Lip13b       0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+              0.000
+ Lip09        0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+              0.000  0.000
+ MM09         0.000 -0.011  0.024  0.020  0.006 -0.023 -0.015  0.008  0.001  0.022 -0.059  0.023 -0.008 -0.041  0.013  0.013  0.010
+             -0.061  0.000  0.000
+ Lip20        0.000  0.019  0.031 -0.004 -0.024  0.035 -0.004 -0.057 -0.014 -0.078 -0.031 -0.042  0.026  0.014 -0.032 -0.031 -0.027
+              0.460  0.000  0.000 -0.060
+ MM20         0.000 -0.042  0.062  0.069  0.013 -0.070 -0.059  0.025  0.002  0.009 -0.164  0.043 -0.017 -0.118  0.056  0.051  0.036
+             -0.106  0.000  0.000  0.278 -0.160
+ MM12         0.000 -0.007 -0.011  0.010 -0.000 -0.004 -0.008  0.004  0.000  0.105 -0.001 -0.010 -0.001  0.002  0.014  0.011  0.006
+             -0.244  0.000  0.000  0.417 -0.128  0.113
+ MM14         0.000 -0.005  0.001  0.015  0.004 -0.009 -0.001  0.006  0.002 -0.068 -0.025  0.020 -0.005 -0.012  0.005  0.006  0.006
+             -0.428  0.000  0.000  0.139 -0.207  0.038  0.207
+ MM17         0.000 -0.005  0.022  0.024 -0.001 -0.010 -0.001 -0.007 -0.007  0.028 -0.086  0.023 -0.003 -0.023  0.002 -0.003 -0.005
+              0.163  0.000  0.000  0.106  0.063  0.027  0.121  0.143
+ -CrCH2       0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+              0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+ PCh+GPC      0.000  0.044  0.123  0.032  0.198  0.065 -0.004  0.014 -0.067  0.003  0.074 -0.078  0.112 -0.060 -0.292 -0.038 -0.235
+              0.001  0.000  0.000 -0.004  0.003 -0.014 -0.003 -0.003 -0.011  0.000
+ Cr+PCr       0.000 -0.010  0.241 -0.116 -0.191  0.060  0.022  0.027  0.032 -0.002  0.089 -0.052  0.235  0.237 -0.054 -0.013  0.014
+              0.046  0.000  0.000 -0.035  0.093 -0.117 -0.019 -0.024 -0.003  0.000  0.133
+ NAA+NAAG     0.000 -0.004 -0.047 -0.088 -0.042  0.061 -0.031 -0.185 -0.048 -0.012  0.747  0.002  0.052  0.082  0.012 -0.011  0.003
+             -0.033  0.000  0.000 -0.059 -0.078 -0.180 -0.010 -0.016 -0.094  0.000  0.030  0.073
+ Glu+Gln      0.000  0.104  0.050  0.043  0.250 -0.253  0.597  0.796  0.169  0.010 -0.152  0.041 -0.251 -0.033 -0.001  0.035  0.016
+             -0.029  0.000  0.000 -0.003 -0.048 -0.016 -0.002  0.005 -0.006  0.000  0.008  0.035 -0.167
+              Asc    Asp    Cr     GABA   GPC    GSH    Gln    Glu    Ins    Lac    NAA    NAAG   PCh    PCr    PE     Scyllo Tau   
+              Lip13a Lip13b Lip09  MM09   Lip20  MM20   MM12   MM14   MM17   -CrCH2 PCh+GP Cr+PCr NAA+NA
+
+
+
+              1000Shift   SDs  delta(1/T2)   SDs        CONC  %SD
+  1 met= Asc        0.0   0.0         2.45   0.0    0.00E+00  999
+  2 met= Asp       -3.1  -0.8         2.60   0.3    3.33E+00   16
+  3 met= Cr       -11.5  -2.9         3.98   3.1    4.90E+00    6
+  4 met= GABA      -5.0  -1.2         2.57   0.2    1.06E+00   30
+  5 met= GPC       -9.5  -2.4         2.46   0.0    1.24E+00   12
+  6 met= GSH       -1.6  -0.4         2.43  -0.0    1.47E+00    8
+  7 met= Gln        3.9   1.0         2.25  -0.4    2.68E+00   16
+  8 met= Glu       -2.7  -0.7         2.95   1.0    1.29E+01    4
+  9 met= Ins        0.3   0.1         1.86  -1.2    7.32E+00    4
+ 10 met= Lac       -0.8  -0.2         2.40  -0.1    4.66E-01   53
+ 11 met= NAA       -4.1  -2.0         3.32   1.8    1.45E+01    2
+ 12 met= NAAG       3.3   1.7         2.58   0.3    6.82E-01   26
+ 13 met= PCh        3.9   1.0         2.43  -0.0    5.26E-01   28
+ 14 met= PCr       -1.5  -0.4         3.12   1.4    4.68E+00    6
+ 15 met= PE         6.6   1.7         2.68   0.5    4.41E+00   12
+ 16 met= Scyllo    -2.7  -0.7         2.51   0.1    3.51E-01   15
+ 17 met= Tau       -1.4  -0.3         2.37  -0.2    8.85E-01   47
+ 27 met= -CrCH2     0.0   0.0         2.45   0.0    0.00E+00  999
+ 18 met= Lip13a    -0.5  -0.1        57.35   0.2    1.80E+00  143
+ 19 met= Lip13b     0.0   0.0         5.37   0.0    0.00E+00  999
+ 20 met= Lip09      0.0   0.0        51.55   0.0    0.00E+00  999
+ 21 met= MM09     -38.6  -1.9        26.98  -1.2    8.67E+00   13
+ 22 met= Lip20     -0.2  -0.0        51.49  -0.1    2.60E-01  298
+ 23 met= MM20     -14.1  -2.8        35.31  -0.7    1.23E+01   16
+ 24 met= MM12     -19.0  -1.9        27.01  -2.3    4.19E+00   20
+ 25 met= MM14     -64.6  -3.2        15.01  -2.0    7.99E+00   25
+ 26 met= MM17     -70.4  -2.3        18.89  -0.9    5.34E+00   27
+
+
+
+ LCModel (Version 6.3-1N) Copyright: S.W. Provencher.          Ref.: Magn. Reson. Med. 30:672-679 (1993).                
+ mrs_sub-02_ses-01_press_sub-02_PRESS_35_act_LCM_A                                                                         
+
+    Conc.  %SD /Cr+PCr  Metabolite                                         
+    0.000 999%   0.000 Asc                                                 
+    3.332  16%   0.348 Asp                                                 
+    4.903   6%   0.511 Cr                                                  
+    1.056  30%   0.110 GABA                                                
+    1.243  12%   0.130 GPC                                                 
+    1.475   8%   0.154 GSH                                                 
+    2.679  16%   0.279 Gln                                                 
+   12.943   4%   1.350 Glu                                                 
+    7.321   4%   0.764 Ins                                                 
+    0.466  53% 4.9E-02 Lac                                                 
+   14.522   2%   1.515 NAA                                                 
+    0.682  26% 7.1E-02 NAAG                                                
+    0.526  28% 5.5E-02 PCh                                                 
+    4.683   6%   0.489 PCr                                                 
+    4.406  12%   0.460 PE                                                  
+    0.351  15% 3.7E-02 Scyllo                                              
+    0.885  47% 9.2E-02 Tau                                                 
+    0.000 999%   0.000 -CrCH2                                              
+    1.769   3%   0.185 PCh+GPC                                             
+    9.586   1%   1.000 Cr+PCr                                              
+   15.204   1%   1.586 NAA+NAAG                                            
+   15.622   5%   1.630 Glu+Gln                                             
+    1.800 143%   0.188 Lip13a                                              
+    0.000 999%   0.000 Lip13b                                              
+    0.000 999%   0.000 Lip09                                               
+    8.672  13%   0.905 MM09                                                
+    0.260 298% 2.7E-02 Lip20                                               
+   12.278  16%   1.281 MM20                                                
+    4.187  20%   0.437 MM12                                                
+    7.991  25%   0.834 MM14                                                
+    5.343  27%   0.557 MM17                                                
+     INFORMATION  FINOUT  9.   (Check LCModel Manual).  ************************************************************************
+
+
+
+
+  FWHM = 0.034 ppm    S/N =  49                                            
+  Data shift = 0.000 ppm                                                   
+  Ph: -22 deg      -7.6 deg/ppm                                            
+  alphaB,S = 3.2E-02,   1.3E+01                                            
+   26 spline knots.   Ns =11(1)                                            
+  (17)11 infls.   (13) 5 extrs.                                            
+
+
+
+
+ Summary of diagnostics
+   1 info      FINOUT  9                                                  
+
+ 

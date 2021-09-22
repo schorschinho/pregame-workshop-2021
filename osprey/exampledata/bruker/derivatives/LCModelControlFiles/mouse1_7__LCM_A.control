@@ -1,0 +1,36 @@
+ $LCMODL
+ key = 210387309
+ OWNER = 'Osprey processed spectra'
+ Title = ''
+ HZPPPM =5.002977e+02, DELTAT=2.000000e-04, NUNFIL=4096
+ FILBAS = '/storage/myBasisSet_30ms_PRESS.BASIS'
+ DKNTMN =  0.15
+ DOWS = F
+ ATTMET = 1.00000
+ NEACH = 99
+ WDLINE(6) =   0.0
+ PPMST =  4.20
+ PPMEND =  0.20
+ NSIMUL = 12
+ NCOMBI = 5
+ CHCOMB(1) = 'PCh+GPC'
+ CHCOMB(2) = 'Cr+PCr'
+ CHCOMB(3) = 'NAA+NAAG'
+ CHCOMB(4) = 'Glu+Gln'
+ CHCOMB(5) = 'Glc+Tau'
+ NOMIT= 2
+ CHOMIT(1) = 'Gly'
+ CHOMIT(2) = 'Ser'
+ NAMREL = 'Cr+PCr'
+ DOECC = F
+ LTABLE = 7
+ LCSV = 11
+ LCOORD = 9
+ LPRINT = 6
+ FILTAB = '/storage/LCMoutput/LCMoutput/mouse1_7__LCM_A.table'
+ FILCSV = '/storage/LCMoutput/LCMoutput/mouse1_7__LCM_A.csv'
+ FILCOO = '/storage/LCMoutput/LCMoutput/mouse1_7__LCM_A.coord'
+ FILPRI = '/storage/LCMoutput/LCMoutput/mouse1_7__LCM_A.print'
+ FILRAW = '/storage/LCMoutput/metabs/mouse1_7__LCM_A.RAW'
+ FILPS = '/storage/LCMoutput/LCMoutput/mouse1_7__LCM_A.PS'
+ $END

@@ -1,0 +1,110 @@
+ LCModel (Version 6.3-1N)
+ mrs_sub-01_ses-01_press_sub-01_PRESS_35_act_LCM_A
+
+$$CONC 32 lines in following concentration table = NCONC+1
+    Conc.  %SD /Cr+PCr  Metabolite                                         
+    0.000 999%   0.000 Asc                                                 
+    4.540  14%   0.423 Asp                                                 
+    3.199  12%   0.298 Cr                                                  
+    0.000 999%   0.000 GABA                                                
+    1.748   3%   0.163 GPC                                                 
+    1.478   9%   0.138 GSH                                                 
+    1.646  31%   0.153 Gln                                                 
+   12.534   5%   1.167 Glu                                                 
+    9.195   4%   0.856 Ins                                                 
+    0.310 111% 2.9E-02 Lac                                                 
+   13.285   2%   1.237 NAA                                                 
+    1.095  19%   0.102 NAAG                                                
+    0.000 999%   0.000 PCh                                                 
+    7.543   6%   0.702 PCr                                                 
+    7.174  10%   0.668 PE                                                  
+    0.409  16% 3.8E-02 Scyllo                                              
+    0.992  54% 9.2E-02 Tau                                                 
+    0.000 999%   0.000 -CrCH2                                              
+    1.748   3%   0.163 PCh+GPC                                             
+   10.742   2%   1.000 Cr+PCr                                              
+   14.380   2%   1.339 NAA+NAAG                                            
+   14.181   6%   1.320 Glu+Gln                                             
+   34.826  23%   3.242 Lip13a                                              
+    0.000 999%   0.000 Lip13b                                              
+    9.488  29%   0.883 Lip09                                               
+    8.418  26%   0.784 MM09                                                
+    6.662  14%   0.620 Lip20                                               
+   12.174  23%   1.133 MM20                                                
+    5.256  27%   0.489 MM12                                                
+   13.598  29%   1.266 MM14                                                
+    8.886  28%   0.827 MM17                                                
+
+$$MISC  6 lines in following misc. output table
+  FWHM = 0.038 ppm    S/N =  41                                            
+  Data shift =-0.004 ppm                                                   
+  Ph: -17 deg      -3.5 deg/ppm                                            
+  alphaB,S = 2.6E-02,   9.1E+01                                            
+   26 spline knots.   Ns = 6(2)                                            
+  ( 5) 4 infls.   ( 3) 1 extrs.                                            
+
+$$DIAG  1 lines in following diagnostic table:
+   1 info      STARTV 24                                                  
+
+$$INPU 61 lines in following table of input changes:
+ filh2o = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/derivatives/LCModelFi                         
+   les/ref/mrs_sub-01_ses-01_press-ref_sub-01_PRE                         
+   SS_35_ref_LCM_REF.RAW'                                                 
+ filpri = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+   /LCModelFiles_metabs_mrs_sub-01_ses-01_press_s                         
+   ub-01_PRESS_35_act_LCM_A.print'                                        
+ filcoo = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+   /LCModelFiles_metabs_mrs_sub-01_ses-01_press_s                         
+   ub-01_PRESS_35_act_LCM_A.coord'                                        
+ filcsv = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+   /LCModelFiles_metabs_mrs_sub-01_ses-01_press_s                         
+   ub-01_PRESS_35_act_LCM_A.csv'                                          
+ filtab = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/derivatives/LCMoutput                         
+   /LCModelFiles_metabs_mrs_sub-01_ses-01_press_s                         
+   ub-01_PRESS_35_act_LCM_A.table'                                        
+ filps = '/Users/Georg/Documents/MATLAB/osprey/ex                         
+   ampledata/sdat/UnEdited/derivatives/LCMoutput/                         
+   LCModelFiles_metabs_mrs_sub-01_ses-01_press_su                         
+   b-01_PRESS_35_act_LCM_A.ps'                                            
+ filraw = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/derivatives/LCModelFi                         
+   les/metabs/mrs_sub-01_ses-01_press_sub-01_PRES                         
+   S_35_act_LCM_A.RAW'                                                    
+ nomit = 2                                                                
+ ncombi = 5                                                               
+ nunfil = 2048                                                            
+ deltat = 5.000000e-04                                                    
+ hzpppm = 1.277509e+02                                                    
+ ppmend = 0.50                                                            
+ ppmst = 4.00                                                             
+ doecc = F                                                                
+ namrel = 'Cr+PCr'                                                        
+ chomit(2) = 'Ser'                                                        
+ chomit(1) = 'Gly'                                                        
+ chcomb(5) = 'Glc+Tau'                                                    
+ chcomb(4) = 'Glu+Gln'                                                    
+ chcomb(3) = 'NAA+NAAG'                                                   
+ chcomb(2) = 'Cr+PCr'                                                     
+ chcomb(1) = 'PCh+GPC'                                                    
+ nsimul = 12                                                              
+ neach = 99                                                               
+ wconc = 55556                                                            
+ attmet = 1.0                                                             
+ atth2o = 1.0                                                             
+ dows = T                                                                 
+ dkntmn = 0.15                                                            
+ filbas = '/Users/Georg/Documents/MATLAB/osprey/f                         
+   it/basissets/3T/philips/unedited/press/35/3T_P                         
+   RESS_Philips_35ms_noMM.BASIS'                                          
+ lcsv = 11                                                                
+ ltable = 7                                                               
+ lcoord = 9                                                               
+ lprint = 6                                                               
+ srcraw = '/Users/Georg/Documents/MATLAB/osprey/e                         
+   xampledata/sdat/UnEdited/sub-01/ses-01/mrs/sub                         
+   -01_ses-01_press/sub-01_PRESS_35_act.sdat'                             

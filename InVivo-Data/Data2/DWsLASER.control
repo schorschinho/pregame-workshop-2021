@@ -33,6 +33,8 @@
  deltat= 3.333e-04
  degzer= 0
  degppm= 0
+ dows = F
+ doecc = F
  chomit(1)= 'Glc'
  chcomb(20)= 'GPC+PCho+Cho'
 lcsi_sav_1 = 12,  filcsi_sav_1 = '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/filcsi_sav_1', lcsi_sav_2 = 13,  filcsi_sav_2 = '/home/fsluser/.lcmodel/temp/19d-13h-30m-53s-18737pid/filcsi_sav_2'
